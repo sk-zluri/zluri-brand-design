@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zluri colors</title>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../tokens.css">
+<style>
+  body { margin: 0; background: var(--bg); color: var(--muted); font: 400 var(--text-base)/var(--leading-body) var(--font-body); }
+  main { max-width: var(--container-max); margin: 0 auto; padding: var(--space-12) var(--container-gutter-desktop); }
+  h1 { margin: 0 0 var(--space-2); font: 500 var(--text-3xl)/var(--leading-tight) var(--font-display); color: var(--fg); }
+  h2 { margin: var(--space-12) 0 var(--space-4); font: 500 var(--text-xl)/var(--leading-tight) var(--font-display); color: var(--fg); }
+  p { margin: 0 0 var(--space-6); max-width: 760px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: var(--space-4); }
+  .sw { border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); overflow: hidden; }
+  .sw i { display: block; height: 96px; }
+  .sw div { padding: var(--space-3) var(--space-4); }
+  .sw b { display: block; font: 500 var(--text-sm)/1.3 var(--font-body); color: var(--fg); }
+  .sw code { font: 400 var(--text-xs)/1.4 var(--font-mono); color: var(--meta); }
+  .sw small { display: block; margin-top: 4px; font-size: var(--text-xs); color: var(--muted); }
+  .ramp { display: grid; grid-template-columns: repeat(5, 1fr); gap: var(--space-4); }
+  .ramp > div { border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--border); }
+  .ramp i { display: flex; align-items: flex-end; height: 64px; padding: 8px 10px; font: 400 var(--text-xs)/1 var(--font-mono); color: #fff; }
+  .ramp i.l { color: var(--fg); }
+  .ramp b { display: block; padding: 10px; font: 500 var(--text-sm)/1 var(--font-body); color: var(--fg); background: var(--surface); }
+  .grads { display: grid; grid-template-columns: repeat(5, 1fr); gap: var(--space-4); }
+  .grads div { height: 220px; border-radius: var(--radius-sm); border: 1px solid var(--border); display: flex; flex-direction: column; justify-content: flex-end; padding: var(--space-4); color: #fff; font: 500 var(--text-sm)/1.3 var(--font-body); }
+  .pair { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--space-4); }
+  .pair > div { border-radius: var(--radius-md); padding: var(--space-8); min-height: 220px; display: flex; flex-direction: column; justify-content: space-between; }
+  .pair h3 { margin: 0; font: 400 40px/1.15 var(--font-display); letter-spacing: -0.04em; }
+  .pair span { font: 400 var(--text-sm)/1.3 var(--font-body); }
+  @media (max-width: 900px) { .ramp, .grads, .pair { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Colors</h1>
+  <p>Two canvases (Cream White, Deep Black), warm neutrals, one action colour (Bright Blue) and one emphasis colour on dark (Mint). The secondary palette is rationed.</p>
+
+  <h2>Canvases in use</h2>
+  <div class="pair">
+    <div style="background:#fbf9f6; border:1px solid var(--border); color:#161411"><h3>Cream canvas, <span style="color:#366ecf">blue</span> keyword</h3><span>#FBF9F6 · text #161411 / #474640 · action #366ECF</span></div>
+    <div style="background:#161411; color:#fbf9f6"><h3>Dark canvas, <span style="color:#4ad89a">mint</span> keyword</h3><span style="color:#e2ded7">#161411 · text #FBF9F6 / #E2DED7 · emphasis #4AD89A</span></div>
+    <div style="background:#1d4ba6; color:#fbf9f6"><h3>Deep Blue, <span style="background:#e84393; padding:0 .12em">pink</span> block</h3><span style="color:#e2ded7">#1D4BA6 · people &amp; culture posts · highlight #E84393</span></div>
+  </div>
+
+  <h2>Primary</h2>
+  <div class="grid">
+    <div class="sw"><i style="background:var(--zluri-deep-blue)"></i><div><b>Deep Blue</b><code>#1D4BA6</code><small>hover, solid panels, eyebrows</small></div></div>
+    <div class="sw"><i style="background:var(--zluri-bright-blue)"></i><div><b>Bright Blue</b><code>#366ECF · --accent</code><small>the action colour</small></div></div>
+    <div class="sw"><i style="background:var(--zluri-light-blue)"></i><div><b>Light Blue</b><code>#88A9EF</code><small>links on dark, blobs</small></div></div>
+    <div class="sw"><i style="background:var(--zluri-forest-green)"></i><div><b>Forest Green</b><code>#1B9464 · --success</code><small>success, small buttons on dark</small></div></div>
+    <div class="sw"><i style="background:var(--zluri-mint-green)"></i><div><b>Mint Green</b><code>#4AD89A</code><small>keyword on dark</small></div></div>
+    <div class="sw"><i style="background:var(--zluri-aqua-green)"></i><div><b>Aqua Green</b><code>#94E9C0</code><small>blobs, tints</small></div></div>
+  </div>
+
+  <h2>Warm neutrals</h2>
+  <div class="grid">
+    <div class="sw"><i style="background:#fbf9f6"></i><div><b>Cream White</b><code>#FBF9F6 · --bg</code></div></div>
+    <div class="sw"><i style="background:#fff8f2"></i><div><b>Peach cream</b><code>#FFF8F2 · --surface-warm</code></div></div>
+    <div class="sw"><i style="background:#e2ded7"></i><div><b>Warm Linen</b><code>#E2DED7 · --border</code></div></div>
+    <div class="sw"><i style="background:#717171"></i><div><b>Meta</b><code>#717171 · --meta</code></div></div>
+    <div class="sw"><i style="background:#474640"></i><div><b>Warm Black 1</b><code>#474640 · --muted</code></div></div>
+    <div class="sw"><i style="background:#2a2924"></i><div><b>Warm Black 2</b><code>#2A2924 · --fg-2</code></div></div>
+    <div class="sw"><i style="background:#161411"></i><div><b>Deep Black</b><code>#161411 · --fg</code></div></div>
+  </div>
+
+  <h2>Secondary — dark / base / light</h2>
+  <div class="ramp">
+    <div><i style="background:#4a3794">#4A3794</i><i style="background:#7763c7">#7763C7</i><i class="l" style="background:#a99ce3">#A99CE3</i><b>Purple</b></div>
+    <div><i style="background:#8e1c00">#8E1C00</i><i style="background:#d52a00">#D52A00</i><i style="background:#e5704e">#E5704E</i><b>Red</b></div>
+    <div><i style="background:#a66802">#A66802</i><i style="background:#e89604">#E89604</i><i class="l" style="background:#f3bd60">#F3BD60</i><b>Orange</b></div>
+    <div><i style="background:#728a09">#728A09</i><i class="l" style="background:#aadb12">#AADB12</i><i class="l" style="background:#d1ee67">#D1EE67</i><b>Lime</b></div>
+    <div><i style="background:#b02c6d">#B02C6D</i><i style="background:#e84393">#E84393</i><i class="l" style="background:#f3a3c3">#F3A3C3</i><b>Pink</b></div>
+  </div>
+
+  <h2>Gradients</h2>
+  <div class="grads">
+    <div style="background:var(--zluri-grad-warm-linen); color:#161411">Warm Linen<br>#E2DED7 → #FFFFFF</div>
+    <div style="background:var(--zluri-grad-deep-dive)">Deep Dive<br>#0E2655 → #366ECF → #FFFFFF</div>
+    <div style="background:var(--zluri-grad-aqua-circuit)">Aqua Circuit<br>#1D4BA6 → #4AD89A</div>
+    <div style="background:var(--zluri-grad-midnight-blue)">Midnight Blue<br>#0B1D40 → #1D4BA6</div>
+    <div style="background:var(--zluri-grad-obsidian-smoke)">Obsidian Smoke<br>#161411 → #474640</div>
+  </div>
+
+  <h2>Logo eye-mark rings — reserved</h2>
+  <div class="grid">
+    <div class="sw"><i style="background:#57e1ff"></i><div><b>Cyan</b><code>#57E1FF</code></div></div>
+    <div class="sw"><i style="background:#d3ff57"></i><div><b>Lime</b><code>#D3FF57</code></div></div>
+    <div class="sw"><i style="background:#ff5757"></i><div><b>Coral</b><code>#FF5757</code></div></div>
+    <div class="sw"><i style="background:#1c1c1f"></i><div><b>Core</b><code>#1C1C1F</code></div></div>
+  </div>
+</main>
+</body>
+</html>

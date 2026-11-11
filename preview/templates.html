@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zluri templates</title>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../tokens.css">
+<style>
+  body { margin: 0; background: var(--bg); color: var(--muted); font: 400 var(--text-base)/var(--leading-body) var(--font-body); }
+  main { max-width: var(--container-max); margin: 0 auto; padding: var(--space-12) var(--container-gutter-desktop); }
+  h1 { margin: 0 0 var(--space-2); font: 500 var(--text-3xl)/var(--leading-tight) var(--font-display); color: var(--fg); }
+  h2 { margin: var(--space-12) 0 var(--space-4); font: 500 var(--text-xl)/var(--leading-tight) var(--font-display); color: var(--fg); }
+  p { max-width: 760px; }
+  code { font: 400 var(--text-xs)/1.4 var(--font-mono); color: var(--meta); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-6); }
+  figure { margin: 0; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); overflow: hidden; }
+  figure .box { height: 240px; display: grid; place-items: center; padding: var(--space-6); overflow: hidden; }
+  figure .box img { max-width: 100%; max-height: 100%; }
+  figure img.shot { display: block; width: 100%; height: auto; }
+  figcaption { padding: var(--space-4); border-top: 1px solid var(--border); font-size: var(--text-sm); }
+  figcaption b { display: block; font: 500 var(--text-base)/1.3 var(--font-body); color: var(--fg); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>Templates</h1>
+<p>Rendered previews of the HTML templates in <code>templates/</code>. Each opens as a working file; photo areas are labelled placeholders until an image is approved and sourced.</p>
+<h2>Event thumbnails &mdash; <a href="../templates/social/event-thumbnails.html"><code>templates/social/event-thumbnails.html</code></a></h2>
+<div class="grid">
+<figure><img class="shot" loading="lazy" src="templates/event-thumbnails-1.jpg" alt="Event thumbnails"></figure>
+<figure><img class="shot" loading="lazy" src="templates/event-thumbnails-2.jpg" alt="Event thumbnails"></figure>
+<figure><img class="shot" loading="lazy" src="templates/event-thumbnails-3.jpg" alt="Event thumbnails"></figure>
+</div>
+<h2>Product announcement &mdash; <a href="../templates/social/product-launch.html"><code>templates/social/product-launch.html</code></a></h2>
+<div class="grid">
+<figure><img class="shot" loading="lazy" src="templates/product-launch-1.jpg" alt="Product announcement"></figure>
+<figure><img class="shot" loading="lazy" src="templates/product-launch-2.jpg" alt="Product announcement"></figure>
+</div>
+<h2>Carousel, dark statement &mdash; <a href="../templates/social/carousel-dark.html"><code>templates/social/carousel-dark.html</code></a></h2>
+<div class="grid">
+<figure><img class="shot" loading="lazy" src="templates/carousel-dark-1.jpg" alt="Carousel, dark statement"></figure>
+<figure><img class="shot" loading="lazy" src="templates/carousel-dark-2.jpg" alt="Carousel, dark statement"></figure>
+<figure><img class="shot" loading="lazy" src="templates/carousel-dark-3.jpg" alt="Carousel, dark statement"></figure>
+</div>
+<h2>Carousel, customer spotlight &mdash; <a href="../templates/social/carousel-customer-spotlight.html"><code>templates/social/carousel-customer-spotlight.html</code></a></h2>
+<div class="grid">
+<figure><img class="shot" loading="lazy" src="templates/carousel-customer-spotlight-1.jpg" alt="Carousel, customer spotlight"></figure>
+<figure><img class="shot" loading="lazy" src="templates/carousel-customer-spotlight-2.jpg" alt="Carousel, customer spotlight"></figure>
+<figure><img class="shot" loading="lazy" src="templates/carousel-customer-spotlight-3.jpg" alt="Carousel, customer spotlight"></figure>
+</div>
+<h2>People, new joiners &mdash; <a href="../templates/social/people-new-joiners.html"><code>templates/social/people-new-joiners.html</code></a></h2>
+<div class="grid">
+<figure><img class="shot" loading="lazy" src="templates/people-new-joiners-1.jpg" alt="People, new joiners"></figure>
+<figure><img class="shot" loading="lazy" src="templates/people-new-joiners-2.jpg" alt="People, new joiners"></figure>
+<figure><img class="shot" loading="lazy" src="templates/people-new-joiners-3.jpg" alt="People, new joiners"></figure>
+</div>
+<h2>Greeting, Z overlay &mdash; <a href="../templates/social/greeting-z-overlay.html"><code>templates/social/greeting-z-overlay.html</code></a></h2>
+<div class="grid">
+<figure><img class="shot" loading="lazy" src="templates/greeting-z-overlay-1.jpg" alt="Greeting, Z overlay"></figure>
+<figure><img class="shot" loading="lazy" src="templates/greeting-z-overlay-2.jpg" alt="Greeting, Z overlay"></figure>
+</div>
+<h2>Paid ad 4:5 &mdash; <a href="../templates/social/ad-portrait.html"><code>templates/social/ad-portrait.html</code></a></h2>
+<div class="grid">
+<figure><img class="shot" loading="lazy" src="templates/ad-portrait-1.jpg" alt="Paid ad 4:5"></figure>
+</div>
+<h2>Academy video slides &mdash; <a href="../templates/video/academy-slides.html"><code>templates/video/academy-slides.html</code></a></h2>
+<div class="grid">
+<figure><img class="shot" loading="lazy" src="templates/academy-slides-1.jpg" alt="Academy video slides"></figure>
+<figure><img class="shot" loading="lazy" src="templates/academy-slides-2.jpg" alt="Academy video slides"></figure>
+<figure><img class="shot" loading="lazy" src="templates/academy-slides-3.jpg" alt="Academy video slides"></figure>
+<figure><img class="shot" loading="lazy" src="templates/academy-slides-4.jpg" alt="Academy video slides"></figure>
+<figure><img class="shot" loading="lazy" src="templates/academy-slides-5.jpg" alt="Academy video slides"></figure>
+</div>
+<h2>Feature Spotlight and testimonial &mdash; <a href="../templates/video/feature-spotlight-and-testimonial.html"><code>templates/video/feature-spotlight-and-testimonial.html</code></a></h2>
+<div class="grid">
+<figure><img class="shot" loading="lazy" src="templates/feature-spotlight-and-testimonial-1.jpg" alt="Feature Spotlight and testimonial"></figure>
+<figure><img class="shot" loading="lazy" src="templates/feature-spotlight-and-testimonial-2.jpg" alt="Feature Spotlight and testimonial"></figure>
+<figure><img class="shot" loading="lazy" src="templates/feature-spotlight-and-testimonial-3.jpg" alt="Feature Spotlight and testimonial"></figure>
+<figure><img class="shot" loading="lazy" src="templates/feature-spotlight-and-testimonial-4.jpg" alt="Feature Spotlight and testimonial"></figure>
+</div>
+<h2>Banners and email &mdash; <a href="../templates/banners/banners-and-email.html"><code>templates/banners/banners-and-email.html</code></a></h2>
+<div class="grid">
+<figure><img class="shot" loading="lazy" src="templates/banners-and-email-1.jpg" alt="Banners and email"></figure>
+<figure><img class="shot" loading="lazy" src="templates/banners-and-email-2.jpg" alt="Banners and email"></figure>
+<figure><img class="shot" loading="lazy" src="templates/banners-and-email-3.jpg" alt="Banners and email"></figure>
+</div>
+<h2>Deck slides &mdash; <a href="../templates/deck/slides.html"><code>templates/deck/slides.html</code></a></h2>
+<div class="grid">
+<figure><img class="shot" loading="lazy" src="templates/slides-1.jpg" alt="Deck slides"></figure>
+<figure><img class="shot" loading="lazy" src="templates/slides-2.jpg" alt="Deck slides"></figure>
+<figure><img class="shot" loading="lazy" src="templates/slides-3.jpg" alt="Deck slides"></figure>
+<figure><img class="shot" loading="lazy" src="templates/slides-4.jpg" alt="Deck slides"></figure>
+</div>
+<h2>Web landing page (interactive) &mdash; <a href="../templates/web/landing-page.html"><code>templates/web/landing-page.html</code></a></h2>
+<div class="grid">
+<figure><img class="shot" loading="lazy" src="templates/landing-page-full.jpg" alt="Web landing page (interactive)"></figure>
+</div>
+</main>
+</body>
+</html>

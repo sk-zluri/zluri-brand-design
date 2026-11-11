@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zluri · Event thumbnails</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens.css">
+<link rel="stylesheet" href="../zluri.css">
+<style>
+  /* A · 1200×627 venue-photo thumbnail (guidelines/04 §A) */
+  .ev .text  { position: absolute; left: 0; top: 0; bottom: 0; width: 61%; padding: calc(var(--zluri-u) * 4.1) calc(var(--zluri-u) * 3.3); display: flex; flex-direction: column; }
+  .ev .photo { position: absolute; right: 0; top: 0; bottom: 0; width: 39%; }
+  .ev .meta-rows { margin-top: calc(var(--zluri-u) * 2.6); padding-left: calc(var(--zluri-u) * .1); }
+  .ev .foot  { margin-top: auto; display: flex; justify-content: space-between; align-items: center; }
+  /* B · SKO / networking tile */
+  .sko .photo { position: absolute; left: 1.75%; right: 1.75%; top: 3%; height: 68.3%; border-radius: calc(var(--zluri-u) * .7); }
+  .sko .notch { position: absolute; left: 0; top: 0; z-index: 3; background: var(--bg); padding: calc(var(--zluri-u) * 2.6) calc(var(--zluri-u) * 2.6) calc(var(--zluri-u) * 1.4) calc(var(--zluri-u) * 4.1); border-bottom-right-radius: calc(var(--zluri-u) * 1.2); }
+  .sko .notch .x { font: 300 calc(var(--zluri-u) * 1.4)/1 var(--font-body); opacity: .8; }
+  .sko .bottom { position: absolute; left: calc(var(--zluri-u) * 2.4); right: calc(var(--zluri-u) * 2); bottom: calc(var(--zluri-u) * 2.3); display: flex; justify-content: space-between; align-items: flex-end; }
+  .sko .meta-rows { display: flex; gap: calc(var(--zluri-u) * 4); margin-top: calc(var(--zluri-u) * 1.4); }
+  .sko .meta-rows > div { font-size: calc(var(--zluri-u) * 2.25); }
+  .sko .badge { width: calc(var(--zluri-u) * 9.7); aspect-ratio: 1; border-radius: calc(var(--zluri-u) * .7); background: var(--zluri-bright-blue); display: grid; place-content: center; text-align: center; font: 700 calc(var(--zluri-u) * 4.2)/1 var(--font-display); }
+  .sko .badge small { display: block; font-size: calc(var(--zluri-u) * 1.7); margin-top: .25em; }
+  /* C · gradient field, no photo */
+  .ev-g .layer { background: radial-gradient(90% 120% at 100% 100%, #7763c7 0%, rgba(54,110,207,.9) 28%, rgba(27,148,100,.55) 52%, rgba(22,20,17,0) 78%); }
+  .ev-g .sponsor { display: flex; align-items: center; gap: calc(var(--zluri-u) * 2.4); }
+  .ev-g .sponsor b { font: 600 calc(var(--zluri-u) * 1.05)/1 var(--font-body); letter-spacing: .16em; }
+  .ev-g .sponsor span { font: 600 calc(var(--zluri-u) * 1.3)/1 var(--font-body); opacity: .9; }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <figure>
+    <div class="artboard c-black ev" style="--w:1200px; --h:627px">
+      <div class="text">
+        <h1 class="h-event">Digital Bank &amp; Finance <span class="key">Santiago</span></h1>
+        <div class="meta-rows">
+          <div><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg>11 Oct 2025</div>
+          <div><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>Hotel W Santiago, Chile</div>
+        </div>
+        <div class="foot">
+          <div class="cobrand"><img class="logo sm" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri"><span class="rule"></span><span class="partner">PARTNER</span></div>
+          <span class="pill-outline">Join Us in Santiago!</span>
+        </div>
+      </div>
+      <div class="photo"><span class="ph">PHOTO · venue or city, full colour, golden hour, no people in focus.<br>Ask the user, then source via guidelines/10.</span></div>
+    </div>
+    <figcaption>A · Event thumbnail 1200×627 — title Satoshi Medium 54, Mint keyword, Inter Light meta, co-brand + outline pill</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-black sko" style="--w:1200px; --h:627px">
+      <div class="notch"><div class="cobrand"><img class="logo sm" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri"><span class="x">×</span><span class="partner">PARTNER</span></div></div>
+      <div class="photo"><span class="ph">PHOTO · host city / venue, wide, daylight</span></div>
+      <div class="bottom">
+        <div>
+          <h1 class="h-event" style="font-size:calc(var(--zluri-u)*3.9)">2026 <span class="key">Sales Kickoff</span></h1>
+          <div class="meta-rows">
+            <div><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg>28 – 30 January</div>
+            <div><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>Hard Rock Hotel, San Diego, CA</div>
+          </div>
+        </div>
+        <div class="badge">SKO<small>2026</small></div>
+      </div>
+    </div>
+    <figcaption>B · SKO / networking tile — inset photo, co-brand notch, Bright-Blue badge</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-pure ev ev-g grain" style="--w:1200px; --h:627px">
+      <div class="layer"></div>
+      <div class="text" style="width:100%">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start">
+          <img class="logo sm" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+          <span class="pill-outline">Join us, limited seats available</span>
+        </div>
+        <h1 class="h-event" style="margin-top:calc(var(--zluri-u)*3.2)"><span class="key">CISO Lunch</span> w/ [Speaker]</h1>
+        <div class="meta-rows">
+          <div><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg>23 March 2026</div>
+          <div><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3 2"/></svg>12:00 - 13:30 GMT-7</div>
+          <div><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>[Venue], San Francisco, California</div>
+        </div>
+        <div class="foot sponsor"><b>SPONSORED BY</b><span style="margin-left:auto">[Sponsor 1]</span><span>[Sponsor 2]</span><span>[Sponsor 3]</span></div>
+      </div>
+    </div>
+    <figcaption>C · No-photo variant — aurora gradient + grain, sponsor row</figcaption>
+  </figure>
+
+</div>
+</body>
+</html>

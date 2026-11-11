@@ -1,0 +1,919 @@
+{
+ "source": "https://www.zluri.com — 39 pages, viewport 1920x1023, crawled 2026-11-11",
+ "typography": [
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|20|400|24px|normal|rgb(71, 70, 64)|none",
+   "chars": 31128,
+   "pages": 29,
+   "example": "Ask us a question by email and we"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|16|400|22.8px|normal|rgb(251, 249, 246)|none",
+   "chars": 17622,
+   "pages": 33,
+   "example": "691, S Milipitas Blvd,"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|16|400|19.2px|normal|rgb(71, 70, 64)|none",
+   "chars": 16063,
+   "pages": 39,
+   "example": "Identity Visibility & Intelligence"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|20|400|22.8px|normal|rgb(71, 70, 64)|none",
+   "chars": 15709,
+   "pages": 23,
+   "example": "Excellence isn’t just our product promise - it’s our promise"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|16|400|22.8px|normal|rgb(22, 20, 17)|none",
+   "chars": 14289,
+   "pages": 33,
+   "example": "Identity & Application Visibility"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|40|500|48px|normal|rgb(22, 20, 17)|none",
+   "chars": 9246,
+   "pages": 26,
+   "example": "We Maintain"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|20|400|24px|normal|rgb(226, 222, 215)|none",
+   "chars": 8645,
+   "pages": 20,
+   "example": "Trusted by Leading Organizations"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|32|500|38.4px|normal|rgb(22, 20, 17)|none",
+   "chars": 6380,
+   "pages": 21,
+   "example": "Velocity SKO"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|14|400|21.84px|normal|rgb(226, 222, 215)|none",
+   "chars": 6240,
+   "pages": 39,
+   "example": "© 2026 Zluri, All Rights Reserved"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|12.8|400|15.36px|normal|rgb(22, 20, 17)|none",
+   "chars": 5070,
+   "pages": 39,
+   "example": "Identity Visibility & Intelligence"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|16|400|24px|normal|rgb(22, 20, 17)|none",
+   "chars": 4860,
+   "pages": 39,
+   "example": "Products"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|16|400|24px|normal|rgb(251, 249, 246)|none",
+   "chars": 3204,
+   "pages": 6,
+   "example": "691, S Milipitas Blvd,"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|20|400|24px|normal|rgb(251, 249, 246)|none",
+   "chars": 2974,
+   "pages": 9,
+   "example": "Identity and access sprawl is out of control, yet mid-market"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|16|600|22.8px|normal|rgb(71, 70, 64)|uppercase",
+   "chars": 2937,
+   "pages": 33,
+   "example": "Platform"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|48|500|57.6px|normal|rgb(22, 20, 17)|none",
+   "chars": 2702,
+   "pages": 24,
+   "example": "We’re here to help"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|24|500|28.8px|normal|rgb(22, 20, 17)|none",
+   "chars": 2554,
+   "pages": 16,
+   "example": "SaaS & Cloud Sprawl"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|32|500|38.4px|normal|rgb(71, 70, 64)|none",
+   "chars": 1761,
+   "pages": 6,
+   "example": "01"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|16|400|19.2px|normal|rgb(226, 222, 215)|none",
+   "chars": 1668,
+   "pages": 3,
+   "example": "IRIS is the architectural foundation of the Zluri platform —"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|16|600|19.2px|normal|rgb(71, 70, 64)|none",
+   "chars": 1248,
+   "pages": 39,
+   "example": "IRIS"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|24|500|28.8px|normal|rgb(71, 70, 64)|none",
+   "chars": 1205,
+   "pages": 5,
+   "example": "Continents"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|16|600|22.8px|1.6px|rgb(29, 75, 166)|uppercase",
+   "chars": 1168,
+   "pages": 9,
+   "example": "Zluri Events"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|14|500|14px|1.4px|rgb(71, 70, 64)|uppercase",
+   "chars": 1014,
+   "pages": 39,
+   "example": "Products"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|20|400|22.8px|normal|rgb(226, 222, 215)|none",
+   "chars": 966,
+   "pages": 4,
+   "example": "Connect with CIOs, CISOs, and other InfoSec leaders from top"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|16|500|19.2px|-0.16px|rgb(52, 16, 112)|none",
+   "chars": 874,
+   "pages": 38,
+   "example": "Read the announcement →"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|12.8|600|15.36px|normal|rgb(22, 20, 17)|uppercase",
+   "chars": 858,
+   "pages": 39,
+   "example": "IVIP"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|24|500|28.8px|normal|rgb(251, 249, 246)|none",
+   "chars": 837,
+   "pages": 8,
+   "example": "Govern all identities, eliminate data threats, and stay secu"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|18|500|21.6px|-0.16px|rgb(255, 255, 255)|none",
+   "chars": 798,
+   "pages": 38,
+   "example": "Zluri joins Infotech."
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|16|400|22.8px|normal|rgb(213, 42, 0)|none",
+   "chars": 764,
+   "pages": 4,
+   "example": "Implement 164.308 a1 control"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|20|400|22.8px|normal|rgb(248, 243, 240)|none",
+   "chars": 745,
+   "pages": 25,
+   "example": "Explore Opportunities →"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|40|500|48px|normal|rgb(0, 0, 0)|none",
+   "chars": 744,
+   "pages": 6,
+   "example": "Simplify access provisioning for every user"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|40|500|48px|normal|rgb(251, 249, 246)|none",
+   "chars": 740,
+   "pages": 8,
+   "example": "Bring Every System Under Identity Security"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|15|300|27.9px|normal|rgb(137, 137, 137)|none",
+   "chars": 738,
+   "pages": 1,
+   "example": "Annual time saved = Time saved/app/user * number of apps * n"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|48|500|57.6px|normal|rgb(251, 249, 246)|none",
+   "chars": 722,
+   "pages": 8,
+   "example": "Why Partner With Zluri"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|56|500|67.2px|normal|rgb(22, 20, 17)|none",
+   "chars": 708,
+   "pages": 21,
+   "example": "Blaze your trail at Zluri"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|20|400|24px|normal|rgb(22, 20, 17)|none",
+   "chars": 662,
+   "pages": 4,
+   "example": "What certifications and accreditations does Zluri support?"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|40|500|48px|normal|rgb(42, 41, 36)|none",
+   "chars": 636,
+   "pages": 1,
+   "example": "Oktane'23"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|20|400|30px|normal|rgb(71, 70, 64)|none",
+   "chars": 634,
+   "pages": 2,
+   "example": "IGA"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|54|500|64.8px|normal|rgb(22, 20, 17)|none",
+   "chars": 619,
+   "pages": 7,
+   "example": "Your Front Row Seat to the Next-Gen IGA Solution"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Satoshi|28|500|33.6px|normal|rgb(255, 255, 255)|none",
+   "chars": 558,
+   "pages": 1,
+   "example": "#1"
+  },
+  {
+   "family|size|weight|lineHeight|letterSpacing|color|transform": "Inter|16|600|24px|normal|rgb(71, 70, 64)|uppercase",
+   "chars": 534,
+   "pages": 6,
+   "example": "Platform"
+  }
+ ],
+ "headings": [
+  {
+   "style": "H3 Satoshi 24px/28.8px w500 rgb(22, 20, 17)",
+   "count": 70
+  },
+  {
+   "style": "H2 Satoshi 40px/48px w500 rgb(22, 20, 17)",
+   "count": 22
+  },
+  {
+   "style": "H2 Satoshi 48px/57.6px w500 rgb(22, 20, 17)",
+   "count": 22
+  },
+  {
+   "style": "H1 Satoshi 56px/67.2px w500 rgb(22, 20, 17)",
+   "count": 20
+  },
+  {
+   "style": "H2 Satoshi 32px/38.4px w500 rgb(22, 20, 17)",
+   "count": 20
+  },
+  {
+   "style": "H4 Satoshi 28px/33.6px w500 rgb(255, 255, 255)",
+   "count": 19
+  },
+  {
+   "style": "H3 Satoshi 32px/38.4px w500 rgb(71, 70, 64)",
+   "count": 16
+  },
+  {
+   "style": "H3 Satoshi 40px/48px w500 rgb(251, 249, 246)",
+   "count": 16
+  },
+  {
+   "style": "H2 Satoshi 40px/48px w500 rgb(0, 0, 0)",
+   "count": 15
+  },
+  {
+   "style": "H3 Satoshi 40px/48px w500 rgb(42, 41, 36)",
+   "count": 14
+  },
+  {
+   "style": "H2 Satoshi 54px/64.8px w500 rgb(22, 20, 17)",
+   "count": 12
+  },
+  {
+   "style": "H4 Roboto 18px/21.6px w600 rgb(0, 0, 0)",
+   "count": 11
+  },
+  {
+   "style": "H3 Satoshi 32px/38.4px w500 rgb(251, 249, 246)",
+   "count": 11
+  },
+  {
+   "style": "H2 Satoshi 56px/67.2px w500 rgb(255, 255, 255)",
+   "count": 10
+  },
+  {
+   "style": "H3 Inter 18px/21.6px w500 rgb(22, 20, 17)",
+   "count": 10
+  },
+  {
+   "style": "H3 Satoshi 24px/28.8px w500 rgb(246, 250, 253)",
+   "count": 9
+  },
+  {
+   "style": "H4 Satoshi 24px/28.8px w500 rgb(22, 20, 17)",
+   "count": 9
+  },
+  {
+   "style": "H3 Satoshi 28px/33.6px w500 rgb(22, 20, 17)",
+   "count": 8
+  },
+  {
+   "style": "H2 Satoshi 48px/57.6px w500 rgb(246, 250, 253)",
+   "count": 5
+  },
+  {
+   "style": "H3 Inter 24px/28.8px w500 rgb(22, 20, 17)",
+   "count": 5
+  },
+  {
+   "style": "H1 Satoshi 64px/76.8px w500 rgb(22, 20, 17)",
+   "count": 5
+  },
+  {
+   "style": "H3 Satoshi 24px/28.8px w500 rgb(255, 255, 255)",
+   "count": 5
+  },
+  {
+   "style": "H3 Satoshi 48px/57.6px w500 rgb(255, 255, 255)",
+   "count": 5
+  },
+  {
+   "style": "H3 Satoshi 56px/67.2px w500 rgb(255, 255, 255)",
+   "count": 5
+  },
+  {
+   "style": "H4 Inter 12px/14.4px w500 rgb(80, 80, 80)",
+   "count": 5
+  },
+  {
+   "style": "H3 Inter 24px/28.8px w500 rgb(71, 70, 64)",
+   "count": 4
+  },
+  {
+   "style": "H3 Inter 32px/38.4px w500 rgb(22, 20, 17)",
+   "count": 4
+  },
+  {
+   "style": "H2 Satoshi 40px/48px w500 rgb(251, 249, 246)",
+   "count": 4
+  },
+  {
+   "style": "H2 Satoshi 56px/67.2px w500 rgb(251, 249, 246)",
+   "count": 4
+  },
+  {
+   "style": "H4 Inter 20px/24px w500 rgb(71, 70, 64)",
+   "count": 4
+  }
+ ],
+ "buttons": [
+  {
+   "bg": "rgb(54, 110, 207)",
+   "color": "rgb(248, 243, 240)",
+   "radius": "16px",
+   "padding": "20px 40px",
+   "border": "0px none rgb(248, 243, 240)",
+   "font": "20px / 400",
+   "height": 63,
+   "count": 43,
+   "example": "Explore Opportunities →"
+  },
+  {
+   "bg": "rgba(56, 152, 236, 0)",
+   "color": "rgb(22, 20, 17)",
+   "radius": "16px",
+   "padding": "20px 40px",
+   "border": "0px none rgb(22, 20, 17)",
+   "font": "20px / 400",
+   "height": 63,
+   "count": 17,
+   "example": "Learn More →"
+  },
+  {
+   "bg": "rgb(54, 110, 207)",
+   "color": "rgb(248, 243, 240)",
+   "radius": "16px",
+   "padding": "20px 40px",
+   "border": "1px solid rgb(54, 110, 207)",
+   "font": "20px / 400",
+   "height": 66,
+   "count": 9,
+   "example": "Book a demo →"
+  },
+  {
+   "bg": "rgb(255, 255, 255)",
+   "color": "rgb(71, 70, 64)",
+   "radius": "16px",
+   "padding": "20px 40px",
+   "border": "1px solid rgb(54, 110, 207)",
+   "font": "20px / 400",
+   "height": 66,
+   "count": 7,
+   "example": "Learn More →"
+  },
+  {
+   "bg": "rgba(54, 110, 207, 0)",
+   "color": "rgb(22, 20, 17)",
+   "radius": "16px",
+   "padding": "20px 40px",
+   "border": "0px none rgb(22, 20, 17)",
+   "font": "20px / 400",
+   "height": 63,
+   "count": 5,
+   "example": "Explore Our Product →"
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(71, 70, 64)",
+   "radius": "8px",
+   "padding": "8px 16px",
+   "border": "0px none rgb(71, 70, 64)",
+   "font": "16px / 400",
+   "height": 35,
+   "count": 5,
+   "example": "2"
+  },
+  {
+   "bg": "rgb(54, 110, 207)",
+   "color": "rgb(248, 243, 240)",
+   "radius": "16px",
+   "padding": "20px",
+   "border": "0px none rgb(248, 243, 240)",
+   "font": "20px / 400",
+   "height": 64,
+   "count": 4,
+   "example": "Become a Partner →"
+  },
+  {
+   "bg": "rgb(54, 110, 207)",
+   "color": "rgb(248, 243, 240)",
+   "radius": "16px",
+   "padding": "20px 40px",
+   "border": "0px none rgb(248, 243, 240)",
+   "font": "20px / 400",
+   "height": 70,
+   "count": 4,
+   "example": "Get a Demo →"
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(248, 243, 240)",
+   "radius": "16px",
+   "padding": "20px 0px",
+   "border": "0px none rgb(248, 243, 240)",
+   "font": "20px / 400",
+   "height": 70,
+   "count": 3,
+   "example": "Download the Datasheet ↓"
+  },
+  {
+   "bg": "rgb(54, 110, 207)",
+   "color": "rgb(248, 243, 240)",
+   "radius": "16px",
+   "padding": "20px 40px",
+   "border": "1px solid rgb(54, 110, 207)",
+   "font": "20px / 400",
+   "height": 65,
+   "count": 3,
+   "example": "Get a Demo →"
+  },
+  {
+   "bg": "rgb(54, 110, 207)",
+   "color": "rgb(248, 243, 240)",
+   "radius": "16px",
+   "padding": "20px 30px",
+   "border": "0px none rgb(248, 243, 240)",
+   "font": "20px / 400",
+   "height": 63,
+   "count": 3,
+   "example": "Get a Demo →"
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(248, 243, 240)",
+   "radius": "16px",
+   "padding": "20px 0px",
+   "border": "0px none rgb(248, 243, 240)",
+   "font": "20px / 400",
+   "height": 63,
+   "count": 3,
+   "example": "Explore Our Product →"
+  },
+  {
+   "bg": "rgb(255, 255, 255)",
+   "color": "rgb(71, 70, 64)",
+   "radius": "1920px",
+   "padding": "1px 6px",
+   "border": "1px solid rgb(226, 222, 215)",
+   "font": "19px / 400",
+   "height": 16,
+   "count": 2,
+   "example": ""
+  },
+  {
+   "bg": "rgb(255, 255, 255)",
+   "color": "rgb(71, 70, 64)",
+   "radius": "16px",
+   "padding": "20px 40px",
+   "border": "1px solid rgb(54, 110, 207)",
+   "font": "20px / 400",
+   "height": 65,
+   "count": 2,
+   "example": "Download the Datasheet"
+  },
+  {
+   "bg": "rgb(226, 222, 215)",
+   "color": "rgb(71, 70, 64)",
+   "radius": "1920px",
+   "padding": "1px 6px",
+   "border": "1px solid rgb(226, 222, 215)",
+   "font": "16px / 400",
+   "height": 16,
+   "count": 2,
+   "example": ""
+  },
+  {
+   "bg": "rgb(255, 255, 255)",
+   "color": "rgb(71, 70, 64)",
+   "radius": "1920px",
+   "padding": "1px 6px",
+   "border": "1px solid rgb(226, 222, 215)",
+   "font": "16px / 400",
+   "height": 16,
+   "count": 2,
+   "example": ""
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(255, 255, 255)",
+   "radius": "1920px",
+   "padding": "20px 40px",
+   "border": "0px none rgb(255, 255, 255)",
+   "font": "20px / 400",
+   "height": 64,
+   "count": 2,
+   "example": "Download Report"
+  },
+  {
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(251, 249, 246)",
+   "radius": "1920px",
+   "padding": "20px 40px",
+   "border": "0px none rgb(251, 249, 246)",
+   "font": "20px / 400",
+   "height": 64,
+   "count": 2,
+   "example": "Book a Demo →"
+  },
+  {
+   "bg": "rgb(54, 110, 207)",
+   "color": "rgb(255, 255, 255)",
+   "radius": "12px",
+   "padding": "20px 40px",
+   "border": "0px none rgb(255, 255, 255)",
+   "font": "20px / 400",
+   "height": 63,
+   "count": 2,
+   "example": "Load More"
+  },
+  {
+   "bg": "rgb(54, 110, 207)",
+   "color": "rgb(251, 249, 246)",
+   "radius": "4px",
+   "padding": "12px 20px",
+   "border": "0px none rgb(251, 249, 246)",
+   "font": "16px / 400",
+   "height": 47,
+   "count": 1,
+   "example": "Submit"
+  }
+ ],
+ "radii": [
+  [
+   "8px",
+   1126
+  ],
+  [
+   "16px",
+   259
+  ],
+  [
+   "20px",
+   165
+  ],
+  [
+   "12px",
+   59
+  ],
+  [
+   "37.56px",
+   52
+  ],
+  [
+   "100px",
+   48
+  ],
+  [
+   "1920px",
+   47
+  ],
+  [
+   "6px",
+   39
+  ],
+  [
+   "50%",
+   21
+  ],
+  [
+   "24px",
+   16
+  ],
+  [
+   "7px",
+   13
+  ],
+  [
+   "28px",
+   10
+  ],
+  [
+   "28.8px",
+   10
+  ],
+  [
+   "10px",
+   9
+  ],
+  [
+   "36px",
+   7
+  ],
+  [
+   "1000px",
+   6
+  ]
+ ],
+ "shadows": [
+  [
+   "rgba(0, 0, 0, 0.1) 0px 0px 10px 0px",
+   39
+  ],
+  [
+   "rgb(22, 20, 17) 60px 0px 30px -30px, rgb(22, 20, 17) -60px 0px 30px -30px",
+   9
+  ],
+  [
+   "rgb(22, 20, 17) -60px 0px 30px -30px inset, rgb(22, 20, 17) 60px 0px 30px -30px inset",
+   9
+  ],
+  [
+   "rgba(0, 0, 0, 0.2) 3px 3.38px 7.89px 0px",
+   8
+  ],
+  [
+   "rgba(194, 187, 187, 0.25) 0px 4px 17px 0px",
+   6
+  ],
+  [
+   "rgba(0, 0, 0, 0.03) 0px 55px 20px 0px, rgba(0, 0, 0, 0.11) 0px 30px 20px 0px, rgba(0, 0, 0, 0.2) 0px 14px 14px 0px, rgba(0, 0, 0, 0.2) 0px 4px 8px 0px",
+   2
+  ],
+  [
+   "rgba(0, 0, 0, 0.1) 0px 2px 5px 0px",
+   2
+  ],
+  [
+   "rgb(245, 244, 242) 5px 5px 5px 10px inset",
+   2
+  ]
+ ],
+ "backgrounds": [
+  [
+   "G:linear-gradient(rgba(0, 0, 0, 0) calc(100% - 2px), rgb(255, 255, 255) 2px)",
+   1443
+  ],
+  [
+   "G:linear-gradient(rgba(0, 0, 0, 0) calc(100% - 2px), rgb(0, 0, 0) 2px)",
+   1335
+  ],
+  [
+   "rgb(226, 222, 215)",
+   394
+  ],
+  [
+   "rgba(255, 255, 255, 0)",
+   227
+  ],
+  [
+   "rgb(255, 255, 255)",
+   224
+  ],
+  [
+   "rgb(251, 249, 246)",
+   178
+  ],
+  [
+   "rgba(221, 221, 221, 0)",
+   128
+  ],
+  [
+   "rgb(54, 110, 207)",
+   115
+  ],
+  [
+   "rgb(22, 20, 17)",
+   79
+  ],
+  [
+   "rgba(31, 31, 31, 0.45)",
+   50
+  ],
+  [
+   "rgba(54, 110, 207, 0)",
+   47
+  ],
+  [
+   "rgb(42, 41, 36)",
+   47
+  ],
+  [
+   "G:linear-gradient(rgb(53, 30, 120), rgb(87, 66, 155))",
+   38
+  ],
+  [
+   "rgb(219, 213, 239)",
+   38
+  ],
+  [
+   "rgba(255, 255, 255, 0.3)",
+   37
+  ],
+  [
+   "rgb(239, 136, 136)",
+   36
+  ],
+  [
+   "rgb(255, 248, 242)",
+   27
+  ],
+  [
+   "rgb(31, 31, 31)",
+   20
+  ],
+  [
+   "rgb(136, 169, 239)",
+   20
+  ],
+  [
+   "rgba(56, 152, 236, 0)",
+   17
+  ],
+  [
+   "rgb(0, 0, 0)",
+   12
+  ],
+  [
+   "rgba(247, 247, 251, 0)",
+   12
+  ],
+  [
+   "G:linear-gradient(rgba(0, 0, 0, 0) calc(100% - 2px), rgb(57, 81, 223) 1px)",
+   11
+  ],
+  [
+   "rgb(31, 28, 28)",
+   11
+  ],
+  [
+   "G:linear-gradient(135deg, rgba(213, 214, 248, 0.24), rgba(151, 153, 196, 0))",
+   10
+  ],
+  [
+   "rgba(0, 0, 0, 0.54)",
+   10
+  ],
+  [
+   "rgba(255, 255, 255, 0.01)",
+   9
+  ],
+  [
+   "rgb(237, 243, 248)",
+   9
+  ],
+  [
+   "rgb(27, 148, 100)",
+   8
+  ],
+  [
+   "rgba(255, 255, 255, 0.05)",
+   6
+  ]
+ ],
+ "borders": [
+  [
+   "1px rgb(226, 222, 215)",
+   454
+  ],
+  [
+   "1px rgba(245, 245, 245, 0.82)",
+   273
+  ],
+  [
+   "1px rgb(71, 70, 64)",
+   36
+  ],
+  [
+   "1px rgb(54, 110, 207)",
+   23
+  ],
+  [
+   "1px rgb(251, 249, 246)",
+   17
+  ],
+  [
+   "1px rgb(233, 236, 239)",
+   13
+  ],
+  [
+   "1px rgb(217, 217, 217)",
+   11
+  ],
+  [
+   "1px rgb(22, 20, 17)",
+   9
+  ],
+  [
+   "1px rgb(229, 229, 229)",
+   8
+  ],
+  [
+   "1px rgb(231, 231, 231)",
+   8
+  ],
+  [
+   "1px rgb(195, 195, 195)",
+   7
+  ],
+  [
+   "1px rgb(227, 227, 227)",
+   4
+  ]
+ ],
+ "sectionPadding_top_bottom": [
+  [
+   "0px / 0px",
+   93
+  ],
+  [
+   "80px / 20px",
+   39
+  ],
+  [
+   "80px / 80px",
+   38
+  ],
+  [
+   "120px / 120px",
+   19
+  ],
+  [
+   "110px / 110px",
+   18
+  ],
+  [
+   "130px / 100px",
+   12
+  ],
+  [
+   "120px / 0px",
+   9
+  ],
+  [
+   "100px / 100px",
+   9
+  ],
+  [
+   "40px / 40px",
+   7
+  ],
+  [
+   "70px / 40px",
+   7
+  ],
+  [
+   "80px / 0px",
+   5
+  ],
+  [
+   "64px / 64px",
+   4
+  ],
+  [
+   "0px / 80px",
+   3
+  ],
+  [
+   "48px / 0px",
+   3
+  ]
+ ]
+}

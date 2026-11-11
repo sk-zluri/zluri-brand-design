@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zluri · People — new joiners</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens.css">
+<link rel="stylesheet" href="../zluri.css">
+<style>
+  /* guidelines/04 §E — 1200×1200, Deep Blue + tone-on-tone z-maze */
+  .nj .maze { position: absolute; inset: 0; z-index: 1; background: url("../../assets/motifs/z-maze-pattern.svg") center/cover no-repeat; opacity: .55; }
+  .nj .logo { position: absolute; right: calc(var(--zluri-u) * 6.1); top: calc(var(--zluri-u) * 5.4); width: calc(var(--zluri-u) * 11.6); }
+  .nj .foot { position: absolute; left: calc(var(--zluri-u) * 6.5); right: calc(var(--zluri-u) * 6.4); bottom: calc(var(--zluri-u) * 4.3); }
+  .nj .hello { position: absolute; left: calc(var(--zluri-u) * 8.7); top: 47.6%; }
+  .nj .hello h1 { font: 400 calc(var(--zluri-u) * 8.87)/1.2 var(--font-display); margin: 0; }
+  .nj .hello h1 .mark { padding: 0 .06em; line-height: 1.12; display: inline-block; margin-top: .14em; }
+  .nj .hello .pillbar { margin-top: calc(var(--zluri-u) * 4.8); }
+  .nj .hello .capsule { width: calc(var(--zluri-u) * 7.6); height: calc(var(--zluri-u) * 5.2); }
+  .nj .polaroid { position: absolute; left: 16.8%; top: 18.6%; width: 63.2%; height: 64.9%; background: #fbf9f6; padding: calc(var(--zluri-u) * .8); color: #161411; display: flex; flex-direction: column; }
+  .nj .polaroid .photo { flex: 1; background: #e84393 url("../../assets/motifs/z-maze-pattern.svg") center/160% no-repeat; background-blend-mode: soft-light; }
+  .nj .polaroid h2 { font: 400 calc(var(--zluri-u) * 5.96)/1.2 var(--font-display); margin: calc(var(--zluri-u) * 1.6) calc(var(--zluri-u) * 1.7) 0; }
+  .nj .polaroid p { font: 400 calc(var(--zluri-u) * 3.07)/1.2 var(--font-display); margin: .1em calc(var(--zluri-u) * 1.7) calc(var(--zluri-u) * 2.4); }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <figure>
+    <div class="artboard c-deep nj" style="--w:1200px; --h:1200px">
+      <div class="maze"></div>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+      <div class="hello">
+        <h1>Welcome to the<br><span class="mark mark-pink">Zluri Family!</span></h1>
+        <span class="pillbar" style="padding-left:calc(var(--zluri-u)*2); padding-right:calc(var(--zluri-u)*.55)">Meet our January Joiners <span class="capsule">→</span></span>
+      </div>
+      <div class="foot footline">www.zluri.com</div>
+    </div>
+    <figcaption>Cover — Deep Blue, pink highlight block, pill CTA with pink arrow capsule, hairline footer</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-deep nj" style="--w:1200px; --h:1200px">
+      <div class="maze"></div>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+      <div class="polaroid">
+        <div class="photo"><span class="ph">CUT-OUT PORTRAIT supplied by Zluri — head breaks the top edge of the pink field. Never use stock for a real employee.</span></div>
+        <h2>[Full Name]</h2>
+        <p>[Role Title]</p>
+      </div>
+      <div class="foot footline">Meet our January Joiners</div>
+    </div>
+    <figcaption>Person card — cream polaroid, pink photo field, name Satoshi Regular 71.5, role 36.8</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-deep nj" style="--w:1200px; --h:1200px">
+      <div class="maze"></div>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+      <div class="hello" style="top:26%">
+        <h1>We’re <span class="mark mark-pink">Growing</span></h1>
+        <p class="t-lede" style="font-weight:400; margin-top:calc(var(--zluri-u)*1.6); font-size:calc(var(--zluri-u)*2.9)">Interested in joining the Zluri Family?</p>
+        <span class="pillbar" style="margin-top:calc(var(--zluri-u)*3.4); padding-left:calc(var(--zluri-u)*2); padding-right:calc(var(--zluri-u)*.55)">Link in the Bio <span class="capsule">→</span></span>
+      </div>
+      <div class="foot footline">www.zluri.com</div>
+    </div>
+    <figcaption>Closer — “We’re Growing”</figcaption>
+  </figure>
+
+</div>
+</body>
+</html>

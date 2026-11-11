@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zluri — reference components</title>
+<meta name="description" content="Reference fixture for the Zluri design system. Every visible value comes from tokens.css. Warm cream canvas, Satoshi Medium headings, Inter body, one Bright-Blue action colour, Mint keyword emphasis on dark, hairline borders, 8/16/20 radii, almost no shadow.">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ─────────────────────────────────────────────────────────────────────────
+ * Zluri — tokens.css
+ *
+ * Canonical token block for the Zluri brand design system.
+ * Paste the whole `:root { … }` block into the first <style> of any
+ * artifact, then reference values only through var(--name).
+ *
+ * Sources (see source/evidence.md):
+ *   · Zluri Brand Guidelines 1.01 (PDF, 2024)            → palette, gradients, logo, type roles
+ *   · Figma "Zluri Marketing Brand Design System"        → 276 senior-designer frames: real sizes,
+ *     (file ZR8Sn0KI7ttIHfyWmPXZoI)                        tracking, effects, motifs
+ *   · zluri.com computed styles, 39 pages (Nov 2026)     → web type scale, buttons, radii, spacing
+ *
+ * Layout of this file:
+ *   1. Shared Open Design schema tokens (light = default brand canvas)
+ *   2. Zluri extensions (--zluri-*): full palette, gradients, glows, grain,
+ *      format-relative type, motion
+ *   3. Dark surface remap: add class="zluri-dark" (or data-theme="dark")
+ *      to any section/artboard to flip the semantic tokens.
+ *
+ * Schema notes:
+ *   #Zluri 1 — Canvas is Cream White (#FBF9F6), never pure white as the
+ *              page tone. White is a *surface* (cards, nav, alternating web
+ *              sections); cream is the brand's paper.
+ *   #Zluri 2 — Warm neutrals only. Blacks are warm (#161411, #2A2924,
+ *              #474640); greys are warm (#E2DED7). Never use cool/blue greys
+ *              for text or borders.
+ *   #Zluri 3 — One action colour: Bright Blue #366ECF. Mint #4AD89A is the
+ *              *emphasis* colour on dark surfaces (keyword highlight), not a
+ *              button colour.
+ *   #Zluri 4 — Headings are Satoshi Medium (500) on web, Satoshi Regular
+ *              (400) in large marketing/video display. Never Bold for
+ *              headlines; weight contrast comes from Regular↔Medium.
+ *   #Zluri 5 — Radius ladder is 8 / 16 / 20. Cards 8, buttons 16, floating
+ *              nav + large panels 20. Pills only for tags, nav CTA, arrows.
+ *   #Zluri 6 — Elevation is almost flat: hairline borders do the work.
+ *              One soft ambient shadow exists (0 0 10px rgba(0,0,0,.1)).
+ *   #Zluri 7 — Motion is quick and eased-out: 200ms UI, 440ms colour,
+ *              600ms content swaps, cubic-bezier(.215,.61,.355,1).
+ * ─────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ─── Surface (#Zluri 1) ───────────────────────────────────────── */
+  --bg:           #fbf9f6;   /* Cream White — brand canvas */
+  --surface:      #ffffff;   /* cards, nav bar, alternating web sections */
+  --surface-warm: #fff8f2;   /* peach-cream band (tab strips, quote chips) */
+
+  /* ─── Foreground ramp (#Zluri 2) ───────────────────────────────── */
+  --fg:    #161411;          /* Deep Black — headings, primary text */
+  --fg-2:  #2a2924;          /* warm black 2 — sub-headings, footer surface */
+  --muted: #474640;          /* warm black 1 — body copy on light */
+  --meta:  #717171;          /* captions, table headers, timestamps */
+
+  /* ─── Border ───────────────────────────────────────────────────── */
+  --border:      #e2ded7;    /* Warm Linen hairline — every card/table edge */
+  --border-soft: var(--border);
+
+  /* ─── Accent (#Zluri 3) ────────────────────────────────────────── */
+  --accent:        #366ecf;  /* Bright Blue — primary CTA, links */
+  --accent-on:     #fbf9f6;  /* label on blue */
+  --accent-hover:  #1d4ba6;  /* Deep Blue — site hover value */
+  --accent-active: color-mix(in oklab, #1d4ba6, black 14%);
+
+  /* ─── Semantic ─────────────────────────────────────────────────── */
+  --success: #1b9464;        /* Forest Green */
+  --warn:    #e89604;        /* Orange (secondary palette) */
+  --danger:  #d52a00;        /* Red (secondary palette) */
+
+  /* ─── Typography — fonts (#Zluri 4) ────────────────────────────── */
+  --font-display: "Satoshi", "Satoshi Variable", "General Sans", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body:    "Inter", "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono:    ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+
+  /* ─── Typography — web type scale (zluri.com computed) ─────────── */
+  --text-xs:   12px;         /* eyebrow caps, legal */
+  --text-sm:   14px;         /* footer, meta */
+  --text-base: 16px;         /* secondary body, nav */
+  --text-lg:   20px;         /* primary body / lede, button label */
+  --text-xl:   24px;         /* card title (H3) */
+  --text-2xl:  32px;         /* H3 large / feature title */
+  --text-3xl:  40px;         /* H2 compact */
+  --text-4xl:  56px;         /* H1 hero — web ceiling */
+
+  --leading-body:     1.4;
+  --leading-tight:    1.2;   /* every Satoshi heading */
+  --tracking-display: -0.02em;
+
+  /* ─── Spacing (4px base) ───────────────────────────────────────── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-12: 48px;
+
+  /* ─── Section rhythm ───────────────────────────────────────────── */
+  --section-y-desktop: 120px;
+  --section-y-tablet:  80px;
+  --section-y-phone:   56px;
+
+  /* ─── Radius (#Zluri 5) ────────────────────────────────────────── */
+  --radius-sm:   8px;        /* cards, images, inputs, chips */
+  --radius-md:   16px;       /* buttons, media panels */
+  --radius-lg:   20px;       /* floating nav, large panels */
+  --radius-pill: 9999px;     /* tags, nav CTA, arrow capsules */
+
+  /* ─── Elevation (#Zluri 6) ─────────────────────────────────────── */
+  --elev-flat:   none;
+  --elev-ring:   0 0 0 1px var(--border);
+  --elev-raised: 0 0 10px 0 rgba(0, 0, 0, 0.10);
+
+  /* ─── Focus ────────────────────────────────────────────────────── */
+  --focus-ring: 0 0 0 2px var(--bg), 0 0 0 4px var(--accent);
+
+  /* ─── Motion (#Zluri 7) ────────────────────────────────────────── */
+  --motion-fast:   200ms;
+  --motion-base:   440ms;
+  --ease-standard: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+  /* ─── Layout ───────────────────────────────────────────────────── */
+  --container-max:            1400px;
+  --container-gutter-desktop: 40px;
+  --container-gutter-tablet:  32px;
+  --container-gutter-phone:   20px;
+
+  /* ══════════════════════════════════════════════════════════════════
+   * ZLURI EXTENSIONS
+   * ══════════════════════════════════════════════════════════════════ */
+
+  /* Primary palette (Brand Guidelines p.14) */
+  --zluri-deep-blue:    #1d4ba6;
+  --zluri-bright-blue:  #366ecf;
+  --zluri-light-blue:   #88a9ef;
+  --zluri-forest-green: #1b9464;
+  --zluri-mint-green:   #4ad89a;
+  --zluri-aqua-green:   #94e9c0;
+  --zluri-cream-white:  #fbf9f6;
+  --zluri-deep-black:   #161411;
+
+  /* Neutrals — warm and cool ramps (Figma palette board) */
+  --zluri-warm-white-1: #fbf9f6;
+  --zluri-warm-white-2: #fff8f2;
+  --zluri-warm-white-3: #e2ded7;
+  --zluri-warm-black-1: #474640;
+  --zluri-warm-black-2: #2a2924;
+  --zluri-warm-black-3: #161411;
+  --zluri-cool-black-1: #434547;
+  --zluri-cool-black-2: #1f2226;
+  --zluri-cool-black-3: #0e1114;
+  --zluri-ink-social:   #1a1815;  /* near-black used for ad / post canvases */
+
+  /* Secondary palette — 3 steps each (dark / base / light). Use sparingly. */
+  --zluri-purple-700: #4a3794;  --zluri-purple-500: #7763c7;  --zluri-purple-300: #a99ce3;
+  --zluri-red-700:    #8e1c00;  --zluri-red-500:    #d52a00;  --zluri-red-300:    #e5704e;
+  --zluri-orange-700: #a66802;  --zluri-orange-500: #e89604;  --zluri-orange-300: #f3bd60;
+  --zluri-lime-700:   #728a09;  --zluri-lime-500:   #aadb12;  --zluri-lime-300:   #d1ee67;
+  --zluri-pink-700:   #b02c6d;  --zluri-pink-500:   #e84393;  --zluri-pink-300:   #f3a3c3;
+
+  /* Logo eye-mark rings — reserved for the logo and tiny echo accents only */
+  --zluri-mark-cyan:  #57e1ff;
+  --zluri-mark-lime:  #d3ff57;
+  --zluri-mark-coral: #ff5757;
+  --zluri-mark-core:  #1c1c1f;
+
+  /* On-dark text */
+  --zluri-on-dark:       #fbf9f6;
+  --zluri-on-dark-muted: #e2ded7;
+  --zluri-on-dark-meta:  #a8a8a8;
+  --zluri-border-dark:   #474640;
+
+  /* Pillar colour-coding (website + decks): Discover / Govern / Secure */
+  --zluri-pillar-discover: #1d4ba6;
+  --zluri-pillar-govern:   #1b9464;
+  --zluri-pillar-secure:   #8e1c00;
+
+  /* Named brand gradients (Brand Guidelines p.16) — vertical by default */
+  --zluri-grad-warm-linen:     linear-gradient(180deg, #e2ded7 0%, #ffffff 100%);
+  --zluri-grad-deep-dive:      linear-gradient(180deg, #0e2655 0%, #366ecf 35%, #ffffff 100%);
+  --zluri-grad-aqua-circuit:   linear-gradient(180deg, #1d4ba6 0%, #4ad89a 100%);
+  --zluri-grad-midnight-blue:  linear-gradient(180deg, #0b1d40 0%, #1d4ba6 100%);
+  --zluri-grad-obsidian-smoke: linear-gradient(180deg, #161411 0%, #474640 100%);
+
+  /* Keyword gradient text (headline emphasis) */
+  --zluri-grad-text-aqua:   linear-gradient(90deg, #4ad89a 0%, #366ecf 100%);   /* on dark or light */
+  --zluri-grad-text-vivid:  linear-gradient(90deg, #0067ff 0%, #26ed91 100%);   /* product launch on black */
+  --zluri-grad-text-sky:    linear-gradient(90deg, #258df4 0%, #6affba 100%);
+
+  /* Atmosphere: glows + blobs (apply as backgrounds on a positioned layer) */
+  --zluri-glow-launch:   radial-gradient(60% 70% at 85% 110%, #1b9464 0%, #366ecf 27%, rgba(0,0,0,0) 100%);
+  --zluri-glow-indigo:   linear-gradient(115deg, #040940 0%, #262eaa 50%, #818bc9 100%);
+  --zluri-blob-lavender: #a99ce3;
+  --zluri-blob-blue:     #88a9ef;
+  --zluri-blob-mint:     #94e9c0;
+  --zluri-blob-blur:     120px;   /* scale with canvas: ~20% of canvas width */
+
+  /* Pastel icon-tile gradients (Academy / explainers) */
+  --zluri-tile-lavender-peach: linear-gradient(160deg, #a99ce3 0%, #f3bd60 140%);
+  --zluri-tile-blue-mint:      linear-gradient(160deg, #88a9ef 0%, #94e9c0 120%);
+  --zluri-tile-peach-orange:   linear-gradient(160deg, #f3bd60 0%, #e5704e 140%);
+
+  /* Film grain — SVG noise, multiply at 5–10% on light, 25% on glow panels */
+  --zluri-grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+
+  /* Extra web type + spacing steps */
+  --zluri-text-h2:      48px;
+  --zluri-text-h2-alt:  54px;
+  --zluri-text-eyebrow: 12px;
+  --zluri-tracking-eyebrow: 0.12em;
+  --zluri-tracking-display-tight: -0.04em;  /* Satoshi ≥ 60px in social / video */
+  --zluri-tracking-display-max:   -0.06em;  /* Satoshi ≥ 100px launch posts, carousel covers */
+  --zluri-space-16: 64px;
+  --zluri-space-20: 80px;
+  --zluri-space-30: 120px;
+
+  /* Format-relative type: set --zluri-u to canvasWidth/100 on an artboard,
+     then size text in units so a layout scales across 784 / 1080 / 1200 / 1920. */
+  --zluri-u: 12px;                                   /* 1200px canvas default */
+  --zluri-display-cover:  calc(var(--zluri-u) * 10);   /* carousel cover / hero statement  */
+  --zluri-display-title:  calc(var(--zluri-u) * 7.4);  /* post headline                    */
+  --zluri-display-event:  calc(var(--zluri-u) * 4.5);  /* landscape event title            */
+  --zluri-body-post:      calc(var(--zluri-u) * 3.5);  /* supporting line                  */
+  --zluri-meta-post:      calc(var(--zluri-u) * 1.55); /* date / venue rows, url           */
+
+  /* Motion extras */
+  --zluri-motion-reveal: 600ms;
+  --zluri-motion-wipe:   1000ms;
+  --zluri-ease-out:      cubic-bezier(0.215, 0.61, 0.355, 1);
+  --zluri-ease-power3:   cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* ─── Dark surface remap ───────────────────────────────────────────────
+ * Zluri is a two-canvas brand: Cream and Deep Black. Put .zluri-dark on a
+ * section, slide or artboard to flip semantic tokens. Do not invent a
+ * third (grey / navy-tinted) UI theme — navy and indigo appear only as
+ * *gradient atmospheres*, not as flat UI surfaces.
+ * ────────────────────────────────────────────────────────────────────── */
+.zluri-dark,
+[data-theme="dark"] {
+  --bg:           #161411;
+  --surface:      #1f1e1b;
+  --surface-warm: #2a2924;
+  --fg:           #fbf9f6;
+  --fg-2:         #f6fafd;
+  --muted:        #e2ded7;
+  --meta:         #a8a8a8;
+  --border:       #474640;
+  --border-soft:  rgba(245, 245, 245, 0.16);
+  --accent:       #366ecf;
+  --accent-on:    #fbf9f6;
+  --accent-hover: #1d4ba6;
+  --success:      #4ad89a;
+  --elev-raised:  0 0 0 1px rgba(245, 245, 245, 0.08);
+  --focus-ring:   0 0 0 2px #161411, 0 0 0 4px #88a9ef;
+}
+
+/* ── Base ─────────────────────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--muted);font:400 var(--text-base)/var(--leading-body) var(--font-body);-webkit-font-smoothing:antialiased}
+main{max-width:var(--container-max);margin:0 auto;padding:var(--space-12) var(--container-gutter-desktop) var(--zluri-space-30)}
+section{padding:var(--space-12) 0;border-top:1px solid var(--border)}
+section>h2{font:500 var(--text-xl)/var(--leading-tight) var(--font-display);color:var(--fg);margin:0 0 var(--space-2)}
+section>p.note{margin:0 0 var(--space-8);max-width:720px;font-size:var(--text-sm);color:var(--meta)}
+.row{display:flex;flex-wrap:wrap;gap:var(--space-6);align-items:center}
+.stage{padding:var(--space-12);border-radius:var(--radius-md);background:var(--bg);border:1px solid var(--border)}
+.stage+.stage{margin-top:var(--space-6)}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:500;line-height:var(--leading-tight);color:var(--fg);margin:0}
+
+/* ── Type specimens ───────────────────────────────────────────────── */
+.t-h1{font-size:var(--text-4xl)}.t-h2{font-size:var(--zluri-text-h2)}.t-h3{font-size:var(--text-2xl)}.t-h4{font-size:var(--text-xl)}
+.t-display{font:400 96px/1.12 var(--font-display);letter-spacing:var(--zluri-tracking-display-tight);color:var(--fg)}
+.t-lede{font-size:var(--text-lg);line-height:1.2;color:var(--muted);max-width:640px}
+.t-body{font-size:var(--text-base);max-width:560px}
+.t-small{font-size:var(--text-sm);color:var(--meta)}
+
+/* ── Emphasis ─────────────────────────────────────────────────────── */
+.key{color:var(--accent)}
+.zluri-dark .key{color:var(--zluri-mint-green)}
+.key-grad{background:var(--zluri-grad-text-aqua);-webkit-background-clip:text;background-clip:text;color:transparent}
+.mark{background:var(--zluri-bright-blue);color:var(--zluri-on-dark);padding:.04em .18em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.mark.pink{background:var(--zluri-pink-500)}
+
+/* ── Eyebrow ──────────────────────────────────────────────────────── */
+.eyebrow{font:600 var(--zluri-text-eyebrow)/1 var(--font-body);letter-spacing:var(--zluri-tracking-eyebrow);text-transform:uppercase;margin:0 0 var(--space-3);color:var(--zluri-deep-blue)}
+.eyebrow.problem{color:var(--zluri-red-700)}
+.eyebrow.foundation{color:var(--zluri-forest-green)}
+.zluri-dark .eyebrow{color:var(--zluri-mint-green)}
+
+/* ── Buttons ──────────────────────────────────────────────────────── */
+.btn{display:inline-flex;align-items:center;gap:.4em;height:64px;padding:0 40px;border-radius:var(--radius-md);border:1px solid var(--accent);font:400 var(--text-lg)/1 var(--font-body);text-decoration:none;cursor:pointer;transition:background-color var(--motion-base) var(--ease-standard),color var(--motion-base) var(--ease-standard),border-color var(--motion-base) var(--ease-standard)}
+.btn-primary{background:var(--accent);color:var(--accent-on)}
+.btn-primary:hover{background:var(--accent-hover);border-color:var(--accent-hover)}
+.btn-primary:active{background:var(--accent-active)}
+.btn-secondary{background:var(--surface);color:var(--muted)}
+.btn-secondary:hover{background:var(--zluri-cream-white)}
+.zluri-dark .btn-secondary{background:transparent;color:var(--fg)}
+.zluri-dark .btn-secondary:hover{background:color-mix(in oklab,var(--accent),transparent 80%)}
+.btn:focus-visible,.link:focus-visible,.chip:focus-visible{outline:0;box-shadow:var(--focus-ring)}
+.btn-pill{height:40px;padding:0 22px;border-radius:var(--radius-pill);font-size:var(--text-base)}
+.btn-sm{height:44px;padding:0 20px;border-radius:var(--radius-sm);font-size:var(--text-base)}
+.link{color:var(--accent);font-size:var(--text-lg);text-decoration:none;padding-bottom:2px;background:linear-gradient(currentColor,currentColor) no-repeat 0 100%/0% 2px;transition:background-size var(--motion-fast) var(--ease-standard)}
+.link:hover{background-size:100% 2px}
+.zluri-dark .link{color:var(--zluri-light-blue)}
+
+/* ── Chips, tags, pills ───────────────────────────────────────────── */
+.chip{display:inline-flex;align-items:center;height:32px;padding:0 var(--space-4);border-radius:var(--radius-pill);border:1px solid var(--border);background:var(--surface);color:var(--fg);font:500 var(--text-xs)/1 var(--font-body);letter-spacing:.08em;text-transform:uppercase}
+.chip.active{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.pill-outline{display:inline-flex;align-items:center;height:40px;padding:0 var(--space-4);border-radius:var(--radius-sm);border:1.3px solid var(--fg);color:var(--fg);font:500 var(--text-sm)/1 var(--font-body)}
+.tab{display:inline-flex;align-items:center;height:40px;padding:0 var(--space-4);border-radius:var(--radius-sm);font:400 var(--text-base)/1 var(--font-body);color:var(--muted)}
+.tab.active{color:#fff;background:var(--zluri-pillar-discover)}
+.tab.active.govern{background:var(--zluri-pillar-govern)}
+.tab.active.secure{background:var(--zluri-pillar-secure)}
+.status{display:inline-flex;align-items:center;padding:4px 8px;border-radius:4px;border:1px solid currentColor;font:500 var(--text-xs)/1 var(--font-body)}
+.status.risk{color:var(--danger)}.status.warn{color:var(--zluri-orange-700)}.status.info{color:var(--accent)}.status.ok{color:var(--success)}
+.status.solid{border-color:transparent;color:#fff;background:var(--danger)}
+.status.solid.ok{background:var(--success)}
+
+/* ── Cards and grids ──────────────────────────────────────────────── */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);padding:var(--space-8);min-height:260px;display:flex;flex-direction:column;box-shadow:var(--elev-flat)}
+.card svg,.cell svg{width:28px;height:28px;stroke:var(--fg);fill:none;stroke-width:1.5}
+.card h4,.cell h4{margin-top:auto;font-size:var(--text-xl)}
+.card p,.cell p{margin:var(--space-3) 0 0;font-size:var(--text-sm)}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-5)}
+.cards:hover .card{opacity:.6}
+.cards:hover .card:hover{opacity:1}
+.card{transition:opacity var(--motion-fast) var(--ease-standard)}
+.grid-collapsed{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--border);border-right:0;border-bottom:0}
+.cell{border-right:1px solid var(--border);border-bottom:1px solid var(--border);padding:var(--space-8);min-height:240px;display:flex;flex-direction:column}
+
+/* ── Stats ────────────────────────────────────────────────────────── */
+.stat-row{display:grid;grid-template-columns:1fr 1.4fr;align-items:center;padding:var(--space-6) var(--space-8);background:var(--surface-warm);border-top:3px solid var(--zluri-mint-green)}
+.stat-row b{font:500 var(--zluri-text-h2)/1 var(--font-display);color:var(--fg)}
+.stat-row span{font-size:var(--text-base);color:var(--muted)}
+.stat-chip{display:inline-flex;align-items:center;gap:var(--space-4);font-size:var(--text-lg);color:var(--fg)}
+.stat-chip b{display:inline-flex;align-items:center;height:44px;padding:0 var(--space-4);background:var(--zluri-deep-blue);color:#fff;font:500 var(--text-xl)/1 var(--font-display);border-radius:2px}
+
+/* ── Event meta rows + speaker tile ───────────────────────────────── */
+.meta-rows{display:grid;gap:var(--space-2);font:300 var(--text-base)/1.2 var(--font-body);color:var(--muted)}
+.meta-rows div{display:flex;gap:var(--space-2);align-items:center}
+.meta-rows svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.5}
+.speaker{width:150px}
+.speaker .ph{aspect-ratio:1;border-radius:var(--radius-sm);background:var(--zluri-warm-white-3)}
+.speaker b{display:block;margin-top:var(--space-2);font:600 var(--text-xs)/1.2 var(--font-body);color:var(--fg)}
+.speaker span{font-size:var(--text-xs);color:var(--meta)}
+
+/* ── Floating nav ─────────────────────────────────────────────────── */
+.nav{height:72px;background:var(--surface);border-radius:var(--radius-lg);box-shadow:var(--elev-raised);display:flex;align-items:center;gap:var(--space-12);padding:0 var(--space-12);color:var(--fg);font-size:var(--text-base)}
+.nav strong{font:700 28px/1 var(--font-display);letter-spacing:-.04em}
+.nav .right{margin-left:auto;display:flex;gap:var(--space-8);align-items:center}
+
+/* ── Low-fi product UI ────────────────────────────────────────────── */
+.panel{border-radius:var(--radius-md);padding:var(--space-12);background:linear-gradient(180deg,#eef3fc 0%,#a9c2f4 52%,var(--zluri-bright-blue) 86%,var(--zluri-purple-500) 100%);box-shadow:inset 0 0 0 1px #a9c2f4;max-width:620px}
+.ui{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:var(--space-6);color:var(--fg);font-size:var(--text-sm)}
+.ui h5{font:500 var(--text-lg)/1.2 var(--font-display);margin:0 0 var(--space-4)}
+.ui .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-3);margin-bottom:var(--space-3)}
+.ui .stat{border:1px solid var(--border);border-radius:var(--radius-sm);padding:var(--space-3)}
+.ui .stat small{display:block;color:var(--meta);font-size:var(--text-xs);margin-bottom:6px}
+.ui .stat b{font:500 var(--text-lg)/1 var(--font-body);color:var(--accent)}
+.ui .alert{display:flex;justify-content:space-between;align-items:center;background:var(--zluri-red-300);color:#fff;border-radius:6px;padding:10px 12px;font-weight:500}
+.ui .line{display:grid;grid-template-columns:1.2fr 1fr 1.2fr;align-items:center;padding:11px 0;border-top:1px solid var(--border)}
+.ui .line:first-of-type{margin-top:var(--space-3)}
+
+/* ── Social primitives ────────────────────────────────────────────── */
+.pillbar{display:inline-flex;align-items:center;gap:var(--space-6);height:64px;padding:6px 28px 6px 6px;border-radius:var(--radius-pill);background:rgba(255,255,255,.07);color:var(--fg);font:300 28px/1 var(--font-body)}
+.capsule{display:grid;place-items:center;width:92px;height:100%;border-radius:var(--radius-pill);background:var(--zluri-pink-500);color:var(--zluri-on-dark)}
+.grain{position:relative}
+.grain::after{content:"";position:absolute;inset:0;border-radius:inherit;background-image:var(--zluri-grain);mix-blend-mode:soft-light;opacity:.25;pointer-events:none}
+
+/* ── Swatches ─────────────────────────────────────────────────────── */
+.sw{width:132px}.sw i{display:block;height:72px;border-radius:var(--radius-sm);border:1px solid var(--border)}
+.sw b{display:block;margin-top:var(--space-2);font:500 var(--text-sm)/1.2 var(--font-body);color:var(--fg)}.sw span{font:400 var(--text-xs)/1 var(--font-mono);color:var(--meta)}
+.gradbar{height:120px;flex:1;min-width:150px;border-radius:var(--radius-sm);border:1px solid var(--border);display:flex;align-items:flex-end;padding:var(--space-3);font:500 var(--text-xs)/1 var(--font-body);color:#fff}
+
+@media (max-width:991px){main{padding-left:var(--container-gutter-tablet);padding-right:var(--container-gutter-tablet)}.cards{grid-template-columns:1fr 1fr}.grid-collapsed{grid-template-columns:1fr 1fr}.t-display{font-size:64px}}
+@media (max-width:767px){main{padding-left:var(--container-gutter-phone);padding-right:var(--container-gutter-phone)}.cards,.grid-collapsed{grid-template-columns:1fr}.stage{padding:var(--space-6)}.t-h1{font-size:var(--text-2xl)}.t-h2{font-size:28px}.t-display{font-size:44px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Zluri design system</p>
+  <h1 class="t-h1">Reference components</h1>
+  <p class="t-lede" style="margin-top:var(--space-4)">Every value on this page resolves from <code>tokens.css</code>. Light (cream) and dark (Deep Black) are the only two canvases.</p>
+
+  <section>
+    <h2>Colour</h2><p class="note">Primary palette, warm neutrals, then the rationed secondary palette. Logo ring colours are reserved for the logo.</p>
+    <div class="row">
+      <div class="sw"><i style="background:var(--zluri-deep-blue)"></i><b>Deep Blue</b><span>#1D4BA6</span></div>
+      <div class="sw"><i style="background:var(--zluri-bright-blue)"></i><b>Bright Blue</b><span>#366ECF</span></div>
+      <div class="sw"><i style="background:var(--zluri-light-blue)"></i><b>Light Blue</b><span>#88A9EF</span></div>
+      <div class="sw"><i style="background:var(--zluri-forest-green)"></i><b>Forest Green</b><span>#1B9464</span></div>
+      <div class="sw"><i style="background:var(--zluri-mint-green)"></i><b>Mint Green</b><span>#4AD89A</span></div>
+      <div class="sw"><i style="background:var(--zluri-aqua-green)"></i><b>Aqua Green</b><span>#94E9C0</span></div>
+      <div class="sw"><i style="background:var(--zluri-cream-white)"></i><b>Cream White</b><span>#FBF9F6</span></div>
+      <div class="sw"><i style="background:var(--zluri-warm-white-3)"></i><b>Warm Linen</b><span>#E2DED7</span></div>
+      <div class="sw"><i style="background:var(--zluri-warm-black-1)"></i><b>Warm Black 1</b><span>#474640</span></div>
+      <div class="sw"><i style="background:var(--zluri-warm-black-2)"></i><b>Warm Black 2</b><span>#2A2924</span></div>
+      <div class="sw"><i style="background:var(--zluri-deep-black)"></i><b>Deep Black</b><span>#161411</span></div>
+    </div>
+    <div class="row" style="margin-top:var(--space-6)">
+      <div class="sw"><i style="background:var(--zluri-purple-500)"></i><b>Purple</b><span>#7763C7</span></div>
+      <div class="sw"><i style="background:var(--zluri-red-500)"></i><b>Red</b><span>#D52A00</span></div>
+      <div class="sw"><i style="background:var(--zluri-red-700)"></i><b>Red-brown</b><span>#8E1C00</span></div>
+      <div class="sw"><i style="background:var(--zluri-orange-500)"></i><b>Orange</b><span>#E89604</span></div>
+      <div class="sw"><i style="background:var(--zluri-lime-500)"></i><b>Lime</b><span>#AADB12</span></div>
+      <div class="sw"><i style="background:var(--zluri-pink-500)"></i><b>Pink</b><span>#E84393</span></div>
+    </div>
+    <div class="row" style="margin-top:var(--space-6)">
+      <div class="gradbar" style="background:var(--zluri-grad-warm-linen);color:var(--fg)">Warm Linen</div>
+      <div class="gradbar" style="background:var(--zluri-grad-deep-dive)">Deep Dive</div>
+      <div class="gradbar" style="background:var(--zluri-grad-aqua-circuit)">Aqua Circuit</div>
+      <div class="gradbar" style="background:var(--zluri-grad-midnight-blue)">Midnight Blue</div>
+      <div class="gradbar" style="background:var(--zluri-grad-obsidian-smoke)">Obsidian Smoke</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Typography</h2><p class="note">Satoshi for headings (Medium on web, Regular for large display). Inter for everything else. One coloured phrase per headline.</p>
+    <div class="stage">
+      <p class="eyebrow problem">The challenge</p>
+      <h1 class="t-h1">You can’t secure what you <span class="key">can’t see</span></h1>
+      <p class="t-lede" style="margin-top:var(--space-4)">Identity is now the primary attack surface, spanning humans, service accounts, AI agents, and APIs.</p>
+      <h2 class="t-h2" style="margin-top:var(--space-12)">Section title — Satoshi Medium 48</h2>
+      <h3 class="t-h3" style="margin-top:var(--space-6)">Feature title — Satoshi Medium 32</h3>
+      <h4 class="t-h4" style="margin-top:var(--space-6)">Card title — Satoshi Medium 24</h4>
+      <p class="t-body" style="margin-top:var(--space-4)">Body — Inter 16 / 1.4 in Warm Black 1. Keep lines to 60–75 characters and paragraphs short.</p>
+      <p class="t-small" style="margin-top:var(--space-3)">Small / meta — Inter 14.</p>
+    </div>
+    <div class="stage zluri-dark" style="background:var(--bg)">
+      <p class="t-display">The <span class="key">Access Visibility</span> Gap</p>
+      <p class="t-lede" style="margin-top:var(--space-6);font-weight:300">Display on dark: Satoshi Regular, tracking −0.04em, Mint keyword, Inter Light supporting line.</p>
+      <p class="t-display" style="font-size:56px;margin-top:var(--space-8)">Introducing <span class="key-grad">Segregation of Duties</span> · <span class="mark">Can’t Automate</span> · <span class="mark pink">Zluri Family!</span></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Buttons and links</h2><p class="note">One primary per view. Labels end with an arrow. Hover moves Bright Blue to Deep Blue over 440ms.</p>
+    <div class="stage row">
+      <a class="btn btn-primary" href="#">Get a Demo →</a>
+      <a class="btn btn-secondary" href="#">Learn More →</a>
+      <a class="link" href="#">See how it works →</a>
+      <a class="btn btn-primary btn-pill" href="#">Get a Demo</a>
+      <a class="btn btn-primary btn-sm" href="#">Submit</a>
+    </div>
+    <div class="stage row zluri-dark" style="background:var(--bg)">
+      <a class="btn btn-primary" href="#">Book a demo →</a>
+      <a class="btn btn-secondary" href="#">Explore Platform →</a>
+      <a class="link" href="#">Download the Datasheet ↓</a>
+      <span class="pill-outline">Visit us at booth #117</span>
+      <span class="pillbar"><span class="capsule">→</span>Swipe to learn more</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Eyebrows, tabs, chips, status</h2><p class="note">Eyebrow colour carries meaning: red-brown = problem, Deep Blue = product, Forest = foundation, Mint on dark. Tabs take the pillar colour.</p>
+    <div class="stage">
+      <div class="row"><p class="eyebrow problem" style="margin:0">The challenge</p><p class="eyebrow" style="margin:0">Identity visibility and intelligence</p><p class="eyebrow foundation" style="margin:0">Foundation</p></div>
+      <div class="row" style="margin-top:var(--space-6)"><span class="tab active">IVIP</span><span class="tab">IGA</span><span class="tab">ISPM</span><span class="tab active govern">IGA</span><span class="tab active secure">ISPM</span></div>
+      <div class="row" style="margin-top:var(--space-6)"><span class="chip active">All</span><span class="chip">Asia</span><span class="chip">North America</span><span class="status risk">Service Account</span><span class="status warn">API Key</span><span class="status info">AI Agent</span><span class="status ok">Managed</span><span class="status solid">Revoked</span><span class="status solid ok">Approve</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Cards and grids</h2><p class="note">Hairline borders, radius 8, no shadow. Icon top-left, title at the bottom. Feature grids share borders. Hovering one persona card dims its siblings.</p>
+    <div class="grid-collapsed">
+      <div class="cell"><svg viewBox="0 0 24 24"><rect x="5" y="6" width="14" height="11" rx="3"/><path d="M9 11h.01M15 11h.01M9 20h6M12 3v3"/></svg><h4>Identity now includes humans, machines, and AI agents</h4><p>Access is created and used at machine speed.</p></div>
+      <div class="cell"><svg viewBox="0 0 24 24"><rect x="6" y="4" width="12" height="8" rx="3"/><rect x="6" y="14" width="12" height="6" rx="3"/></svg><h4>Non-human identities lack ownership</h4><p>Tokens, bots and agents persist without accountability.</p></div>
+      <div class="cell"><svg viewBox="0 0 24 24"><path d="M12 4l9 16H3z"/><path d="M12 10v5M12 17.5v.01"/></svg><h4>Risk is detected too late</h4><p>Dormant accounts remain active until after impact.</p></div>
+    </div>
+    <div class="cards" style="margin-top:var(--space-8)">
+      <div class="card"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.3 7.8-8 9-4.7-1.2-8-4.5-8-9V6z"/></svg><h4>Security Leaders</h4><p>Prioritize high-risk identities.</p></div>
+      <div class="card"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="13" height="10" rx="2"/><rect x="12" y="11" width="9" height="8" rx="2"/></svg><h4>IT and Access Teams</h4><p>Streamline access reviews.</p></div>
+      <div class="card"><svg viewBox="0 0 24 24"><path d="M7 17a4 4 0 1 1 .8-7.9A5.5 5.5 0 0 1 18.5 11 3 3 0 0 1 18 17z"/></svg><h4>Cloud and DevSecOps</h4><p>Surface machine identities.</p></div>
+      <div class="card"><svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 14l2 2 4-4"/></svg><h4>Audit and Compliance</h4><p>Maintain defensible audit trails.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Stats, event rows, speakers</h2><p class="note">Numbers are large Satoshi with a small Inter label. Event facts are icon rows, never sentences.</p>
+    <div class="stage zluri-dark" style="background:var(--bg);display:grid;gap:var(--space-3);max-width:640px">
+      <div class="stat-row"><b>50%</b><span>improvement in joiner–mover–leaver workflow efficiency</span></div>
+      <div class="stat-row"><b>150+</b><span>hours saved annually in audit effort</span></div>
+    </div>
+    <div class="stage row" style="align-items:flex-start;gap:var(--space-12)">
+      <div style="display:grid;gap:var(--space-3)"><span class="stat-chip"><b>5x</b>Faster offboarding</span><span class="stat-chip"><b>$59K</b>in value unlocked</span></div>
+      <div class="meta-rows">
+        <div><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg>23 March 2026</div>
+        <div><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3 2"/></svg>12:00 - 13:30 GMT-7</div>
+        <div><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>San Francisco, California</div>
+      </div>
+      <div class="speaker"><div class="ph"></div><b>[Speaker Name]</b><span>[Title]</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Floating nav</h2><p class="note">White bar, radius 20, ambient shadow, pill CTA.</p>
+    <div class="nav"><strong>zluri</strong><span>Products</span><span>Platform</span><span>Solutions</span><span>Why Zluri</span><span class="right"><span>Login</span><a class="btn btn-primary btn-pill" href="#">Get a Demo</a></span></div>
+  </section>
+
+  <section>
+    <h2>Low-fi product UI</h2><p class="note">The brand’s illustration style. Simplified cards with plausible data on a gradient glow panel; one alert accent.</p>
+    <div class="panel grain"><div class="ui"><h5>Identity Landscape</h5>
+      <div class="stats"><div class="stat"><small>Total Identities</small><b>2847</b></div><div class="stat"><small>Privileged</small><b>1943</b></div><div class="stat"><small>Orphaned</small><b>127</b></div></div>
+      <div class="alert">43 Critical Risks Detected <span class="status" style="color:#fff">Review now</span></div>
+      <div class="line"><span>deploybot</span><span>SVC012</span><span><span class="status risk">Service Account</span></span></div>
+      <div class="line"><span>gh-token</span><span>TOK021</span><span><span class="status warn">API Key</span></span></div>
+      <div class="line"><span>ChatGPT</span><span>AIA203</span><span><span class="status info">AI Agent</span></span></div>
+    </div></div>
+  </section>
+</main>
+</body>
+</html>

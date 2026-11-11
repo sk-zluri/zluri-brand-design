@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zluri motifs</title>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../tokens.css">
+<style>
+  body { margin: 0; background: var(--bg); color: var(--muted); font: 400 var(--text-base)/var(--leading-body) var(--font-body); }
+  main { max-width: var(--container-max); margin: 0 auto; padding: var(--space-12) var(--container-gutter-desktop); }
+  h1 { margin: 0 0 var(--space-2); font: 500 var(--text-3xl)/var(--leading-tight) var(--font-display); color: var(--fg); }
+  h2 { margin: var(--space-12) 0 var(--space-4); font: 500 var(--text-xl)/var(--leading-tight) var(--font-display); color: var(--fg); }
+  p { max-width: 760px; }
+  code { font: 400 var(--text-xs)/1.4 var(--font-mono); color: var(--meta); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-6); }
+  figure { margin: 0; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); overflow: hidden; }
+  figure .box { height: 240px; display: grid; place-items: center; padding: var(--space-6); overflow: hidden; }
+  figure .box img { max-width: 100%; max-height: 100%; }
+  figure img.shot { display: block; width: 100%; height: auto; }
+  figcaption { padding: var(--space-4); border-top: 1px solid var(--border); font-size: var(--text-sm); }
+  figcaption b { display: block; font: 500 var(--text-base)/1.3 var(--font-body); color: var(--fg); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>Motifs</h1>
+<p>SVG motifs exported from the designers&rsquo; Figma file. Use one primary motif per canvas. Recipes: <code>guidelines/02-visual-language.md</code>.</p>
+<div class="grid">
+<figure><div class="box" style="background:#d9d6d0"><img src="../assets/motifs/z-overlay-shape-large.svg" alt=""></div><figcaption><b>Z colour overlay (square)</b>The wordmark z, enlarged and rotated. Multiply over a greyscale photo. Recolour to green, pink, blue or purple.<br><code>assets/motifs/z-overlay-shape-large.svg</code></figcaption></figure>
+<figure><div class="box" style="background:#d9d6d0"><img src="../assets/motifs/z-overlay-shape.svg" alt=""></div><figcaption><b>Z colour overlay (header band)</b>Same letterform cropped for a 1200x250 photo band.<br><code>assets/motifs/z-overlay-shape.svg</code></figcaption></figure>
+<figure><div class="box" style="background:#0b1d40"><img src="../assets/motifs/wordmark-crop-solid.svg" alt=""></div><figcaption><b>Cropped wordmark, solid</b>Flush right at full height; tone-on-tone or gradient-filled.<br><code>assets/motifs/wordmark-crop-solid.svg</code></figcaption></figure>
+<figure><div class="box" style="background:#e9e6e0"><img src="../assets/motifs/wordmark-crop-outline.svg" alt=""></div><figcaption><b>Cropped wordmark, outline</b>1px outline version for light linen backgrounds.<br><code>assets/motifs/wordmark-crop-outline.svg</code></figcaption></figure>
+<figure><div class="box" style="background:#fbf9f6"><img src="../assets/motifs/corner-arc-lines.svg" alt=""></div><figcaption><b>Corner arc lines</b>Three parallel rounded-corner hairlines, top-right of a banner.<br><code>assets/motifs/corner-arc-lines.svg</code></figcaption></figure>
+<figure><div class="box" style="background:#161411"><img src="../assets/motifs/concentric-arc-bands.svg" alt=""></div><figcaption><b>Concentric arc bands</b>Soft tone-on-tone rings sweeping from a bottom corner.<br><code>assets/motifs/concentric-arc-bands.svg</code></figcaption></figure>
+<figure><div class="box" style="background:#161411"><img src="../assets/motifs/orbit-ellipses.svg" alt=""></div><figcaption><b>Orbit ellipses</b>Overlapping tilted ellipses; bottom-right of a dark carousel cover at about 35% opacity.<br><code>assets/motifs/orbit-ellipses.svg</code></figcaption></figure>
+<figure><div class="box" style="background:#1d4ba6"><img src="../assets/motifs/z-maze-pattern.svg" alt=""></div><figcaption><b>Z-maze pattern</b>Tone-on-tone line pattern for Deep-Blue people posts.<br><code>assets/motifs/z-maze-pattern.svg</code></figcaption></figure>
+<figure><div class="box" style="background:#fbf9f6"><img src="../assets/motifs/quote-mark.svg" alt=""></div><figcaption><b>Quote mark</b>Gradient parallelogram quote marks for Academy quote slides.<br><code>assets/motifs/quote-mark.svg</code></figcaption></figure>
+<figure><div class="box" style="background:#000000"><img src="../assets/motifs/chain-link.svg" alt=""></div><figcaption><b>Chain link</b>Gradient-stroke link for partnership and testimonial video.<br><code>assets/motifs/chain-link.svg</code></figcaption></figure>
+<figure><div class="box" style="background:#fbf9f6"><img src="../assets/motifs/sparkle-star.svg" alt=""></div><figcaption><b>Sparkle star</b>Soft gradient star accent for Academy title cards.<br><code>assets/motifs/sparkle-star.svg</code></figcaption></figure>
+</div>
+<h2>CSS-only motifs</h2>
+<div class="grid">
+<figure><div class="box" style="background:#fbf9f6;position:relative;overflow:hidden"><i style="position:absolute;width:60%;height:80%;left:-25%;top:-35%;border-radius:50%;background:#a99ce3;filter:blur(50px);opacity:.65"></i><i style="position:absolute;width:75%;height:85%;right:-28%;bottom:-48%;border-radius:50%;background:linear-gradient(100deg,#94e9c0,#88a9ef 45%,#a99ce3);filter:blur(50px);opacity:.85"></i></div><figcaption><b>Soft blobs + grain</b>Two huge blurred ellipses (lavender, blue to mint) on cream with 10% grain.</figcaption></figure>
+<figure><div class="box" style="background:#000;position:relative;overflow:hidden"><i style="position:absolute;width:90%;height:150%;right:-35%;top:45%;border-radius:50%;background:radial-gradient(closest-side,#2fc493,#1b9464 16%,#366ecf 44%,transparent);filter:blur(12px)"></i></div><figcaption><b>Launch glow</b>Green to blue radial rising from a bottom corner on pure black.</figcaption></figure>
+<figure><div class="box" style="background:#000 radial-gradient(42% 120% at 8% -10%,rgba(52,58,150,.95),transparent),radial-gradient(46% 150% at 70% 30%,rgba(42,48,160,.95),transparent);overflow:hidden"></div><figcaption><b>Indigo aurora</b>Black with blurred indigo light; 2026 banners and email headers.</figcaption></figure>
+<figure><div class="box" style="background:var(--zluri-grad-deep-dive);overflow:hidden"></div><figcaption><b>Deep Dive panel</b>Media panel behind product charts.</figcaption></figure>
+<figure><div class="box" style="background:#161411;overflow:hidden"><span style="font:400 34px/1.2 var(--font-display);color:#fbf9f6;background:#366ecf;padding:.04em .18em">Can&rsquo;t Automate</span></div><figcaption><b>Highlight block</b>A phrase on a solid rectangle.</figcaption></figure>
+<figure><div class="box" style="background:#111;overflow:hidden"><span style="display:inline-flex;align-items:center;gap:18px;height:52px;padding:5px 22px 5px 5px;border-radius:999px;background:rgba(255,255,255,.07);color:#fbf9f6;font:300 20px/1 var(--font-body)"><span style="display:grid;place-items:center;width:72px;height:100%;border-radius:999px;background:#e84393">&rarr;</span>Swipe to learn more</span></div><figcaption><b>Pill bar + arrow capsule</b>The swipe / CTA affordance.</figcaption></figure>
+</div>
+</main>
+</body>
+</html>

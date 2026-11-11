@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zluri · Web landing page starter</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../tokens.css">
+<style>
+/* ─────────────────────────────────────────────────────────────────────────
+ * Zluri web landing-page starter. Mirrors the zluri.com page spine
+ * (guidelines/07-website.md) and its interaction language (guidelines/08).
+ * Self-contained: tokens.css + this <style> + the <script> at the bottom.
+ * GSAP is optional — everything degrades to CSS if it fails to load.
+ * ─────────────────────────────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:auto}
+body{margin:0;background:#fff;color:var(--muted);font:400 16px/1.425 var(--font-body);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:500;line-height:1.2;color:var(--fg);margin:0}
+h1{font-size:56px}h2{font-size:48px}h3{font-size:32px}h4{font-size:24px}
+p{margin:0}a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--container-max);margin:0 auto;padding:0 var(--container-gutter-desktop)}
+.sec{padding:var(--section-y-desktop) 0;position:relative}
+.sec.cream{background:var(--zluri-cream-white)}.sec.peach{background:var(--zluri-warm-white-2)}
+.sec.dark{background:var(--zluri-deep-black)}.sec.black{background:#000}
+.lede{font-size:20px;line-height:1.2;max-width:640px}
+.eyebrow{font:600 12px/1 var(--font-body);letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+.eyebrow.problem{color:var(--zluri-red-700)}.eyebrow.product{color:var(--zluri-deep-blue)}.eyebrow.found{color:var(--zluri-forest-green)}.eyebrow.mint{color:var(--zluri-mint-green)}
+.head{margin-bottom:56px}.head h2{max-width:900px;margin-bottom:16px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:.4em;height:64px;padding:0 40px;border-radius:var(--radius-md);font:400 20px/1 var(--font-body);border:1px solid var(--accent);transition:background-color var(--motion-base) var(--ease-standard),color var(--motion-base) var(--ease-standard),border-color var(--motion-base) var(--ease-standard);cursor:pointer}
+.btn.primary{background:var(--accent);color:var(--accent-on)}.btn.primary:hover{background:var(--accent-hover);border-color:var(--accent-hover)}
+.btn.secondary{background:#fff;color:var(--muted)}.btn.secondary:hover{background:var(--zluri-cream-white)}
+.btn.ghost{background:transparent;color:var(--zluri-on-dark)}.btn.ghost:hover{background:rgba(54,110,207,.18)}
+.btn:focus-visible,.link:focus-visible,.nav a:focus-visible{outline:0;box-shadow:var(--focus-ring)}
+.link{color:var(--accent);font-size:20px;background:linear-gradient(currentColor,currentColor) no-repeat 0 100%/0% 2px;transition:background-size var(--motion-fast) var(--ease-standard);padding-bottom:2px}
+.link:hover{background-size:100% 2px}.dark .link,.black .link{color:var(--zluri-light-blue)}
+.cta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+
+/* announcement + nav */
+.announce{position:relative;z-index:60;display:flex;justify-content:center;align-items:center;gap:14px;height:40px;background:linear-gradient(180deg,#351e78,#57429b);color:#fff;font:500 18px/1 var(--font-display);letter-spacing:-.01em}
+.announce a{display:inline-flex;align-items:center;height:26px;padding:0 10px;border-radius:6px;background:#dbd5ef;color:#341070;font-size:14px}
+.navwrap{position:sticky;top:12px;z-index:50;padding:0 20px;margin-top:12px;height:0}
+.nav{max-width:1400px;margin:0 auto;height:72px;background:#fff;border-radius:var(--radius-lg);box-shadow:var(--elev-raised);display:flex;align-items:center;gap:48px;padding:0 44px 0 48px;color:var(--fg)}
+.nav img{height:44px}.nav .links{display:flex;gap:40px;font-size:16px}.nav .links a{transition:color var(--motion-fast)}.nav .links a:hover{color:var(--accent)}
+.nav .right{margin-left:auto;display:flex;align-items:center;gap:32px;font-size:16px}
+.nav .pill{display:inline-flex;align-items:center;height:40px;padding:0 22px;border-radius:999px;background:var(--accent);color:#fff;transition:background-color var(--motion-base) var(--ease-standard)}.nav .pill:hover{background:var(--accent-hover)}
+
+/* hero — cursor-reactive streak field */
+.hero{position:relative;min-height:880px;background:var(--zluri-deep-black);display:grid;place-items:center;text-align:center;overflow:hidden;margin-top:-12px;padding:172px 24px 120px}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%}
+.hero .in{position:relative;z-index:2;max-width:1040px}
+.chip{display:inline-flex;align-items:center;height:30px;padding:0 16px;border-radius:999px;background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px rgba(255,255,255,.14);color:#fbf9f6;font:600 11px/1 var(--font-body);letter-spacing:.12em;text-transform:uppercase;margin-bottom:28px}
+.hero h1{color:#fbf9f6;margin-bottom:24px}.hero .lede{color:var(--zluri-on-dark-muted);margin:0 auto 44px;max-width:680px}.hero .cta-row{justify-content:center}
+
+/* marquee */
+.marquee{background:var(--zluri-deep-black);color:var(--zluri-on-dark-muted);padding:36px 0 44px;text-align:center;font-size:20px;overflow:hidden;border-top:1px solid rgba(245,245,245,.08)}
+.marquee .track{display:flex;gap:96px;width:max-content;margin-top:28px;animation:mq 38s linear infinite;font:600 22px/1 var(--font-display);color:#fbf9f6;opacity:.9}
+.marquee .mask{-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* collapsed feature grid */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--border);border-right:0;border-bottom:0}
+.cell{border-right:1px solid var(--border);border-bottom:1px solid var(--border);padding:28px;min-height:300px;display:flex;flex-direction:column;background:transparent;transition:background-color var(--motion-fast)}
+.cell:hover{background:#fff}.cell svg{width:30px;height:30px;stroke:var(--fg);fill:none;stroke-width:1.5}
+.cell h4{margin-top:auto;font-size:22px}.cell p{margin-top:10px;font-size:16px}
+
+/* feature rows */
+.feat{display:grid;grid-template-columns:5fr 7fr;gap:80px;align-items:center;margin-top:96px}
+.feat.flip .txt{order:2}.feat h3{margin-bottom:16px}.feat p{max-width:520px}
+.ticks{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:12px}.ticks li{padding-left:28px;position:relative}
+.ticks li::before{content:"";position:absolute;left:2px;top:.35em;width:12px;height:7px;border-left:1.5px solid var(--accent);border-bottom:1.5px solid var(--accent);transform:rotate(-45deg)}
+.panel{border-radius:var(--radius-md);padding:44px;background:linear-gradient(180deg,#eef3fc 0%,#a9c2f4 52%,#366ecf 86%,#7763c7 100%);box-shadow:inset 0 0 0 1px #a9c2f4}
+.panel.green{background:linear-gradient(180deg,#eefaf4 0%,#94e9c0 55%,#4ad89a 86%,#d1ee67 100%);box-shadow:inset 0 0 0 1px #94e9c0}
+.ui{background:#fff;border:1px solid var(--border);border-radius:12px;padding:22px;color:var(--fg);font-size:14px}
+.ui h5{font:500 20px/1.2 var(--font-display);margin:0 0 14px}
+.ui .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:12px}
+.ui .stat{border:1px solid var(--border);border-radius:8px;padding:12px}.ui .stat small{display:block;color:#8b8f92;font-size:12px;margin-bottom:6px}
+.ui .stat b{font:500 20px/1 var(--font-body);color:var(--accent)}.ui .stat i{font:500 11px/1 var(--font-body);font-style:normal;background:var(--zluri-red-300);color:#fff;padding:3px 5px;border-radius:4px;margin-left:6px;vertical-align:middle}
+.ui .alert{display:flex;justify-content:space-between;align-items:center;background:var(--zluri-red-300);color:#fff;border-radius:6px;padding:10px 12px;font-weight:500}
+.ui .alert span{border:1px solid rgba(255,255,255,.7);border-radius:4px;padding:4px 8px;font-weight:400}
+.ui .row{display:grid;grid-template-columns:1.2fr 1fr 1.2fr;align-items:center;padding:11px 0;border-top:1px solid #ece9e3}.ui .row:first-of-type{margin-top:10px}
+.tag{display:inline-block;justify-self:start;border:1px solid currentColor;border-radius:4px;padding:3px 7px;font:500 12px/1 var(--font-body)}
+.tag.coral{color:var(--zluri-red-500)}.tag.orange{color:#c97b07}.tag.blue{color:var(--accent)}
+.rule{display:flex;gap:8px;align-items:center;margin-top:10px}.rule b{font:600 11px/1 var(--font-body);letter-spacing:.06em;padding:6px 8px;border-radius:4px;color:#fff;background:var(--zluri-purple-300)}
+.rule b.o{background:var(--zluri-orange-300);color:#48371c}.rule span{border:1px solid var(--border);border-radius:4px;padding:5px 8px;background:var(--zluri-cream-white)}
+
+/* hover-driven layer stack */
+.layers{display:grid;grid-template-columns:320px 1fr 320px;gap:48px;align-items:center;min-height:520px}
+.layers .names{display:grid;gap:26px}
+.layers .names button{all:unset;cursor:pointer;font:400 14px/1 var(--font-body);letter-spacing:.04em;text-transform:uppercase;color:#fbf9f6;opacity:.3;transition:opacity var(--motion-fast)}
+.layers .names button.on,.layers .names button:focus-visible{opacity:1}
+.stack{position:relative;height:460px}
+.plate{position:absolute;left:50%;top:calc(60px + var(--i) * 78px);width:420px;height:230px;margin-left:-210px;border:1.5px solid currentColor;border-radius:14px;color:#fbf9f6;transform:rotateX(58deg) rotateZ(-38deg);transform-origin:center;transition:color .35s,opacity .35s,translate .6s var(--ease-standard),background-color .35s;background-color:rgba(22,20,17,.9);
+  background-image:linear-gradient(color-mix(in srgb,currentColor 38%,transparent) 1px,transparent 1px),linear-gradient(90deg,color-mix(in srgb,currentColor 38%,transparent) 1px,transparent 1px),radial-gradient(circle at 50% 50%,color-mix(in srgb,currentColor 55%,transparent) 0 9px,transparent 10px);background-size:42px 46px,42px 46px,84px 92px}
+.plate[data-s=above]{opacity:.28;translate:0 -40px}.plate[data-s=on]{color:var(--zluri-mint-green);opacity:1;background-color:rgba(18,44,34,.92)}.plate[data-s=below]{opacity:.85;translate:0 40px}
+.layers .notes{position:relative;min-height:120px}
+.layers .notes ul{list-style:none;margin:0;padding:0;display:none;gap:16px;color:var(--zluri-on-dark-muted)}.layers .notes ul.on{display:grid}
+.layers .notes li{animation:rise .6s var(--ease-standard) both}.layers .notes li:nth-child(2){animation-delay:.12s}.layers .notes li:nth-child(3){animation-delay:.24s}
+@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+.dark h2,.black h2{color:#fbf9f6}.dark .lede,.black .lede{color:var(--zluri-on-dark-muted)}
+
+/* persona cards — isolate on hover */
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card{background:#fff;border:1px solid var(--border);border-radius:var(--radius-sm);padding:28px;min-height:280px;display:flex;flex-direction:column;transition:opacity var(--motion-fast) var(--ease-standard),border-color var(--motion-fast)}
+.card svg{width:30px;height:30px;stroke:var(--fg);fill:none;stroke-width:1.5}.card h4{margin-top:auto}.card p{margin-top:10px;font-size:14px}
+.cards:hover .card{opacity:.6}.cards:hover .card:hover{opacity:1;border-color:#cfc9bf}
+
+/* comparison */
+.cmp{display:grid;grid-template-columns:1.1fr 1fr 1fr;position:relative}
+.cmp>div{padding:26px 28px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.cmp .h{font:500 20px/1 var(--font-display);color:var(--fg);justify-content:center;border-bottom:1px solid var(--border)}.cmp .h:first-child{justify-content:flex-start}
+.cmp .k{font:500 18px/1.2 var(--font-display);color:var(--fg)}
+.cmp .z{background:#fff;box-shadow:-1px 0 0 var(--border),1px 0 0 var(--border)}.cmp .z.top{border-radius:12px 12px 0 0;box-shadow:0 -1px 0 var(--border),-1px 0 0 var(--border),1px 0 0 var(--border)}
+.ok::before{content:"✓";color:var(--zluri-forest-green);font-weight:600}.warn::before{content:"▲";color:var(--zluri-orange-500);font-size:12px}
+
+/* quotes, CTA, footer */
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:56px}.quotes blockquote{margin:0;font-size:18px;line-height:1.35}.quotes cite{display:block;margin-top:18px;font-style:normal;color:var(--fg);font-weight:500}
+.ctaband{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}.ctaband h2{font-size:40px}.ctaband p{color:#fbf9f6;font-size:20px;line-height:1.25;margin-bottom:28px}
+.mark{background:linear-gradient(var(--zluri-bright-blue),var(--zluri-bright-blue)) no-repeat 0 0/0% 100%;transition:background-size var(--zluri-motion-wipe) var(--ease-standard);padding:0 .12em}.mark.in{background-size:100% 100%}
+footer{background:var(--zluri-warm-black-2);color:var(--zluri-on-dark);padding:72px 0 40px;font-size:16px}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:48px}footer h6{font:600 14px/1 var(--font-body);letter-spacing:.04em;text-transform:uppercase;color:#6b6962;margin:0 0 20px}
+footer a{display:block;margin-bottom:14px;transition:color var(--motion-fast)}footer a:hover{color:var(--zluri-mark-lime)}
+footer .legal{margin-top:48px;font-size:14px;color:var(--zluri-on-dark-muted)}
+
+[data-reveal]{opacity:0;transform:translateY(24px);transition:opacity .6s var(--ease-standard),transform .6s var(--ease-standard)}[data-reveal].in{opacity:1;transform:none}
+
+@media (max-width:991px){h1{font-size:40px}h2{font-size:36px}h3{font-size:28px}.sec{padding:var(--section-y-tablet) 0}.wrap{padding:0 var(--container-gutter-tablet)}
+  .nav .links{display:none}.grid{grid-template-columns:1fr 1fr}.feat,.ctaband{grid-template-columns:1fr;gap:40px}.feat.flip .txt{order:0}.cards{grid-template-columns:1fr 1fr}.cards:hover .card{opacity:1}
+  .layers{grid-template-columns:1fr}.stack{display:none}.layers .notes ul{display:grid;margin-bottom:24px}.quotes{grid-template-columns:1fr}footer .cols{grid-template-columns:1fr 1fr}}
+@media (max-width:767px){h1{font-size:32px}h2{font-size:28px}.lede,.btn,.link{font-size:18px}.btn{height:56px;padding:0 28px}.sec{padding:var(--section-y-phone) 0}.wrap{padding:0 var(--container-gutter-phone)}
+  .grid,.cards{grid-template-columns:1fr}.cmp{grid-template-columns:1fr}.cmp .h{display:none}.announce{font-size:14px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}[data-reveal]{opacity:1;transform:none}.mark{background-size:100% 100%}}
+</style>
+</head>
+<body>
+
+<div class="announce">Zluri joins Infotech. <a href="#">Read the announcement →</a></div>
+<div class="navwrap"><nav class="nav" aria-label="Primary">
+  <img src="../../assets/logos/infotech-endorsed/zluri-infotech-on-light.png" alt="Zluri, an Infotech company">
+  <div class="links"><a href="#">Products</a><a href="#">Platform</a><a href="#">Solutions</a><a href="#">Why Zluri</a><a href="#">Partners</a><a href="#">Company</a><a href="#">Resources</a></div>
+  <div class="right"><a href="#">Login</a><a class="pill" href="#">Get a Demo</a></div>
+</nav></div>
+
+<header class="hero">
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="in">
+    <span class="chip">Identity security for autonomous enterprises</span>
+    <h1>Discover, Govern and Secure Every Human and Non Human Identity</h1>
+    <p class="lede">Gain complete visibility into identities and access, automate governance, and continuously manage identity risk across your enterprise.</p>
+    <div class="cta-row"><a class="btn primary" href="#">Book a demo →</a><a class="btn ghost" href="#">Explore Platform →</a></div>
+  </div>
+</header>
+
+<div class="marquee">Trusted by Leading Organizations
+  <div class="mask"><div class="track" aria-hidden="true"><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span><span>[logo]</span></div></div>
+</div>
+
+<section class="sec cream"><div class="wrap">
+  <div class="head" data-reveal><p class="eyebrow problem">The challenge</p><h2>You Can’t Secure What You Can’t See</h2><p class="lede">Identity is now the primary attack surface, spanning humans, service accounts, AI agents, and APIs.</p></div>
+  <div class="grid" data-reveal>
+    <div class="cell"><svg viewBox="0 0 24 24"><rect x="5" y="6" width="14" height="11" rx="3"/><path d="M9 11h.01M15 11h.01M9 20h6M12 3v3"/></svg><h4>Identity now includes humans, machines, and AI agents</h4><p>Access is created and used at machine speed across SaaS and cloud.</p></div>
+    <div class="cell"><svg viewBox="0 0 24 24"><rect x="6" y="4" width="12" height="8" rx="3"/><rect x="6" y="14" width="12" height="6" rx="3"/></svg><h4>Non-human identities lack ownership</h4><p>Service accounts, tokens, bots, and AI agents persist without clear accountability.</p></div>
+    <div class="cell"><svg viewBox="0 0 24 24"><path d="M8 16l-3 3M16 8l3-3M9 9l6 6M7 11l6 6-2 2-6-6zM11 7l2-2 6 6-2 2z"/></svg><h4>Shadow AI expands exposure</h4><p>Agent-based integrations and OAuth apps create unseen access paths.</p></div>
+    <div class="cell"><svg viewBox="0 0 24 24"><path d="M3 12s3.500-6 9-6 9 6 9 6-3.500 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2.500"/><path d="M4 4l16 16"/></svg><h4>Visibility is fragmented</h4><p>Identity, entitlement, and activity data live in silos.</p></div>
+    <div class="cell"><svg viewBox="0 0 24 24"><path d="M12 4l9 16H3z"/><path d="M12 10v5M12 17.500v.01"/></svg><h4>Risk is detected too late</h4><p>Dormant accounts and excessive privileges remain active until after impact.</p></div>
+    <div class="cell"></div>
+  </div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+  <div class="head" data-reveal><p class="eyebrow problem">Capabilities</p><h2>Granular Visibility. Continuous Intelligence. Instant Action.</h2></div>
+  <div class="feat" data-reveal>
+    <div class="txt"><p class="eyebrow product">Patented discovery engine</p><h3>Discover Every Identity. Everywhere.</h3><p>Ingest identity data across SSO, HR, finance, CASB, MDM, directories and APIs to create a single, unified inventory.</p>
+      <ul class="ticks"><li>Track every human and non-human identity from day one</li><li>Govern service accounts, tokens, bots and AI agents</li><li>Detect unmanaged and shadow apps in real time</li></ul></div>
+    <div class="panel"><div class="ui"><h5>Identity Landscape</h5>
+      <div class="stats"><div class="stat"><small>Total Identities</small><b>2847</b><i>↗ 34</i></div><div class="stat"><small>Privileged</small><b>1943</b><i>↗ 28</i></div><div class="stat"><small>Orphaned</small><b>127</b><i>↗ 12</i></div></div>
+      <div class="alert">43 Critical Risks Detected <span>Review now</span></div>
+      <div class="row"><span>deploybot</span><span>SVC012</span><span class="tag coral">Service Account</span></div><div class="row"><span>gh-token</span><span>TOK021</span><span class="tag orange">API Key</span></div><div class="row"><span>ChatGPT</span><span>AIA203</span><span class="tag blue">AI Agent</span></div></div></div>
+  </div>
+  <div class="feat flip" data-reveal>
+    <div class="txt"><p class="eyebrow found">Lifecycle automation</p><h3>Automate Every Joiner, Mover and Leaver</h3><p>Policy-driven playbooks provision and revoke access across every app the moment HR data changes.</p>
+      <ul class="ticks"><li>Access orchestration across SCIM and non-SCIM apps</li><li>Risk-aware governance decisions</li></ul></div>
+    <div class="panel green"><div class="ui"><h5>Onboarding Playbook</h5>
+      <div class="rule"><b>WHEN</b><span>New user is detected in</span><span>Workday</span></div><div class="rule"><b>IF</b><span>User Department</span>Sales and<span>Status</span>Active</div><div class="rule"><b class="o">RUN</b><span>Sales Onboarding Playbook</span></div>
+      <div class="row"><span>Okta</span><span>Add a user →</span><span>Add user to group</span></div><div class="row"><span>Slack</span><span>Add to workspace →</span><span>Invite to channel</span></div></div></div>
+  </div>
+</div></section>
+
+<section class="sec dark"><div class="wrap">
+  <div class="head" data-reveal><p class="eyebrow found">Foundation</p><h2>IRIS — The Identity Intelligence Layer</h2><p class="lede">Hover a layer to see what it does.</p></div>
+  <div class="layers">
+    <div class="names" role="tablist"><button class="on">Intelligence and decisioning</button><button>Relationship graph</button><button>Normalize and canonicalize</button><button>Aggregation and staging</button></div>
+    <div class="stack" aria-hidden="true"><div class="plate" style="--i:0"></div><div class="plate" style="--i:1"></div><div class="plate" style="--i:2"></div><div class="plate" style="--i:3"></div></div>
+    <div class="notes">
+      <ul class="on"><li>Detects risk and access anomalies</li><li>Prioritizes issues by impact</li><li>Recommends clear actions</li></ul>
+      <ul><li>Connects identities and access</li><li>Maps effective permissions</li><li>Reveals full access paths</li></ul>
+      <ul><li>Standardizes identity data formats</li><li>Merges duplicate identities</li><li>Creates canonical identity records</li></ul>
+      <ul><li>Ingests identity signals</li><li>Preserves source lineage</li><li>Builds a unified foundation</li></ul>
+    </div>
+  </div>
+</div></section>
+
+<section class="sec cream"><div class="wrap">
+  <div class="head" data-reveal><p class="eyebrow product">Use cases</p><h2>Every Identity Team. One Platform.</h2></div>
+  <div class="cards" data-reveal>
+    <div class="card"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.500-3.300 7.800-8 9-4.700-1.200-8-4.500-8-9V6z"/><circle cx="12" cy="10" r="2.200"/><path d="M8.500 15.500c.8-1.500 2-2.200 3.500-2.200s2.700.7 3.500 2.200"/></svg><h4>Security Leaders</h4><p>Prioritize high-risk identities and reduce breach exposure.</p></div>
+    <div class="card"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="13" height="10" rx="2"/><rect x="12" y="11" width="9" height="8" rx="2"/></svg><h4>IT and Access Teams</h4><p>Streamline access reviews with real-time ownership and usage insight.</p></div>
+    <div class="card"><svg viewBox="0 0 24 24"><path d="M7 17a4 4 0 1 1 .8-7.900A5.500 5.500 0 0 1 18.500 11 3 3 0 0 1 18 17z"/></svg><h4>Cloud and DevSecOps</h4><p>Surface machine identities and prevent permission sprawl.</p></div>
+    <div class="card"><svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 14l2 2 4-4"/></svg><h4>Audit and Compliance</h4><p>Maintain defensible audit trails without last-minute data scrambles.</p></div>
+  </div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+  <div class="head" data-reveal><p class="eyebrow problem">Why Zluri</p><h2>Built for Modern Identity Complexity</h2></div>
+  <div class="cmp" data-reveal>
+    <div class="h">Capability</div><div class="h z top">Zluri</div><div class="h">Traditional IGA</div>
+    <div class="k">Discovery</div><div class="z ok">Multi-source coverage across SaaS, cloud, endpoints and APIs</div><div class="warn">Limited to connected systems</div>
+    <div class="k">Shadow IT and AI</div><div class="z ok">Real-time detection and enforcement</div><div class="warn">Review-driven visibility</div>
+    <div class="k">Deployment</div><div class="z ok">Weeks with pre-built connectors</div><div class="warn">Months with a heavy rollout of services</div>
+  </div>
+</div></section>
+
+<section class="sec cream"><div class="wrap"><div class="quotes" data-reveal>
+  <blockquote>“[Customer quote — one or two sentences on a measurable outcome.]”<cite>[Name], [Title]</cite></blockquote>
+  <blockquote>“[Customer quote.]”<cite>[Name], [Title]</cite></blockquote>
+  <blockquote>“[Customer quote.]”<cite>[Name], [Title]</cite></blockquote>
+</div></div></section>
+
+<section class="sec black"><div class="wrap ctaband">
+  <h2 data-reveal>Ready to Monitor Your <span class="mark" data-mark>True Identity Risk</span> Posture?</h2>
+  <div data-reveal><p>Request a walkthrough tailored to your identity environment. See what’s operating across your infrastructure and where unmanaged risk exists today.</p>
+    <div class="cta-row"><a class="btn primary" href="#">Get a Demo →</a><a class="link" href="#">Download the Datasheet ↓</a></div></div>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="cols">
+    <div><img src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri" style="height:40px;margin-bottom:24px"><p>[Address line 1]<br>[Address line 2]</p></div>
+    <div><h6>Platform</h6><a href="#">IRIS</a><a href="#">Universal Identity Connector</a><h6 style="margin-top:28px">Products</h6><a href="#">Identity Visibility and Intelligence</a><a href="#">Access Reviews</a></div>
+    <div><h6>Compliance readiness</h6><a href="#">SOC2</a><a href="#">ISO 27001</a><a href="#">HIPAA</a></div>
+    <div><h6>Company</h6><a href="#">Our Story</a><a href="#">Careers</a><a href="#">Contact Us</a></div>
+  </div>
+  <p class="legal">© 2026 Zluri, All Rights Reserved</p>
+</div></footer>
+
+<script>
+/* 1 · Cursor-reactive streak field (guidelines/08, recipe A) */
+(() => {
+  const c = document.getElementById('field'); if (!c) return; const x = c.getContext('2d');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let W, H, t = 0, run = true; const m = { x: -9999, y: -9999, tx: -9999, ty: -9999 };
+  const fit = () => { const d = Math.min(devicePixelRatio || 1, 1.5); W = c.width = c.clientWidth * d; H = c.height = c.clientHeight * d; };
+  addEventListener('resize', fit); fit();
+  const host = c.parentElement;
+  host.addEventListener('pointermove', e => { const r = c.getBoundingClientRect(), d = W / r.width; m.tx = (e.clientX - r.left) * d; m.ty = (e.clientY - r.top) * d; if (m.x < -999) { m.x = m.tx; m.y = m.ty; } });
+  host.addEventListener('pointerleave', () => { m.tx = m.ty = -9999; });
+  new IntersectionObserver(es => { run = es[0].isIntersecting; if (run && !reduce) requestAnimationFrame(frame); }).observe(c);
+  const N = 110;
+  function frame() {
+    x.clearRect(0, 0, W, H); t += 0.0035; m.x += (m.tx - m.x) * 0.08; m.y += (m.ty - m.y) * 0.08;
+    const R = W * 0.2;
+    for (let i = 0; i < N; i++) {
+      const o = (i / N) * (W + H * 1.1) - H * 0.6;
+      x.beginPath();
+      for (let s = 0; s <= 36; s++) {
+        const u = s / 36; let px = o + u * H * 1.1, py = H * (1 - u);
+        py += Math.sin(u * 4.5 + i * 0.31 + t * 5) * 12; px += Math.cos(u * 3 + i * 0.17 + t * 3) * 8;
+        const dx = px - m.x, dy = py - m.y, d = Math.hypot(dx, dy);
+        if (d < R) { const f = Math.pow(1 - d / R, 2) * 70, a = Math.atan2(dy, dx); px += Math.cos(a) * f; py += Math.sin(a) * f; }
+        s ? x.lineTo(px, py) : x.moveTo(px, py);
+      }
+      const a = 0.025 + 0.075 * Math.abs(Math.sin(i * 1.7));
+      x.strokeStyle = `rgba(251,249,246,${a})`; x.lineWidth = (i % 9 === 0 ? 2.4 : 1) * (W / c.clientWidth); x.stroke();
+    }
+    if (run && !reduce) requestAnimationFrame(frame);
+  }
+  frame();
+})();
+
+/* 2 · Hover-driven layer stack (recipe B, dependency-free) */
+(() => {
+  const names = [...document.querySelectorAll('.layers .names button')], plates = [...document.querySelectorAll('.plate')], notes = [...document.querySelectorAll('.layers .notes ul')];
+  if (!names.length) return;
+  const act = i => { names.forEach((n, k) => n.classList.toggle('on', k === i)); notes.forEach((n, k) => n.classList.toggle('on', k === i)); plates.forEach((p, k) => p.dataset.s = k < i ? 'above' : k === i ? 'on' : 'below'); };
+  names.forEach((n, i) => { n.addEventListener('mouseenter', () => act(i)); n.addEventListener('focus', () => act(i)); n.addEventListener('click', () => act(i)); });
+  plates.forEach((p, i) => p.addEventListener('mouseenter', () => act(i)));
+  act(0);
+})();
+
+/* 3 · Reveal on scroll + highlight wipe (recipes F, G) */
+(() => {
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); e.target.querySelectorAll('[data-mark]').forEach(k => k.classList.add('in')); io.unobserve(e.target); } }), { rootMargin: '0px 0px -12% 0px' });
+  document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
+})();
+</script>
+</body>
+</html>

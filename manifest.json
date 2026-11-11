@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "zluri-brand-design",
+  "name": "Zluri",
+  "category": "Productivity & SaaS",
+  "description": "Zluri's marketing and web design system, derived from 276 senior-designer Figma frames, the live zluri.com, and the brand guidelines. Warm cream and near-black canvases, Satoshi + Inter, one Bright-Blue action colour, Mint keyword emphasis, product UI as illustration.",
+  "source": {
+    "type": "github",
+    "url": "https://github.com/sk-zluri/zluri-brand-design",
+    "branch": "main"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "components": "components.html"
+  },
+  "assetsDir": "assets",
+  "previewDir": "preview",
+  "usage": "USAGE.md",
+  "importMode": "verbatim",
+  "craft": {
+    "applies": [],
+    "suggested": ["color", "typography", "anti-ai-slop", "animation-discipline", "accessibility-baseline"],
+    "exemptions": []
+  },
+  "preview": {
+    "dir": "preview",
+    "pages": [
+      { "path": "preview/colors.html", "role": "colors", "title": "Colors" },
+      { "path": "preview/typography.html", "role": "typography", "title": "Typography" },
+      { "path": "preview/spacing.html", "role": "spacing", "title": "Spacing" },
+      { "path": "preview/motifs.html", "role": "other", "title": "Motifs" },
+      { "path": "preview/templates.html", "role": "other", "title": "Templates" }
+    ]
+  },
+  "sourceFiles": {
+    "evidence": "source/evidence.md"
+  }
+}

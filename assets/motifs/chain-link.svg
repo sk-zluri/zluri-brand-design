@@ -1,0 +1,19 @@
+<svg width="1851" height="754" viewBox="0 0 1851 754" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<use xlink:href="#stroke0_3_120922" stroke="url(#paint0_linear_3_120922)"/>
+<use xlink:href="#stroke0_3_120922" stroke="url(#paint1_linear_3_120922)"/>
+<defs>
+<linearGradient id="paint0_linear_3_120922" x1="265.64" y1="134.308" x2="1140.51" y2="970.892" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEFAFF"/>
+<stop offset="0.274038" stop-color="#A7D0F7"/>
+<stop offset="0.61409" stop-color="#184DEC"/>
+<stop offset="1" stop-color="#A8B5E5"/>
+</linearGradient>
+<linearGradient id="paint1_linear_3_120922" x1="296.248" y1="134.308" x2="1167.01" y2="1103.31" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEFAFF"/>
+<stop offset="0.274038" stop-color="#A7D0F7"/>
+<stop offset="0.61409" stop-color="#184DEC"/>
+<stop offset="1" stop-color="#A8B5E5"/>
+</linearGradient>
+<path id="stroke0_3_120922" d="M742.513 675.275H376.994C212.258 675.275 78.7129 541.73 78.7129 376.994C78.7129 212.258 212.258 78.7129 376.994 78.7129H622.049C786.785 78.7129 920.33 212.258 920.33 376.994C920.33 541.73 1053.88 675.275 1218.61 675.275H1473.58C1638.32 675.275 1771.86 541.73 1771.86 376.994C1771.86 212.258 1638.32 78.7129 1473.58 78.7129H1087.84" stroke-width="157.426" stroke-linecap="round"/>
+</defs>
+</svg>

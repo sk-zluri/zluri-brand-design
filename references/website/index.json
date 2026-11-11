@@ -1,0 +1,2361 @@
+{
+ "crawled": "2026-11-11",
+ "viewport": [
+  1920,
+  1023
+ ],
+ "note": "Full-page captures miss viewport-triggered animations; see live/ for in-viewport captures.",
+ "pages": [
+  {
+   "slug": "company-careers",
+   "url": "https://www.zluri.com/careers",
+   "title": "🐴 Careers | Zluri",
+   "file": "references/website/full-pages/company-careers.jpg",
+   "sections": [
+    {
+     "class": "hero-access-section-new-1",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 827,
+     "headings": [
+      "Blaze your trail at Zluri"
+     ]
+    },
+    {
+     "class": "every-team-section-new-1",
+     "bg": "rgb(22, 20, 17)",
+     "h": 597,
+     "headings": []
+    },
+    {
+     "class": "open-roles-section-new-2",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1786,
+     "headings": [
+      "Customer Success 2 jobs",
+      "Technical Support Engineer",
+      "Senior Customer Success Engineer"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "company-contact",
+   "url": "https://www.zluri.com/contact-us",
+   "title": "🐴 Contact Us",
+   "file": "references/website/full-pages/company-contact.jpg",
+   "sections": [
+    {
+     "class": "hero-access-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 835,
+     "headings": [
+      "Leave a message"
+     ]
+    },
+    {
+     "class": "help-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 612,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "company-events",
+   "url": "https://www.zluri.com/events",
+   "title": "🐴 Events | Zluri",
+   "file": "references/website/full-pages/company-events.jpg",
+   "sections": [
+    {
+     "class": "saas-hero-new-1",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 921,
+     "headings": [
+      "Your Front Row Seat to the Next-Gen IGA Solution"
+     ]
+    },
+    {
+     "class": "number-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 183,
+     "headings": []
+    },
+    {
+     "class": "explore-section-2",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 801,
+     "headings": []
+    },
+    {
+     "class": "every-team-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 372,
+     "headings": []
+    },
+    {
+     "class": "explore-section-4",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 660,
+     "headings": []
+    },
+    {
+     "class": "section_events_slider",
+     "bg": "rgb(22, 20, 17)",
+     "h": 1023,
+     "headings": [
+      "Oktane'23",
+      "Secureworld Boston'25",
+      "Livermore Wine Tasting'25"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "company-our-story",
+   "url": "https://www.zluri.com/our-story",
+   "title": "🐴 About Zluri",
+   "file": "references/website/full-pages/company-our-story.jpg",
+   "sections": [
+    {
+     "class": "hero-access-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 560,
+     "headings": [
+      "A world where every identity and its interactions with applications are visible, secure, and intelligently governed."
+     ]
+    },
+    {
+     "class": "section_igp_stats",
+     "bg": "rgb(22, 20, 17)",
+     "h": 145,
+     "headings": []
+    },
+    {
+     "class": "our-story-about-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 587,
+     "headings": [
+      "Zluri is now part of Infotech, bringing its application discovery and identity governance capabilities to CIO Analytics, Infotech's API-driven advisory platform"
+     ]
+    },
+    {
+     "class": "founding-team-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 342,
+     "headings": []
+    },
+    {
+     "class": "industry-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 118,
+     "headings": []
+    },
+    {
+     "class": "core-values-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 557,
+     "headings": []
+    },
+    {
+     "class": "identity-security-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 482,
+     "headings": []
+    },
+    {
+     "class": "cta-box",
+     "bg": "rgb(0, 0, 0)",
+     "h": 439,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "company-security",
+   "url": "https://www.zluri.com/security",
+   "title": "🐴 Trust and Security | Zluri",
+   "file": "references/website/full-pages/company-security.jpg",
+   "sections": [
+    {
+     "class": "hero-access-section-new-2",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 567,
+     "headings": [
+      "Your Data Security is Our Priority"
+     ]
+    },
+    {
+     "class": "security-points-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1472,
+     "headings": []
+    },
+    {
+     "class": "certifications-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 438,
+     "headings": []
+    },
+    {
+     "class": "section-4",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 352,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section-new-5",
+     "bg": "rgb(0, 0, 0)",
+     "h": 380,
+     "headings": []
+    },
+    {
+     "class": "section-faq",
+     "bg": "rgb(248, 248, 248)",
+     "h": 718,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "get-demo",
+   "url": "https://www.zluri.com/get-demo",
+   "title": "🐴 See Zluri in action",
+   "file": "references/website/full-pages/get-demo.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1004,
+     "headings": [
+      "See Zluri in action!"
+     ]
+    },
+    {
+     "class": "testimonials-demo-page-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 159,
+     "headings": []
+    },
+    {
+     "class": "slider-section-1",
+     "bg": "rgb(251, 249, 246)",
+     "h": 600,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "home",
+   "url": "https://www.zluri.com/",
+   "title": "🐴 Zluri | Next-Gen Identity Governance and Administration",
+   "file": "references/website/full-pages/home.jpg",
+   "sections": [
+    {
+     "class": "section_home_hero",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1023,
+     "headings": [
+      "Discover, Govern and Secure Every Human and Non Human Identity"
+     ]
+    },
+    {
+     "class": "section_home_challenge",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 679,
+     "headings": [
+      "The Identity Surface has Expanded",
+      "SaaS & Cloud Sprawl",
+      "Non-Human Identity Explosion"
+     ]
+    },
+    {
+     "class": "section_home_foundation",
+     "bg": "rgb(22, 20, 17)",
+     "h": 930,
+     "headings": [
+      "IRIS — The Identity Intelligence Layer"
+     ]
+    },
+    {
+     "class": "section_home_outcomes",
+     "bg": "rgb(22, 20, 17)",
+     "h": 222,
+     "headings": []
+    },
+    {
+     "class": "section_home_integrations",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1037,
+     "headings": [
+      "Intelligence alone does not secure identity. It must be operationalized.",
+      "Identity Visibility & Intelligence",
+      "Identity Governance & Administration"
+     ]
+    },
+    {
+     "class": "section_home_capabilities",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2362,
+     "headings": [
+      "Three Integrated Capabilities, Powered by IRIS",
+      "Identity Visibility & Intelligence",
+      "Identity Governance & Administration"
+     ]
+    },
+    {
+     "class": "section_home_app_stack",
+     "bg": "rgb(22, 20, 17)",
+     "h": 529,
+     "headings": [
+      "Connect any app to your identity stack"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 1010,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "okta-alt-google-workspace",
+   "url": "https://www.zluri.com/okta-alternative/zluri-google-workspace",
+   "title": "🐴 Zluri + Google Workspace",
+   "file": "references/website/full-pages/okta-alt-google-workspace.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 769,
+     "headings": [
+      "Complete IAM Automation with Zluri and Google Workspace"
+     ]
+    },
+    {
+     "class": "section_ilm_tools",
+     "bg": "rgb(251, 249, 246)",
+     "h": 523,
+     "headings": [
+      "Enterprise IAM Tools Don’t Fit Mid-Market Needs",
+      "High Cost of Ownership",
+      "Limited Support for Non-SCIM Apps"
+     ]
+    },
+    {
+     "class": "section_ilm_caps",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2131,
+     "headings": [
+      "The Smartest Identity Stack for Mid-Sized Companies",
+      "Zluri + Google Workspace",
+      "Okta"
+     ]
+    },
+    {
+     "class": "section_ilm_zluri",
+     "bg": "rgb(251, 249, 246)",
+     "h": 712,
+     "headings": [
+      "Why Mid-Market Companies Choose Zluri + Google Workspace Over Okta",
+      "Access Visibility",
+      "Uncover Shadow IT"
+     ]
+    },
+    {
+     "class": "section_iam_automation",
+     "bg": "rgb(22, 20, 17)",
+     "h": 777,
+     "headings": [
+      "Zluri + Google Workspace: Complete IAM Automation for Mid-Sized Companies",
+      "Complete IAM Solution"
+     ]
+    },
+    {
+     "class": "section_ilm_caps",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 898,
+     "headings": [
+      "The Zluri Advantage",
+      "Zluri",
+      "Okta"
+     ]
+    },
+    {
+     "class": "section_ilm_slider",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 443,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section",
+     "bg": "rgb(0, 0, 0)",
+     "h": 467,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "partners-overview",
+   "url": "https://www.zluri.com/partners",
+   "title": "🐴 Partners | Zluri",
+   "file": "references/website/full-pages/partners-overview.jpg",
+   "sections": [
+    {
+     "class": "section_partner-hero",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 622,
+     "headings": [
+      "The Ascend Alliance Partner Program"
+     ]
+    },
+    {
+     "class": "section_partner-logo",
+     "bg": "rgb(251, 249, 246)",
+     "h": 146,
+     "headings": []
+    },
+    {
+     "class": "section_partner-why",
+     "bg": "rgb(22, 20, 17)",
+     "h": 1311,
+     "headings": [
+      "Why Partner With Zluri"
+     ]
+    },
+    {
+     "class": "section_partner-our",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 938,
+     "headings": [
+      "Our Partnership Model"
+     ]
+    },
+    {
+     "class": "section_partner-cta",
+     "bg": "rgb(251, 249, 246)",
+     "h": 287,
+     "headings": [
+      "Explore Our Partnership Tiers"
+     ]
+    },
+    {
+     "class": "section_global_partners",
+     "bg": "rgb(255, 248, 242)",
+     "h": 821,
+     "headings": [
+      "Our global network for trusted partners"
+     ]
+    },
+    {
+     "class": "text-scroll-animtion-section",
+     "bg": "rgb(255, 255, 255)",
+     "h": 545,
+     "headings": []
+    },
+    {
+     "class": "sass-product-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 859,
+     "headings": []
+    },
+    {
+     "class": "section_partner-join",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 384,
+     "headings": [
+      "Join the Zluri Ascend Alliance Partner Program"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "partners-portal",
+   "url": "https://www.zluri.com/partners/partner-portal",
+   "title": "🐴 Partner Portal | Zluri",
+   "file": "references/website/full-pages/partners-portal.jpg",
+   "sections": [
+    {
+     "class": "section_portal_hero",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 810,
+     "headings": [
+      "Zluri Partner Portal"
+     ]
+    },
+    {
+     "class": "section_portal_banner",
+     "bg": "rgb(22, 20, 17)",
+     "h": 312,
+     "headings": [
+      "Need access to the Partner Portal?"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "partners-register-deal",
+   "url": "https://www.zluri.com/partners/activate-a-deal",
+   "title": "🐴 Activate a Deal | Zluri",
+   "file": "references/website/full-pages/partners-register-deal.jpg",
+   "sections": [
+    {
+     "class": "section_partner_hero",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 740,
+     "headings": [
+      "Register a Deal with Zluri"
+     ]
+    },
+    {
+     "class": "section_partner_forms",
+     "bg": "rgb(251, 249, 246)",
+     "h": 160,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "platform-iris",
+   "url": "https://www.zluri.com/products/identity-risk-intelligence-system",
+   "title": "🐴 Identity Risk Intelligence System (IRIS) | Zluri",
+   "file": "references/website/full-pages/platform-iris.jpg",
+   "sections": [
+    {
+     "class": "section_home_foundation",
+     "bg": "rgb(9, 9, 9)",
+     "h": 1148,
+     "headings": [
+      "The Intelligence Layer for Identity Security"
+     ]
+    },
+    {
+     "class": "section_iris_hiw",
+     "bg": "rgb(22, 20, 17)",
+     "h": 1846,
+     "headings": [
+      "The Identity Intelligence Engine",
+      "Intelligence and Decisioning",
+      "Normalize and Canonicalize"
+     ]
+    },
+    {
+     "class": "section_ivip_use",
+     "bg": "rgb(251, 249, 246)",
+     "h": 830,
+     "headings": [
+      "IRIS Strengthens Identity Security Outcomes",
+      "Complete Identity Visibility",
+      "Clear Access Context"
+     ]
+    },
+    {
+     "class": "start-automating-section",
+     "bg": "rgb(0, 0, 0)",
+     "h": 445,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 1010,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "platform-uic",
+   "url": "https://www.zluri.com/products/universal-identity-connector",
+   "title": "🐴 Universal Identity Connector (UIC) | Zluri",
+   "file": "references/website/full-pages/platform-uic.jpg",
+   "sections": [
+    {
+     "class": "section_uic_hero",
+     "bg": "rgb(22, 20, 17)",
+     "h": 1023,
+     "headings": [
+      "Enforce Identity Security Across Every System"
+     ]
+    },
+    {
+     "class": "section_uic_challenge",
+     "bg": "rgb(251, 249, 246)",
+     "h": 1149,
+     "headings": [
+      "Why Identity Security Breaks in Hybrid Environments",
+      "Manual provisioning and deprovisioning",
+      "Orphaned accounts after employee departures"
+     ]
+    },
+    {
+     "class": "section_uic_capability",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 352,
+     "headings": [
+      "Identity Security Needs an Execution Layer"
+     ]
+    },
+    {
+     "class": "section_uic_connect",
+     "bg": "rgb(0, 0, 0)",
+     "h": 2823,
+     "headings": [
+      "Connect and Govern Any System",
+      "Directory Integration",
+      "Enterprise Connectors"
+     ]
+    },
+    {
+     "class": "section_uic_use_cases",
+     "bg": "rgb(251, 249, 246)",
+     "h": 814,
+     "headings": [
+      "Extend Identity Security Across Enterprise Infrastructure",
+      "ERP Platforms",
+      "Internal Applications"
+     ]
+    },
+    {
+     "class": "section_uic_integrations",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 421,
+     "headings": [
+      "Enforce Identity Security in Weeks, Not Quarters",
+      "Standard integrations",
+      "2-4 weeks"
+     ]
+    },
+    {
+     "class": "section_cta_dark_v2",
+     "bg": "rgb(22, 20, 17)",
+     "h": 380,
+     "headings": [
+      "Bring Every System Under Identity Security"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "product-access-management",
+   "url": "https://www.zluri.com/access-management",
+   "title": "🐴 User Access Management | Zluri",
+   "file": "references/website/full-pages/product-access-management.jpg",
+   "sections": [
+    {
+     "class": "saas-hero",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1023,
+     "headings": [
+      "Unified access management for the modern enterprise"
+     ]
+    },
+    {
+     "class": "saas-content-box",
+     "bg": "rgb(251, 249, 246)",
+     "h": 418,
+     "headings": [
+      "Access management is fragmented and inefficient"
+     ]
+    },
+    {
+     "class": "bussiness-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 554,
+     "headings": [
+      "Achieve tangible business outcomes",
+      "Boost IT productivity",
+      "Enhance employee experience"
+     ]
+    },
+    {
+     "class": "saas-image-box-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2720,
+     "headings": [
+      "Simplify access provisioning for every user",
+      "Complete and secure user deprovisioning for all apps",
+      "Reduce security risks with time-bound access controls"
+     ]
+    },
+    {
+     "class": "accordian-dark-box",
+     "bg": "rgb(22, 20, 17)",
+     "h": 880,
+     "headings": []
+    },
+    {
+     "class": "sass-product-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 957,
+     "headings": [
+      "Discover your ROI with Zluri",
+      "Zluri Named in the Gartner® Report:",
+      "Access Reviews"
+     ]
+    },
+    {
+     "class": "cta-box",
+     "bg": "rgb(251, 249, 246)",
+     "h": 444,
+     "headings": [
+      "Streamline access management for all your identities with Zluri"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "product-access-requests",
+   "url": "https://www.zluri.com/solutions/access-requests",
+   "title": "🐴 Self-Service Access Requests | Zluri",
+   "file": "references/website/full-pages/product-access-requests.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 679,
+     "headings": [
+      "Balance Security with Productivity"
+     ]
+    },
+    {
+     "class": "modernize-access-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1542,
+     "headings": []
+    },
+    {
+     "class": "every-team-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 399,
+     "headings": []
+    },
+    {
+     "class": "text-scroll-animtion-section",
+     "bg": "rgb(255, 255, 255)",
+     "h": 571,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section",
+     "bg": "rgb(0, 0, 0)",
+     "h": 380,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "product-access-reviews",
+   "url": "https://www.zluri.com/access-reviews",
+   "title": "🐴 User Access Reviews | Zluri",
+   "file": "references/website/full-pages/product-access-reviews.jpg",
+   "sections": [
+    {
+     "class": "saas-hero",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1023,
+     "headings": [
+      "Stay audit-ready with automated user access reviews"
+     ]
+    },
+    {
+     "class": "saas-content-box",
+     "bg": "rgb(251, 249, 246)",
+     "h": 418,
+     "headings": [
+      "Spreadsheets & manual reviews are slowing down audits"
+     ]
+    },
+    {
+     "class": "bussiness-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 554,
+     "headings": [
+      "Achieve tangible business outcomes",
+      "Cut down Audit Workloads",
+      "Reduce Identity Risks"
+     ]
+    },
+    {
+     "class": "saas-image-box-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 3814,
+     "headings": [
+      "Get complete access visibility",
+      "Accelerate access reviews with complete automation",
+      "Prioritize high-risk accounts with AI insights"
+     ]
+    },
+    {
+     "class": "accordian-dark-box",
+     "bg": "rgb(22, 20, 17)",
+     "h": 880,
+     "headings": []
+    },
+    {
+     "class": "sass-product-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 957,
+     "headings": [
+      "Discover your ROI with Zluri",
+      "The State of Access Reviews in 2024",
+      "Access Management"
+     ]
+    },
+    {
+     "class": "cta-box",
+     "bg": "rgb(251, 249, 246)",
+     "h": 444,
+     "headings": [
+      "Automate user access reviews for all your compliances with Zluri"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "product-ispm",
+   "url": "https://www.zluri.com/products/identity-security-posture-management",
+   "title": "🐴 Identity Security Posture Management | Zluri",
+   "file": "references/website/full-pages/product-ispm.jpg",
+   "sections": [
+    {
+     "class": "saas-hero",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1023,
+     "headings": [
+      "Find Every Identity Risk Before Attackers Do"
+     ]
+    },
+    {
+     "class": "section_sod-challenge",
+     "bg": "rgb(251, 249, 246)",
+     "h": 1166,
+     "headings": [
+      "Identity Risk Changes Faster Than Access Reviews",
+      "Fragmented visibility",
+      "Exploding non-human identities"
+     ]
+    },
+    {
+     "class": "section_sod-capabilities",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2634,
+     "headings": [
+      "Identity Security That Runs Continuously",
+      "Discover Every Identity",
+      "Prioritize the Risks That Matter"
+     ]
+    },
+    {
+     "class": "section_ispm_foundation",
+     "bg": "rgb(22, 20, 17)",
+     "h": 790,
+     "headings": [
+      "IRIS — The Identity Intelligence Layer"
+     ]
+    },
+    {
+     "class": "section_ivip_use",
+     "bg": "rgb(251, 249, 246)",
+     "h": 833,
+     "headings": [
+      "From Passive Risk Monitoring to Proactive Identity Defenses",
+      "Enforce Least Privilege",
+      "Secure Non-Human Identities"
+     ]
+    },
+    {
+     "class": "section_ilm_caps",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1206,
+     "headings": [
+      "Most ISPM Tools Detect Identity Risk. Zluri Detects and Fixes It.",
+      "Capability",
+      "Traditional IGA"
+     ]
+    },
+    {
+     "class": "section_ipsm_tag",
+     "bg": "rgb(22, 20, 17)",
+     "h": 362,
+     "headings": [
+      "Proof of Value",
+      "10x",
+      "Weeks"
+     ]
+    },
+    {
+     "class": "section_faq",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 742,
+     "headings": [
+      "Frequently Asked Questions"
+     ]
+    },
+    {
+     "class": "start-automating-section",
+     "bg": "rgb(0, 0, 0)",
+     "h": 388,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 1010,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "product-ivip",
+   "url": "https://www.zluri.com/products/identity-visibility-and-intelligence",
+   "title": "🐴 Identity Visibility and Intelligence (IVIP) | Zluri",
+   "file": "references/website/full-pages/product-ivip.jpg",
+   "sections": [
+    {
+     "class": "saas-hero",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1023,
+     "headings": [
+      "See Identities. Understand Access. Control Risks."
+     ]
+    },
+    {
+     "class": "section_igp_stats",
+     "bg": "rgb(22, 20, 17)",
+     "h": 110,
+     "headings": []
+    },
+    {
+     "class": "section_sod-challenge",
+     "bg": "rgb(251, 249, 246)",
+     "h": 1142,
+     "headings": [
+      "You Can’t Secure What You Can’t See",
+      "Identity now includes humans, machines, and AI agents",
+      "Non-human identities lack ownership"
+     ]
+    },
+    {
+     "class": "section_sod-capabilities",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2663,
+     "headings": [
+      "What Makes IVIP Best-in-Class: Granular Visibility. Continuous Intelligence. Instant Action.",
+      "Discover Every Identity. Everywhere.",
+      "See How Every Identity Connects"
+     ]
+    },
+    {
+     "class": "section_ivip_hiw",
+     "bg": "rgb(0, 0, 2)",
+     "h": 386,
+     "headings": [
+      "The IVIP Architecture"
+     ]
+    },
+    {
+     "class": "section_ivip_use",
+     "bg": "rgb(251, 249, 246)",
+     "h": 796,
+     "headings": [
+      "Every Identity Team. One Platform.",
+      "Security Leaders",
+      "IT and Access Teams"
+     ]
+    },
+    {
+     "class": "section_ilm_caps",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1149,
+     "headings": [
+      "Built for Modern Identity Complexity",
+      "Capability",
+      "Traditional IGA"
+     ]
+    },
+    {
+     "class": "section_ivip_proof",
+     "bg": "rgb(251, 249, 246)",
+     "h": 520,
+     "headings": [
+      "Proof of Value"
+     ]
+    },
+    {
+     "class": "start-automating-section",
+     "bg": "rgb(0, 0, 0)",
+     "h": 445,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 1010,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "product-nhi",
+   "url": "https://www.zluri.com/identity-visibility-for-non-human-identities",
+   "title": "🐴 Identity Visibility for Non-Human Identities",
+   "file": "references/website/full-pages/product-nhi.jpg",
+   "sections": [
+    {
+     "class": "section_nhi_hero",
+     "bg": "rgb(22, 20, 17)",
+     "h": 806,
+     "headings": [
+      "Non-Human Identities Are Running Your Apps. Most Are Invisible."
+     ]
+    },
+    {
+     "class": "section_nhi_logos",
+     "bg": "rgb(22, 20, 17)",
+     "h": 166,
+     "headings": []
+    },
+    {
+     "class": "section_nhi_use",
+     "bg": "rgb(251, 249, 246)",
+     "h": 706,
+     "headings": [
+      "Unknown Identities, Unknown Risk.",
+      "You can't see them.",
+      "You can't rank them."
+     ]
+    },
+    {
+     "class": "section_sod-capabilities",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1816,
+     "headings": [
+      "Every Non-Human Identity, Found, Ranked by Risk, and Owned.",
+      "Find every NHI",
+      "Prioritize the risky ones."
+     ]
+    },
+    {
+     "class": "section_nhi_use",
+     "bg": "rgb(251, 249, 246)",
+     "h": 783,
+     "headings": [
+      "NHI Security, Built on the Platform That Already Knows Your Apps.",
+      "One fabric for human and non-human identity",
+      "Discovery through the apps you already connect"
+     ]
+    },
+    {
+     "class": "section_nhi_use",
+     "bg": "rgb(251, 249, 246)",
+     "h": 644,
+     "headings": [
+      "One NHI View for Every Identity Team.",
+      "Security Leaders",
+      "IT and IAM teams"
+     ]
+    },
+    {
+     "class": "section_ilm_caps",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1039,
+     "headings": [
+      "Built for the Non-Human Identity Blind Spot",
+      "Capability",
+      "Other NHI Tools"
+     ]
+    },
+    {
+     "class": "section_cta_dark_v2",
+     "bg": "rgb(22, 20, 17)",
+     "h": 423,
+     "headings": [
+      "See What Is Hiding Inside Your Critical Applications"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "product-smp",
+   "url": "https://www.zluri.com/saas-management",
+   "title": "🐴 SaaS Management | Zluri",
+   "file": "references/website/full-pages/product-smp.jpg",
+   "sections": [
+    {
+     "class": "saas-hero-3",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1023,
+     "headings": [
+      "Discover, manage, and optimize your entire SaaS ecosystem"
+     ]
+    },
+    {
+     "class": "saas-content-box",
+     "bg": "rgb(251, 249, 246)",
+     "h": 418,
+     "headings": [
+      "Application sprawl threatens security and inflates budgets"
+     ]
+    },
+    {
+     "class": "bussiness-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 554,
+     "headings": [
+      "Achieve tangible business outcomes",
+      "Gain complete SaaS visibility",
+      "Detect Shadow IT apps"
+     ]
+    },
+    {
+     "class": "saas-image-box-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 3380,
+     "headings": [
+      "360° visibility into your SaaS stack",
+      "Eliminate Shadow IT risks",
+      "Bring Gen AI apps under governance"
+     ]
+    },
+    {
+     "class": "accordian-dark-box",
+     "bg": "rgb(22, 20, 17)",
+     "h": 880,
+     "headings": []
+    },
+    {
+     "class": "sass-product-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 683,
+     "headings": [
+      "Discover your ROI with Zluri",
+      "Access Management",
+      "Access Reviews"
+     ]
+    },
+    {
+     "class": "cta-box",
+     "bg": "rgb(251, 249, 246)",
+     "h": 444,
+     "headings": [
+      "Discover, manage and optimize your entire SaaS stack with Zluri"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "product-sod",
+   "url": "https://www.zluri.com/products/segregation-of-duties",
+   "title": "🐴 Segregation of Duties (SoD) | Zluri",
+   "file": "references/website/full-pages/product-sod.jpg",
+   "sections": [
+    {
+     "class": "saas-hero",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1023,
+     "headings": [
+      "Detect & Remediate Toxic Access with Automated SoD Controls"
+     ]
+    },
+    {
+     "class": "section_sod-challenge",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1169,
+     "headings": [
+      "Your SoD controls weren't designed for modern application environments",
+      "Policies live in spreadsheets",
+      "Visibility is periodic, not continuous"
+     ]
+    },
+    {
+     "class": "accordian-dark-box",
+     "bg": "rgb(22, 20, 17)",
+     "h": 934,
+     "headings": []
+    },
+    {
+     "class": "section_sod-capabilities",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 3610,
+     "headings": [
+      "The complete SoD lifecycle, from policy to proof",
+      "Catch drift the moment it happens, in near real time, not months later",
+      "Enforce SoD across every identity, in any application, including custom ones"
+     ]
+    },
+    {
+     "class": "section_use-cases",
+     "bg": "rgb(2, 2, 2)",
+     "h": 1082,
+     "headings": [
+      "SoD controls across every risk domain, not just finance",
+      "Financial Controls",
+      "HR & Payroll"
+     ]
+    },
+    {
+     "class": "section_ilm_caps",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1388,
+     "headings": [
+      "SoD enforcement built for modern access environments",
+      "Capability",
+      "Legacy IGA / Point Solutions"
+     ]
+    },
+    {
+     "class": "section_compliance",
+     "bg": "rgb(22, 20, 17)",
+     "h": 634,
+     "headings": [
+      "Policies mapped to the frameworks your auditors require",
+      "SOX",
+      "SOC 2"
+     ]
+    },
+    {
+     "class": "section_cta",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 352,
+     "headings": [
+      "Take control of SoD across every application"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 1010,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "regulation-hipaa",
+   "url": "https://www.zluri.com/hipaa",
+   "title": "🐴 Ensure HIPAA Compliance with Zluri’s Unified IGA Platform",
+   "file": "references/website/full-pages/regulation-hipaa.jpg",
+   "sections": [
+    {
+     "class": "hero-access-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 652,
+     "headings": [
+      "Automate access controls and stay HIPAA compliant"
+     ]
+    },
+    {
+     "class": "section_igp_stats",
+     "bg": "rgb(22, 20, 17)",
+     "h": 145,
+     "headings": []
+    },
+    {
+     "class": "the-compliance-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 628,
+     "headings": []
+    },
+    {
+     "class": "experience-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 534,
+     "headings": []
+    },
+    {
+     "class": "next-gen-iga-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 942,
+     "headings": []
+    },
+    {
+     "class": "slider-section",
+     "bg": "rgb(255, 255, 255)",
+     "h": 650,
+     "headings": []
+    },
+    {
+     "class": "soc-2-requirements-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2059,
+     "headings": []
+    },
+    {
+     "class": "organization-achieve-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 436,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section-new-3",
+     "bg": "rgb(251, 249, 246)",
+     "h": 380,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "regulation-iso27001",
+   "url": "https://www.zluri.com/iso",
+   "title": "🐴 Streamline ISO 27001 Audits with Zluri’s IGA Platform",
+   "file": "references/website/full-pages/regulation-iso27001.jpg",
+   "sections": [
+    {
+     "class": "hero-access-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 652,
+     "headings": [
+      "Automate access controls and stay ISO 27001 compliant"
+     ]
+    },
+    {
+     "class": "section_igp_stats",
+     "bg": "rgb(22, 20, 17)",
+     "h": 145,
+     "headings": []
+    },
+    {
+     "class": "the-compliance-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 628,
+     "headings": []
+    },
+    {
+     "class": "experience-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 486,
+     "headings": []
+    },
+    {
+     "class": "next-gen-iga-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 942,
+     "headings": []
+    },
+    {
+     "class": "slider-section",
+     "bg": "rgb(255, 255, 255)",
+     "h": 650,
+     "headings": []
+    },
+    {
+     "class": "soc-2-requirements-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1999,
+     "headings": []
+    },
+    {
+     "class": "organization-achieve-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 436,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section-new-3",
+     "bg": "rgb(251, 249, 246)",
+     "h": 380,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "regulation-pci-dss",
+   "url": "https://www.zluri.com/pci-dss",
+   "title": "🐴 Zluri for PCI DSS: Control Cardholder Access",
+   "file": "references/website/full-pages/regulation-pci-dss.jpg",
+   "sections": [
+    {
+     "class": "hero-access-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 652,
+     "headings": [
+      "Automate access controls and stay PCI DSS compliant"
+     ]
+    },
+    {
+     "class": "section_igp_stats",
+     "bg": "rgb(22, 20, 17)",
+     "h": 145,
+     "headings": []
+    },
+    {
+     "class": "the-compliance-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 628,
+     "headings": []
+    },
+    {
+     "class": "experience-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 534,
+     "headings": []
+    },
+    {
+     "class": "next-gen-iga-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 942,
+     "headings": []
+    },
+    {
+     "class": "slider-section",
+     "bg": "rgb(255, 255, 255)",
+     "h": 650,
+     "headings": []
+    },
+    {
+     "class": "soc-2-requirements-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2059,
+     "headings": []
+    },
+    {
+     "class": "organization-achieve-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 436,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section-new-3",
+     "bg": "rgb(251, 249, 246)",
+     "h": 380,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "regulation-soc2",
+   "url": "https://www.zluri.com/soc",
+   "title": "🐴 Simplify SOC 2 Compliance with Zluri’s IGA Platform",
+   "file": "references/website/full-pages/regulation-soc2.jpg",
+   "sections": [
+    {
+     "class": "hero-access-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 652,
+     "headings": [
+      "Automate access controls and stay SOC 2 compliant"
+     ]
+    },
+    {
+     "class": "section_igp_stats",
+     "bg": "rgb(22, 20, 17)",
+     "h": 145,
+     "headings": []
+    },
+    {
+     "class": "the-compliance-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 628,
+     "headings": []
+    },
+    {
+     "class": "experience-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 534,
+     "headings": []
+    },
+    {
+     "class": "next-gen-iga-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 942,
+     "headings": []
+    },
+    {
+     "class": "slider-section",
+     "bg": "rgb(255, 255, 255)",
+     "h": 650,
+     "headings": []
+    },
+    {
+     "class": "soc-2-requirements-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2059,
+     "headings": []
+    },
+    {
+     "class": "organization-achieve-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 436,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section-new-3",
+     "bg": "rgb(251, 249, 246)",
+     "h": 380,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "regulation-sox-itgc",
+   "url": "https://www.zluri.com/sox-itgc",
+   "title": "🐴 Automate SOX ITGC Controls with Zluri’s Unified IGA Platform",
+   "file": "references/website/full-pages/regulation-sox-itgc.jpg",
+   "sections": [
+    {
+     "class": "hero-access-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 652,
+     "headings": [
+      "Automate access controls and stay SOX ITGC compliant"
+     ]
+    },
+    {
+     "class": "section_igp_stats",
+     "bg": "rgb(22, 20, 17)",
+     "h": 145,
+     "headings": []
+    },
+    {
+     "class": "the-compliance-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 628,
+     "headings": []
+    },
+    {
+     "class": "experience-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 534,
+     "headings": []
+    },
+    {
+     "class": "next-gen-iga-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 942,
+     "headings": []
+    },
+    {
+     "class": "slider-section",
+     "bg": "rgb(255, 255, 255)",
+     "h": 650,
+     "headings": []
+    },
+    {
+     "class": "soc-2-requirements-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1989,
+     "headings": []
+    },
+    {
+     "class": "organization-achieve-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 436,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section-new-3",
+     "bg": "rgb(251, 249, 246)",
+     "h": 380,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "resources-academy",
+   "url": "https://www.zluri.com/get-demo",
+   "title": "🐴 See Zluri in action",
+   "file": "references/website/full-pages/resources-academy.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 563,
+     "headings": [
+      "See Zluri in action!"
+     ]
+    },
+    {
+     "class": "testimonials-demo-page-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 123,
+     "headings": []
+    },
+    {
+     "class": "slider-section-1",
+     "bg": "rgb(251, 249, 246)",
+     "h": 600,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "resources-blog",
+   "url": "https://www.zluri.com/blog?all=All",
+   "title": "🐴 Blogs | Zluri",
+   "file": "references/website/full-pages/resources-blog.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 410,
+     "headings": [
+      "Zluri Blog"
+     ]
+    },
+    {
+     "class": "text-and-image-grid-section-new-1",
+     "bg": "rgb(255, 255, 255)",
+     "h": 638,
+     "headings": [
+      "Editor’s pick"
+     ]
+    },
+    {
+     "class": "product-section-new-2",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2966,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "resources-eye-on-identity",
+   "url": "https://www.zluri.com/eye-on-identity?all=All",
+   "title": "🐴 Eye on Identity | IGA & Access Management Q&A by Zluri",
+   "file": "references/website/full-pages/resources-eye-on-identity.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 559,
+     "headings": [
+      "Eye on Identity - Real Questions, Practitioner Answers"
+     ]
+    },
+    {
+     "class": "product-section-new-2",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 3999,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "resources-state-of-ai",
+   "url": "https://www.zluri.com/state-of-ai-in-the-workplace-2025-report",
+   "title": "🐴 The State of AI in the Workplace 2025 Report",
+   "file": "references/website/full-pages/resources-state-of-ai.jpg",
+   "sections": [
+    {
+     "class": "section_ai_hero",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1023,
+     "headings": [
+      "The State of AI in the Workplace 2025"
+     ]
+    },
+    {
+     "class": "padding-global",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 495,
+     "headings": [
+      "The State of AI in the Workplace 2025"
+     ]
+    },
+    {
+     "class": "section_ai_stats",
+     "bg": "rgb(2, 2, 2)",
+     "h": 1098,
+     "headings": [
+      "AI Adoption Grows, But Oversight Lags Behind",
+      "160+ ‍Organizations",
+      "400K+ Users"
+     ]
+    },
+    {
+     "class": "section_ai_ceo_note",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 756,
+     "headings": [
+      "The Co-Founder and CEO of Zluri emphasizes,"
+     ]
+    },
+    {
+     "class": "section_ai_g2",
+     "bg": "rgb(20, 20, 20)",
+     "h": 538,
+     "headings": [
+      "This new report from Zluri, powered in part by G2’s Data, provides a real-world view into how AI is transforming business operations"
+     ]
+    },
+    {
+     "class": "section_ai_inside",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 937,
+     "headings": [
+      "What’s inside",
+      "The 2025 AI Leaderboard",
+      "Category Leaders: Top AI Apps by Use Case"
+     ]
+    },
+    {
+     "class": "section_wrap",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 14058,
+     "headings": [
+      "The 2025 AI Leaderboard",
+      "Rising Stars: AI Tools Climbing the Charts",
+      "Category Leaders: Top AI Apps by Use Case"
+     ]
+    },
+    {
+     "class": "section_ai_lb",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2196,
+     "headings": [
+      "The 2025 AI Leaderboard"
+     ]
+    },
+    {
+     "class": "section_ai_rising_stars",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1059,
+     "headings": [
+      "Rising Stars: AI Tools Climbing the Charts"
+     ]
+    },
+    {
+     "class": "section_ai_cat_lead",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2524,
+     "headings": [
+      "Category Leaders: Top AI Apps by Use Case",
+      "AI Chatbots",
+      "ChatGPT"
+     ]
+    },
+    {
+     "class": "section_ai_departments",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 922,
+     "headings": [
+      "How Different Departments Use AI",
+      "Product & Engineering",
+      "200+"
+     ]
+    },
+    {
+     "class": "section_ai_cost",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1601,
+     "headings": [
+      "The Hidden Cost of AI: Governance Gaps and Risk Hotspots",
+      "Limited Visibility",
+      "Unauthorized AI Usage"
+     ]
+    },
+    {
+     "class": "text-scroll-animtion-section",
+     "bg": "rgb(255, 255, 255)",
+     "h": 770,
+     "headings": []
+    },
+    {
+     "class": "section_ai_2_col",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2156,
+     "headings": [
+      "Zluri’s End-to-End AI Governance Approach",
+      "100% AI App Visibility",
+      "Instant Risk Alerts"
+     ]
+    },
+    {
+     "class": "authors-main-slider-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 690,
+     "headings": []
+    },
+    {
+     "class": "section_ai_2_col",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 2139,
+     "headings": [
+      "Advanced Controls",
+      "Real-time Data Protection Controls",
+      "Robust Policy Enforcement"
+     ]
+    },
+    {
+     "class": "section_wrap",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1812,
+     "headings": [
+      "YOU CAN’T SECURE WHAT YOU CAN’T SEE",
+      "Shadow AI is bigger, riskier, and more pervasive than shadow IT ever was. This report reveals what is in use, the risks it poses, and how to respond with insigh"
+     ]
+    },
+    {
+     "class": "section_ai_cta",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 802,
+     "headings": [
+      "YOU CAN’T SECURE WHAT YOU CAN’T SEE",
+      "Shadow AI is bigger, riskier, and more pervasive than shadow IT ever was. This report reveals what is in use, the risks it poses, and how to respond with insigh"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 1010,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "resources-webinars",
+   "url": "https://www.zluri.com/webinars",
+   "title": "🐴 Webinars | Zluri",
+   "file": "references/website/full-pages/resources-webinars.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 410,
+     "headings": [
+      "Zluri Webinars"
+     ]
+    },
+    {
+     "class": "events-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 547,
+     "headings": []
+    },
+    {
+     "class": "webinar-list-1",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1330,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section",
+     "bg": "rgb(0, 0, 0)",
+     "h": 380,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "resources-whitepapers",
+   "url": "https://www.zluri.com/whitepapers",
+   "title": "🐴 Whitepapers | Zluri",
+   "file": "references/website/full-pages/resources-whitepapers.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 460,
+     "headings": [
+      "Zluri White Papers"
+     ]
+    },
+    {
+     "class": "webinar-list-new-1",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 3878,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section-new-1",
+     "bg": "rgb(0, 0, 0)",
+     "h": 380,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "solution-ai-apps",
+   "url": "https://www.zluri.com/solutions/monitor-ai-apps",
+   "title": "🐴 Monitor AI Apps | Zluri",
+   "file": "references/website/full-pages/solution-ai-apps.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 633,
+     "headings": [
+      "AI Adoption is Rising, So are the Risks"
+     ]
+    },
+    {
+     "class": "start-automating-section-new-2",
+     "bg": "rgb(251, 249, 246)",
+     "h": 333,
+     "headings": []
+    },
+    {
+     "class": "modernize-access-section-new-1",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 882,
+     "headings": []
+    },
+    {
+     "class": "authors-main-slider-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 690,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section-new-3",
+     "bg": "rgb(22, 20, 17)",
+     "h": 288,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "solution-identity-app-visibility",
+   "url": "https://www.zluri.com/solutions/identity-and-application-visibility",
+   "title": "🐴 Identity & Application Visibility | Zluri",
+   "file": "references/website/full-pages/solution-identity-app-visibility.jpg",
+   "sections": [
+    {
+     "class": "hero-access-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 633,
+     "headings": [
+      "Eliminate Access Blindspots"
+     ]
+    },
+    {
+     "class": "i--animation-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 867,
+     "headings": []
+    },
+    {
+     "class": "all-section-animation",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 3014,
+     "headings": []
+    },
+    {
+     "class": "image-section-box",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 580,
+     "headings": []
+    },
+    {
+     "class": "image-section-box",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 580,
+     "headings": []
+    },
+    {
+     "class": "image-section-box",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 580,
+     "headings": []
+    },
+    {
+     "class": "i-card-box-section-3",
+     "bg": "rgb(251, 249, 246)",
+     "h": 567,
+     "headings": []
+    },
+    {
+     "class": "i-slide-section-1",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 430,
+     "headings": []
+    },
+    {
+     "class": "text-scroll-animtion-section",
+     "bg": "rgb(255, 255, 255)",
+     "h": 620,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section-new-4",
+     "bg": "rgb(22, 20, 17)",
+     "h": 286,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "solution-lifecycle",
+   "url": "https://www.zluri.com/solutions/identity-lifecycle-management",
+   "title": "🐴 Identity Lifecycle Management | Zluri",
+   "file": "references/website/full-pages/solution-lifecycle.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 656,
+     "headings": [
+      "Automate Identity Lifecycle Management"
+     ]
+    },
+    {
+     "class": "modernize-access-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1604,
+     "headings": []
+    },
+    {
+     "class": "every-team-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 372,
+     "headings": []
+    },
+    {
+     "class": "text-scroll-animtion-section",
+     "bg": "rgb(255, 255, 255)",
+     "h": 523,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 429,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "solution-shadow-it",
+   "url": "https://www.zluri.com/solutions/monitor-shadow-it",
+   "title": "🐴 Monitor Shadow IT | Zluri",
+   "file": "references/website/full-pages/solution-shadow-it.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 702,
+     "headings": [
+      "Bring Shadow IT into the Spotlight"
+     ]
+    },
+    {
+     "class": "modernize-access-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 858,
+     "headings": []
+    },
+    {
+     "class": "slider-section-new-1",
+     "bg": "rgb(251, 249, 246)",
+     "h": 560,
+     "headings": []
+    },
+    {
+     "class": "start-automating-section",
+     "bg": "rgb(0, 0, 0)",
+     "h": 380,
+     "headings": []
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "why-customer-stories",
+   "url": "https://www.zluri.com/case-studies",
+   "title": "🐴 Customer Stories | Zluri",
+   "file": "references/website/full-pages/why-customer-stories.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 541,
+     "headings": [
+      "Customer Stories"
+     ]
+    },
+    {
+     "class": "every-team-section",
+     "bg": "rgb(22, 20, 17)",
+     "h": 503,
+     "headings": []
+    },
+    {
+     "class": "case-study-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1078,
+     "headings": []
+    },
+    {
+     "class": "slider-section",
+     "bg": "rgb(251, 249, 246)",
+     "h": 650,
+     "headings": []
+    },
+    {
+     "class": "cta-box",
+     "bg": "rgb(22, 20, 17)",
+     "h": 439,
+     "headings": [
+      "Looking for similar results? Try Zluri’s Next-Gen IGA Platform"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "why-product-tours",
+   "url": "https://www.zluri.com/product-tours?all=All",
+   "title": "🐴 Explore Zluri | Product Tours",
+   "file": "references/website/full-pages/why-product-tours.jpg",
+   "sections": [
+    {
+     "class": "hero-new-block",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 450,
+     "headings": [
+      "Zluri Product Tours"
+     ]
+    },
+    {
+     "class": "product-tours-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1154,
+     "headings": [
+      "Access Requests on Slack",
+      "Access Requests on Zluri",
+      "Asana Access Reviews"
+     ]
+    },
+    {
+     "class": "cta-section-1",
+     "bg": "rgb(0, 0, 0)",
+     "h": 322,
+     "headings": [
+      "Take the First Step Towards Effortless Access Control"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  },
+  {
+   "slug": "why-roi-calculator",
+   "url": "https://www.zluri.com/return-on-investment-calculator",
+   "title": "🐴 ROI Calculator | Zluri",
+   "file": "references/website/full-pages/why-roi-calculator.jpg",
+   "sections": [
+    {
+     "class": "roi-banner-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 338,
+     "headings": [
+      "You get 13x ROI with Zluri in a year"
+     ]
+    },
+    {
+     "class": "roi-fields-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 643,
+     "headings": [
+      "Company Profile",
+      "Cost Saved",
+      "Time Saved"
+     ]
+    },
+    {
+     "class": "roi-details-section",
+     "bg": "rgba(0, 0, 0, 0)",
+     "h": 1178,
+     "headings": [
+      "Access Management",
+      "Cost Saved",
+      "Time Saved"
+     ]
+    },
+    {
+     "class": "new-footer",
+     "bg": "rgb(42, 41, 36)",
+     "h": 988,
+     "headings": []
+    }
+   ]
+  }
+ ]
+}

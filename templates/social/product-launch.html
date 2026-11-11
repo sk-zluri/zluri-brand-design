@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zluri · Product launch post</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens.css">
+<link rel="stylesheet" href="../zluri.css">
+<style>
+  .launch .url { font: 300 calc(var(--zluri-u) * 1.68)/1 var(--font-body); color: var(--muted); }
+  .launch .copy { position: absolute; left: calc(var(--zluri-u) * 5.1); top: calc(var(--zluri-u) * 12.6); width: 43%; }
+  .launch h1 { font: 400 calc(var(--zluri-u) * 5.39)/1.16 var(--font-display); letter-spacing: -0.06em; margin: 0; }
+  .launch .sub { font: 300 calc(var(--zluri-u) * 1.94)/1.2 var(--font-body); color: var(--muted); margin-top: calc(var(--zluri-u) * 2); }
+  .launch .device { left: 49.2%; top: 17.4%; width: 46.3%; aspect-ratio: 887/1158; padding: calc(var(--zluri-u) * 3.9) calc(var(--zluri-u) * 3.9) 0; }
+  .launch .device .ui { --k: calc(var(--zluri-u) * 1.3); }
+  .sq .copy { top: calc(var(--zluri-u) * 16.5); width: 78%; left: calc(var(--zluri-u) * 6); }
+  .sq h1 { font-size: calc(var(--zluri-u) * 7.4); }
+  .sq .sub { font-size: calc(var(--zluri-u) * 2.6); }
+  .sq .device { left: 12%; top: 54%; width: 76%; aspect-ratio: 1.15; }
+  .setbox { background: rgba(255,0,0,.06); border-radius: calc(var(--k) * .5); padding: calc(var(--k) * 1); margin-top: calc(var(--k) * 1.2); }
+  .setbox .two { display: grid; grid-template-columns: 1.3fr 1fr; gap: calc(var(--k) * .7); margin-top: calc(var(--k) * .8); }
+  .setbox .cell { background: #fff; border-radius: calc(var(--k) * .4); padding: calc(var(--k) * .7); font: 400 calc(var(--k) * 1.05)/1.2 var(--font-body); }
+  .setbox .cell small { display: block; font: 500 calc(var(--k) * .62)/1 var(--font-body); letter-spacing: .06em; color: #7763c7; margin-bottom: .5em; }
+  .setbox .cell.perm small { color: #e89604; }
+  .trip { display: grid; grid-template-columns: 1fr 1.6fr 1.2fr; gap: calc(var(--k) * 1); margin-top: calc(var(--k) * 1.3); }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <figure>
+    <div class="artboard c-pure launch glow-launch grain" style="--w:1915px; --h:1088px">
+      <div class="layer"></div>
+      <img class="logo abs" style="left:calc(var(--zluri-u)*5.1); top:calc(var(--zluri-u)*4); width:calc(var(--zluri-u)*8.4)" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+      <span class="url abs" style="right:calc(var(--zluri-u)*5.4); top:calc(var(--zluri-u)*4.8)">www.zluri.com</span>
+      <div class="copy">
+        <h1>Introducing <span class="key-vivid">Segregation of Duties (SoD)</span> in Zluri</h1>
+        <p class="sub">Toxic access combinations. Detected. Blocked. Before your next audit.</p>
+      </div>
+      <div class="device">
+        <div class="ui">
+          <h3 class="ui-title" style="font-size:calc(var(--k)*2.6)">Configuration</h3>
+          <div class="ui-val" style="font-size:calc(var(--k)*1.75)">Basics &amp; Triggers</div>
+          <div class="trip">
+            <div><div class="ui-label">Policy Name</div><div class="ui-val">Finance SoD</div></div>
+            <div><div class="ui-label">Type</div><div class="ui-val">Segregation of Duties</div></div>
+            <div><div class="ui-label">Owner</div><div class="ui-val">David Williams</div></div>
+          </div>
+          <div class="setbox"><div class="ui-val">Set A</div>
+            <div class="two"><div class="cell"><small>ROLE · SAP ERP · ACME-APAC</small>Accounts Payable Manager</div><div class="cell perm"><small>PERMISSIONS · AWS</small>Request Payment</div></div></div>
+          <div class="setbox"><div class="ui-val">Set B</div>
+            <div class="two"><div class="cell"><small>ROLE · SAP ERP · ACME-APAC</small>Accounts Payable Manager</div><div class="cell perm"><small>GROUP · OKTA</small>Approve Payment</div></div></div>
+        </div>
+      </div>
+    </div>
+    <figcaption>Product announcement 1915×1088 — black, launch glow, Satoshi Regular 103 / −6%, vivid gradient keyword, device cropped by the bottom edge</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-pure launch sq glow-launch grain" style="--w:1200px; --h:1200px">
+      <div class="layer"></div>
+      <img class="logo abs tl" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+      <span class="url abs tr" style="font-size:calc(var(--zluri-u)*2.1); top:calc(var(--zluri-u)*7)">www.zluri.com</span>
+      <div class="copy">
+        <h1>Zluri’s <span class="key-vivid">Identity Visibility and Intelligence.</span></h1>
+        <p class="sub">See every human, machine, and AI agent before attackers do.</p>
+      </div>
+      <div class="device">
+        <div class="ui" style="padding:calc(var(--zluri-u)*3.4) calc(var(--zluri-u)*3) 0; --k:calc(var(--zluri-u)*1.5)">
+          <div style="display:flex; justify-content:space-between; align-items:center"><h3 class="ui-title" style="margin:0">Identity Landscape</h3><span class="ui-chip" style="color:#8b8f92">Export Evidence</span></div>
+          <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:calc(var(--k)*1); margin:calc(var(--k)*1.4) 0">
+            <div class="ui-card ui-stat"><span class="ui-label">Total Identities</span><b>2847 <i>↗ 34</i></b></div>
+            <div class="ui-card ui-stat"><span class="ui-label">Privileged</span><b>1943 <i>↗ 28</i></b></div>
+            <div class="ui-card ui-stat"><span class="ui-label">Orphaned</span><b>127 <i>↗ 12</i></b></div>
+          </div>
+          <div class="ui-alert"><span>43 Critical Risks Detected</span><span>Review now</span></div>
+          <div class="ui-row" style="margin-top:calc(var(--k)*.8)"><span>deploybot</span><span>SVC012</span><span class="ui-chip coral">Service Account</span></div>
+          <div class="ui-row"><span>gh-token</span><span>TOK021</span><span class="ui-chip orange">API Key</span></div>
+        </div>
+      </div>
+    </div>
+    <figcaption>Square variant 1200×1200 — headline 7.4% of width, device centred and cropped</figcaption>
+  </figure>
+
+</div>
+</body>
+</html>

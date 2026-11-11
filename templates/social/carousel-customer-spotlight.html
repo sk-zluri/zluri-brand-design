@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zluri · Carousel — customer spotlight</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens.css">
+<link rel="stylesheet" href="../zluri.css">
+<style>
+  /* guidelines/04 §D3 — 784×784, #161411 card inset on white, concentric circle outlines */
+  .cs { --bg: #fefefe; --fg: #fff; --muted: #fefefe; }
+  .cs .card { position: absolute; inset: calc(var(--zluri-u) * 1.9); border-radius: calc(var(--zluri-u) * 1.5); background: #161411; overflow: hidden; z-index: 1; }
+  .cs .card i { position: absolute; border-radius: 50%; border: .6px solid #757678; opacity: .55; }
+  .cs .card i:nth-child(1) { width: 83%; aspect-ratio: 1; left: 9%; top: 22%; }
+  .cs .card i:nth-child(2) { width: 117%; aspect-ratio: 1; left: 37%; top: 20%; }
+  .cs .card i:nth-child(3) { width: 187%; aspect-ratio: 1; left: -5%; top: -28%; }
+  .cs .num { position: absolute; left: calc(var(--zluri-u) * 7.4); top: calc(var(--zluri-u) * 10.7); font: 400 calc(var(--zluri-u) * 2.55)/1 var(--font-body); }
+  .cs .logo { position: absolute; right: calc(var(--zluri-u) * 6.5); bottom: calc(var(--zluri-u) * 6.6); width: calc(var(--zluri-u) * 10); }
+  .cs h1 { font: 500 calc(var(--zluri-u) * 7.14)/1.2 var(--font-display); margin: 0; }
+  .cs p { font: 400 calc(var(--zluri-u) * 3.06)/1.2 var(--font-body); margin: 0; }
+  .cs .cover { position: absolute; left: calc(var(--zluri-u) * 7.4); right: calc(var(--zluri-u) * 7.4); top: 51.4%; }
+  .cs .cover p { margin: calc(var(--zluri-u) * 2.8) 0 calc(var(--zluri-u) * 4.6); }
+  .cs .btn-white { font-size: calc(var(--zluri-u) * 2.38); padding: calc(var(--zluri-u) * 1.3) calc(var(--zluri-u) * 1.5); }
+  .cs .stats { position: absolute; left: calc(var(--zluri-u) * 9); right: calc(var(--zluri-u) * 9); top: 18%; }
+  .cs .stats h1 { margin-bottom: calc(var(--zluri-u) * 3); }
+  .cs .stat { display: grid; grid-template-columns: 1fr 1fr; align-items: center; background: #2a2a2a; border-top: calc(var(--zluri-u) * .45) solid var(--zluri-mint-green); padding: calc(var(--zluri-u) * 3.6) calc(var(--zluri-u) * 5); margin-bottom: calc(var(--zluri-u) * 1.2); }
+  .cs .stat b { font: 500 calc(var(--zluri-u) * 6.15)/1 var(--font-display); }
+  .cs .stat span { font: 400 calc(var(--zluri-u) * 2.55)/1.2 var(--font-body); color: #e0e0e0; }
+  .cs .rows { position: absolute; left: calc(var(--zluri-u) * 9); right: calc(var(--zluri-u) * 9); top: 28%; }
+  .cs .rows h1 { margin-bottom: calc(var(--zluri-u) * 3); }
+  .cs .rowchip { display: grid; grid-template-columns: calc(var(--zluri-u) * 4) 1fr; gap: calc(var(--zluri-u) * 2.4); align-items: center; background: #2a2a2a; border-radius: calc(var(--zluri-u) * .8); padding: calc(var(--zluri-u) * 2.2) calc(var(--zluri-u) * 2); margin-bottom: calc(var(--zluri-u) * 2.3); font: 400 calc(var(--zluri-u) * 3.06)/1.2 var(--font-body); }
+  .cs .rowchip svg { width: 100%; stroke: #fff; fill: none; stroke-width: 1.5; }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <figure>
+    <div class="artboard cs" style="--w:784px; --h:784px">
+      <div class="card"><i></i><i></i><i></i></div>
+      <span class="num" style="font-size:calc(var(--zluri-u)*2.55)">www.zluri.com</span>
+      <div class="cover">
+        <h1><span class="key">Customer</span> Spotlight</h1>
+        <p>[Customer] achieved 50% faster provisioning &amp; deprovisioning while saving 150+ hours in audits.</p>
+        <span class="btn-white">Swipe to see how they did it <span class="sq">→</span></span>
+      </div>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+    </div>
+    <figcaption>Cover — “Customer Spotlight” Satoshi Medium 56, result sentence, white button with green arrow square</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard cs" style="--w:784px; --h:784px">
+      <div class="card"><i></i><i></i><i></i></div>
+      <span class="num">02</span>
+      <div class="rows">
+        <h1 class="key">Challenges</h1>
+        <div class="rowchip"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6 1 0 2 .3 2.8 .7"/><circle cx="17" cy="17" r="4"/><path d="M15.5 17h3"/></svg>Manual offboarding and tracking access changes across 300+ users spread across time zones.</div>
+        <div class="rowchip"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="10" r="2.5"/><path d="M7.5 17c1-2 2.6-3 4.5-3s3.5 1 4.5 3"/></svg>External and service accounts remained active after projects ended.</div>
+        <div class="rowchip"><svg viewBox="0 0 24 24"><path d="M4 18l5-6 4 3 6-8"/><path d="M15 7h4v4"/></svg>Growing SaaS and AI usage without visibility into unapproved or high-risk apps.</div>
+      </div>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+    </div>
+    <figcaption>Challenges — rows in #2A2A2A radius-6 chips with Fluent-style outline icons</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard cs" style="--w:784px; --h:784px">
+      <div class="card"><i></i><i></i><i></i></div>
+      <span class="num">04</span>
+      <div class="stats">
+        <h1>Real <span class="key">Outcomes</span></h1>
+        <div class="stat"><b>50%</b><span>improvement in joiner–mover–leaver workflow efficiency</span></div>
+        <div class="stat"><b>150+</b><span>hours saved annually in audit effort</span></div>
+        <div class="stat"><b>1000+</b><span>SaaS applications discovered</span></div>
+      </div>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+    </div>
+    <figcaption>Outcomes — stat rows with a 3px Mint top rule, Satoshi Medium 48 numbers</figcaption>
+  </figure>
+
+</div>
+</body>
+</html>

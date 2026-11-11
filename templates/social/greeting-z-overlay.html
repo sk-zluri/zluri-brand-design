@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zluri · Greeting — Z colour overlay</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens.css">
+<link rel="stylesheet" href="../zluri.css">
+<style>
+  /* guidelines/04 §F + guidelines/02 §2 — 1344-style square, photo collage under a giant rotated "z" in multiply */
+  .gz h1 { font: 500 calc(var(--zluri-u) * 8.83)/1.01 var(--font-display); letter-spacing: -0.01em; margin: 0; }
+  .gz .copy { position: absolute; left: calc(var(--zluri-u) * 5.8); top: calc(var(--zluri-u) * 7.6); width: 78%; }
+  .gz .copy p { font: 400 calc(var(--zluri-u) * 2.41)/1.28 var(--font-body); color: #342a2a; margin-top: calc(var(--zluri-u) * 3.4); max-width: 80%; }
+  .gz.c-black .copy p { color: #b1b1b1; }
+  .gz .logo { position: absolute; right: calc(var(--zluri-u) * 6); top: calc(var(--zluri-u) * 6.6); width: calc(var(--zluri-u) * 12.7); }
+  .gz .collage { position: absolute; left: 5.8%; right: 5.8%; top: 48.8%; height: 48.8%; display: grid; grid-template-columns: 62% 1fr; grid-template-rows: 1fr 1fr; gap: calc(var(--zluri-u) * 1.5); z-index: 2; }
+  .gz .collage .photo:first-child { grid-row: span 2; }
+  .gz .zshape { position: absolute; inset: 0; width: 100%; height: 100%; mix-blend-mode: multiply; z-index: 3; pointer-events: none; }
+  .gz.c-black .zshape { mix-blend-mode: screen; opacity: .55; }
+  .tone { filter: grayscale(1); background: linear-gradient(135deg, #8a8782 0%, #d9d6d0 45%, #6b6965 100%); }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <figure>
+    <div class="artboard c-cream gz" style="--w:1200px; --h:1200px; --bg:#f7f2e9">
+      <div class="copy">
+        <h1>Happy<br>Thanksgiving.</h1>
+        <p>Sending warm wishes to our customers, investors, partners, employees, and the entire Zluri community!</p>
+      </div>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-light.svg" alt="Zluri">
+      <div class="collage">
+        <div class="photo tone"><span class="ph">PHOTO 1 · occasion still-life, greyscale</span></div>
+        <div class="photo tone"><span class="ph">PHOTO 2</span></div>
+        <div class="photo tone"><span class="ph">PHOTO 3</span></div>
+      </div>
+      <!-- Giant rotated wordmark "z" (assets/motifs/z-overlay-shape-large.svg). Swap the fill: pink #BD377A · green #1B9464 · blue #366ECF · purple #7763C7 -->
+      <svg class="zshape" viewBox="0 0 1344 1344" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <path d="M1875.62 754.214L1836.45 1113.48L562.926 1923.66L568.473 1872.79L681.674 1988.08L589.529 1945.86L1722.53 2069.41L1674.68 2508.16L-467.02 2274.61L-427.843 1915.35L845.678 1105.17L840.13 1156.04L726.93 1040.74L819.074 1082.96L-352.17 955.242L-304.326 516.495L1875.62 754.214Z" fill="#BD377A" fill-opacity=".9"/>
+      </svg>
+    </div>
+    <figcaption>Greeting with Z overlay (pink) — Satoshi Medium 118, Inter wish, 1+2 photo collage; photos are greyscale, the z is multiplied on top</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-cream gz" style="--w:1200px; --h:1200px; --bg:#f7f2e9">
+      <div class="copy">
+        <h1>Merry<br>Christmas!</h1>
+        <p>May the magic of Christmas bring happiness and warmth to you and your loved ones. Season’s Greetings from all of us at Zluri!</p>
+      </div>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-light.svg" alt="Zluri">
+      <div class="collage">
+        <div class="photo tone"><span class="ph">PHOTO 1</span></div>
+        <div class="photo tone"><span class="ph">PHOTO 2</span></div>
+        <div class="photo tone"><span class="ph">PHOTO 3</span></div>
+      </div>
+      <svg class="zshape" viewBox="0 0 1344 1344" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <path d="M1875.62 754.214L1836.45 1113.48L562.926 1923.66L568.473 1872.79L681.674 1988.08L589.529 1945.86L1722.53 2069.41L1674.68 2508.16L-467.02 2274.61L-427.843 1915.35L845.678 1105.17L840.13 1156.04L726.93 1040.74L819.074 1082.96L-352.17 955.242L-304.326 516.495L1875.62 754.214Z" fill="#22B573" fill-opacity=".92"/>
+      </svg>
+    </div>
+    <figcaption>Same system, green overlay — a series rotates overlay colour, nothing else</figcaption>
+  </figure>
+
+</div>
+</body>
+</html>

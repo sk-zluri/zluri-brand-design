@@ -1,0 +1,516 @@
+
+--- PAGE 1 ---
+Brand
+Guidelines1.01
+2024
+zluri.com
+
+--- PAGE 2 ---
+Introduction
+Logo
+Colors
+Typography
+Iconography
+Illustration
+Photography
+Contents
+
+--- PAGE 3 ---
+01
+Introduction
+
+--- PAGE 4 ---
+Introduction
+Bringing Our Identity 
+to Life
+Our brand is built on clarity, simplicity, and purpose. 
+Whether you’re designing an interface, writing a line 
+of copy, or building a customer presentation, these 
+guidelines exist to keep our message consistent 
+and our experience seamless.
+This document brings together the core elements 
+that shape our brand—our voice, our visuals, and 
+how we show up in the world. It’s more than just a 
+rulebook. It’s a shared language that helps us all 
+create with intention, empathy, and confidence.
+
+--- PAGE 5 ---
+02
+Logo
+
+--- PAGE 6 ---
+Master logo
+
+--- PAGE 7 ---
+Light and Dark Versions
+The Zluri logo is designed for flexibility across 
+different backgrounds. On light surfaces, the black 
+wordmark ensures strong visibility. On dark 
+backgrounds, it switches to white to maintain legibility 
+and contrast.
+Use these versions consistently to keep the logo 
+clear and accessible in any setting.
+Download Zluri logo files
+
+--- PAGE 8 ---
+Monotone logo
+In cases where the full-color logo isn’t suitable—like 
+over complex backgrounds, gradients, or limited-color 
+printing—a monotone version should be used.
+This version simplifies the mark while maintaining 
+brand recognition. Use it in white over dark or colorful 
+backgrounds to ensure maximum legibility and 
+consistency.
+Download Zluri logo files
+
+--- PAGE 9 ---
+Clearspace
+To maintain clarity and impact, the logo should always 
+be surrounded by enough space.
+The minimum clearspace is defined by the height of 
+the circular mark. No text, images, or other elements 
+should enter this area.
+This ensures the logo stays readable and visually 
+distinct, no matter where it’s used.
+
+--- PAGE 10 ---
+Co-branding
+1x
+1x
+Partner logo height should not exceed zluri logo height
+1x
+1x
+
+--- PAGE 11 ---
+Next-Gen Identity 
+Governance & Administration
+Tagline Lockup
+When needed, the logo can be paired with our tagline:
+
+Next-Gen Identity Governance & Administration
+This lockup helps reinforce our positioning and should be 
+used in contexts where additional clarity or emphasis is 
+required — such as partner presentations, event 
+branding, or introductory materials.
+Always use the approved lockup file and maintain the 
+original spacing and alignment.
+Download Zluri logo files
+
+--- PAGE 12 ---
+Guidance
+Don’t rotate
+Don’t stretch or distort
+Don’t add gradient
+Don’t add stroke
+Don’t add dropshadow
+Don’t use other color palettes
+
+--- PAGE 13 ---
+03
+Colors & Gradients
+
+--- PAGE 14 ---
+Brand Palette
+Zluri’s color system balances clarity with personality. 
+Our palette is built around clean, digital-friendly tones 
+that work across product, marketing, and UI.
+The blues form the core of our identity, while the 
+greens add freshness and contrast. Neutral tones like 
+Cream White and Deep Black provide flexibility and 
+help maintain accessibility.
+Use color purposefully to guide attention, reinforce 
+hierarchy, and maintain consistency across all brand 
+expressions.
+Deep Blue
+#1D4BA6
+HEX
+29, 75, 166
+RGB
+83, 55, 0, 35
+CMYK
+Forest Green
+#1B9464
+HEX
+27, 148, 100
+RGB
+82, 0, 32, 42
+CMYK
+Mint Green
+#4AD89A
+HEX
+74, 216, 154
+RGB
+66, 0, 29, 15
+CMYK
+Aqua Green
+#94E9C0
+HEX
+148, 233, 192
+RGB
+36, 0, 18, 9
+CMYK
+Cream White
+#FBF9F6
+HEX
+251, 249, 246
+RGB
+0, 1, 2, 2
+CMYK
+Deep Black
+#161411
+HEX
+22, 20, 17
+RGB
+0, 9, 23, 91
+CMYK
+Bright Blue
+#366ECF
+HEX
+54, 110, 207
+RGB
+74, 47, 0, 19
+CMYK
+Light Blue
+#88A9EF
+HEX
+136, 169, 239
+RGB
+43, 29, 0, 6
+CMYK
+Aa
+#161411
+Text Primary (dark) Aa
+#161411 at 100% or 80%
+Text Secondary (dark)
+#EBF9F6
+Text Primary (light)
+#E2DED7
+Text Secondary (light)
+
+--- PAGE 15 ---
+Secondary Brand Palette
+The secondary palette adds range and flexibility to 
+the core Zluri system. These colors can be used to 
+support illustrations, charts, UI elements, or moments 
+where more energy or contrast is needed.
+Use them thoughtfully and sparingly—primary colors 
+should remain the foundation of most designs. The 
+secondary palette is best suited for highlights, accent 
+treatments, or extended brand moments.
+
+--- PAGE 16 ---
+Gradients
+Gradients add depth and energy to the Zluri 
+visual system. They can be used as 
+backgrounds, overlays, or graphic fills to bring 
+contrast and motion into layouts.
+Each gradient is made from colors in our brand 
+palette and should be used intentionally—
+never overpowering core content or reducing 
+readability.
+Stick to the defined pairings shown here to 
+keep usage consistent across all mediums.
+Warm Linen
+Aqua Circuit
+Midnight Blue
+Obsidian Smoke
+#FFFFFF
+HEX
+#E2DED7
+HEX
+#4AD89A
+HEX
+#1D4BA6
+HEX
+#1D4BA6
+HEX
+#0B1D40
+HEX
+#474640
+HEX
+#161411
+HEX
+Deep Dive
+HEX #FFFFFF
+HEX #366ECF
+HEX #0E2655
+
+--- PAGE 17 ---
+04
+Typography
+
+--- PAGE 18 ---
+Headings and Titles
+Our headings are more than just text—they lead the story. They command 
+attention without shouting, and guide the reader through every experience 
+with clarity and confidence.
+We use Satoshi for all headlines and display text. It pairs a clean geometric 
+structure with just enough personality to stand out. It's digital-first, sharp in 
+tone, and neutral enough to support any message—from visionary to practical.
+Satoshi
+Usage Guidelines
+Use Satoshi Bold or Medium for primary headings.
+Sentence case is preferred—avoid all caps unless intentional and minimal.
+Maintain generous spacing—our headlines breathe best with whitespace.
+Color choices should balance contrast and accessibility. Avoid placing heading 
+text on cluttered imagery or low-contrast backgrounds.
+End the Era of
+Application Spra
+Aa Bb Cc
+Govern.
+
+--- PAGE 19 ---
+Secondary Font
+Inter is our workhorse typeface. It’s designed for digital readability and 
+performs exceptionally well across UI, body copy, and system-generated 
+content. While Satoshi speaks with boldness and vision, Inter brings balance 
+and legibility to everyday communication.
+Used thoughtfully, it supports hierarchy, enhances clarity, and ensures 
+accessibility—without ever feeling mechanical.
+Inter
+Usage Guidelines
+Use Inter for body text, UI elements, captions, and long-form content.
+Stick to Regular or Medium weights for most use cases.
+Pair with Satoshi to establish a clean and cohesive type system.
+Maintain clear hierarchy: Inter supports our bold headlines while keeping the 
+experience grounded and user-friendly.
+One platform to discover 
+identities and apps, manag
+access, and automate revie
+Supports SCIM and non-SCIM apps
+Go live in weeks
+No legacy IAM complexity
+Aa Bb Cc
+Govern.
+
+--- PAGE 20 ---
+Type Hierarchy
+A clear typographic hierarchy helps readers navigate 
+content intuitively—whether they're scanning a 
+landing page or reading in-depth product 
+documentation. Our system creates visual contrast 
+through scale, weight, and font pairing, ensuring the 
+right message always stands out.
+Headline
+Subheadline
+Body Text
+Satoshi Regular
+Headlines and Titles:
+Satoshi Medium
+Subheadlines:
+Inter Medium & Regular
+Body Text:
+Next-Gen Identity Governance & Administration Next-Gen Identity 
+Governance & Administration Next-Gen Identity Governance
+Next-Gen Identity Governance 
+& Administration
+Next-Gen Identity 
+Governance & Administration
+x-height:
+
+This is the height of lowercase letters like “x” in 
+a font. It doesn’t include taller parts like the 
+tops of “h” or the tails of “y.”
+x-height
+cap-height
+cap height:
+
+This is the height of uppercase letters, 
+measured from the bottom line to the top of flat 
+letters like “H” or “T.”
+
+--- PAGE 21 ---
+Type Misuse
+Typography plays a key role in 
+keeping our brand clear and 
+consistent. To maintain 
+readability and accessibility, 
+avoid the following:
+Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Morbi 
+eget ex porttitor, euismod ligula 
+ut, faucibus ex. Nulla ut quam at 
+metus dapibus facilisis hendrerit 
+et elit. Duis et pretium ipsum.
+Do not use colors that are not 
+accessible. Ensure Contrast.
+Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Morbi 
+eget ex porttitor, euismod ligula ut, 
+faucibus ex. Nulla ut quam at metus 
+dapibus facilisis hendrerit et elit. Duis 
+et pretium ipsum.
+Do not set body leading too tightly.
+Avoid uppercase text.
+Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Morbi 
+eget ex porttitor, euismod ligula 
+ut, faucibus ex. Nulla ut quam at 
+metus dapibus facilisis hendrerit 
+et elit. Duis et pretium ipsum.
+Avoid uppercase text.
+Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Morbi 
+eget ex porttitor, euismod ligula 
+ut, faucibus ex. Nulla ut quam at 
+metus dapibus facilisis hendrerit 
+et elit. Duis et pretium ipsum.
+Do not set paragraph text in bold.
+Lorem ipsum dolor sit 
+amet, consectetur adipiscing 
+elit. Morbi eget ex porttitor, 
+euismod ligula ut, faucibus ex. 
+Nulla ut quam at metus 
+dapibus facilisis hendrerit et 
+elit. Duis et pretium ipsum.
+Do not set paragraph text in bold.
+Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Morbi 
+eget ex porttitor, euismod ligula 
+ut, faucibus ex. Nulla ut quam at 
+metus dapibus facilisis hendrerit 
+et elit. Duis et pretium ipsum.
+
+--- PAGE 22 ---
+05
+Iconography
+
+--- PAGE 23 ---
+Iconography essentials and uses
+Our iconography is designed to be simple, intuitive, and instantly recognizable. It complements our typography and color system
+—creating a cohesive and accessible experience across interfaces and brand materials.
+Icons act as visual shortcuts, aiding navigation, reinforcing meaning, and enhancing scannability in dense content environments.
+Microsoft Fluent System Iconography
+
+--- PAGE 24 ---
+05
+Illustration
+
+--- PAGE 25 ---
+Low-Fidelity Screens
+We use low-fidelity representations of our product UI to communicate 
+ideas, not pixels. These stripped-down screens are intentionally simplified 
+to emphasize function over form—ideal for concept explanations, quick 
+stakeholder alignment, and scalable brand thumbnails.
+Low-fi mockups allow us to show core functionality without distracting 
+users with fine details. They strike the right balance between design intent 
+and visual clarity—making them perfect for storytelling across marketing, 
+sales, product documentation, and training content.
+User
+Role
+Days inactive
+Matt
+Agent
+90 days
+Jamie
+Root Administrator
+128 days
+Katie
+Application
+Zendesk
+Miro
+AWS
+Workspace Owner
+65 days
+Total Applications
+11
+560
+Managed
+108
+Restricted
+35
+Shadow
+326
+Total Identities
+42
+1271
+Orphaned
+155
+Dormant
+689
+External
+427
+5 new AI apps detected in the last 7 days
+Review now
+When We Use Low-Fi
+To illustrate a product concept or feature flow in presentations
+As thumbnails or previews in web pages, carousels, or email visuals
+In explainer decks, when focus should be on what the feature does, 
+not how it looks
+As placeholders during early-stage product or brand sprints
+
+--- PAGE 26 ---
+Contextual UI Representation
+We use contextual UI representation to showcase how our product fits 
+seamlessly into real-world workflows. These visuals combine authentic 
+workplace imagery with layered interface elements to illustrate how users 
+interact with the product in their day-to-day environments.
+This approach helps move beyond abstract screens—offering a more 
+relatable, human view of our technology in action.
+WHEN
+WHEN
+Add Trigger
+CONDITIONS
+CONDITIONS
+Add Attribute
+THEN
+THEN
+Add Playbook
+Add Time Delay
+Jake
+User is Marked for Onboarding
+
+--- PAGE 27 ---
+High-Fidelity Screens
+High-fidelity screens showcase the product exactly as users experience it
+—visually rich, interactive, and true to functionality. These assets are used 
+when precision and realism matter: in product marketing, documentation, 
+training, and UI showcases.
+These screens are fully styled, contain real data, and reflect the latest 
+design system. They demonstrate both visual polish and functional depth, 
+helping users and stakeholders engage with the product as it actually exists.
+
+--- PAGE 28 ---
+05
+Photography
+
+--- PAGE 29 ---
+Principles
+Photography and visual storytelling play a vital role in shaping how people 
+perceive our brand. At Zluri, our visual language is built to feel modern, 
+confident, and human—mirroring our belief that identity and access 
+should empower people, not slow them down.
+Our imagery captures real moments, real teams, and real impact—whether 
+it’s IT teams in motion, decisions being made, or people navigating work 
+with clarity. These visuals reflect our brand spirit: smart, approachable, 
+and purposeful.
+We show people working together—collaborating, 
+deciding, and moving with purpose. Whether in person 
+or remote, the focus is always on interaction and 
+momentum.
+Connected
+Our visuals feel grounded in the real world—IT teams, 
+digital tools, and everyday workspaces. Nothing overly 
+staged, just clear, relatable moments.
+Contextual
+We capture people in control—solving, leading, and 
+simplifying complexity. The tone is always bright, 
+optimistic, and forward-moving.
+Confident
+
+--- PAGE 30 ---
+Portraits
+Our portrait photography should feel natural and human—capturing 
+people in real environments with clarity and warmth. Faces are the focus, 
+with clean backgrounds and soft depth of field that help subjects stand 
+out without distraction.
+We avoid overly posed or studio-style setups. Instead, we go for an 
+editorial, lifestyle look: candid moments, natural light, and minimal styling. 
+Images should feel authentic, approachable, and confident—reflecting the 
+people we build for.
+
+--- PAGE 31 ---
+Testimonial Imagery
+Our testimonial visuals reflect the industries, environments, and impact 
+areas of our customers. These images aren’t about the people directly—
+they’re about the context and scale of their work.

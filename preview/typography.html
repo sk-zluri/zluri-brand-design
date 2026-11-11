@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zluri typography</title>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../tokens.css">
+<style>
+  body { margin: 0; background: var(--bg); color: var(--muted); font: 400 var(--text-base)/var(--leading-body) var(--font-body); }
+  main { max-width: var(--container-max); margin: 0 auto; padding: var(--space-12) var(--container-gutter-desktop); }
+  h1.page { margin: 0 0 var(--space-2); font: 500 var(--text-3xl)/var(--leading-tight) var(--font-display); color: var(--fg); }
+  h2.sec { margin: var(--space-12) 0 var(--space-6); font: 500 var(--text-xl)/var(--leading-tight) var(--font-display); color: var(--fg); }
+  .row { display: grid; grid-template-columns: 220px 1fr; gap: var(--space-8); align-items: baseline; padding: var(--space-6) 0; border-top: 1px solid var(--border); }
+  .row small { font: 400 var(--text-xs)/1.5 var(--font-mono); color: var(--meta); }
+  .d { font-family: var(--font-display); color: var(--fg); margin: 0; }
+  .dark { background: #161411; border-radius: var(--radius-md); padding: var(--space-12); margin-top: var(--space-8); color: #fbf9f6; }
+  .dark .d { color: #fbf9f6; }
+  .rules { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-5); }
+  .rule { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: var(--space-6); background: var(--surface); }
+  .rule b { display: block; font: 500 var(--text-lg)/1.2 var(--font-display); color: var(--fg); margin-bottom: var(--space-2); }
+  .no { text-decoration: line-through; text-decoration-color: var(--danger); }
+  @media (max-width: 900px) { .row { grid-template-columns: 1fr; } .rules { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <h1 class="page">Typography</h1>
+  <p>Satoshi for headlines (Regular and Medium — never Bold), Inter for everything else. Big, light, tight.</p>
+
+  <h2 class="sec">Web scale (zluri.com)</h2>
+  <div class="row"><small>H1 · Satoshi 500<br>56 / 67 · --text-4xl</small><p class="d" style="font:500 56px/1.2 var(--font-display)">Discover, Govern and Secure Every Identity</p></div>
+  <div class="row"><small>H2 · Satoshi 500<br>48 / 58 · --zluri-text-h2</small><p class="d" style="font:500 48px/1.2 var(--font-display)">You Can’t Secure What You Can’t See</p></div>
+  <div class="row"><small>H3 · Satoshi 500<br>32 / 38 · --text-2xl</small><p class="d" style="font:500 32px/1.2 var(--font-display)">Discover Every Identity. Everywhere.</p></div>
+  <div class="row"><small>Card title · Satoshi 500<br>24 / 29 · --text-xl</small><p class="d" style="font:500 24px/1.2 var(--font-display)">Non-human identities lack ownership</p></div>
+  <div class="row"><small>Lede · Inter 400<br>20 / 24 · --text-lg</small><p style="font-size:20px; line-height:1.2; margin:0; max-width:640px">Gain complete visibility into identities and access, automate governance, and continuously manage identity risk.</p></div>
+  <div class="row"><small>Body · Inter 400<br>16 / 23 · --text-base</small><p style="margin:0; max-width:560px">Service accounts, tokens, bots, and AI agents persist without clear accountability or lifecycle control.</p></div>
+  <div class="row"><small>Eyebrow · Inter 600 caps<br>12 · +0.12em</small><p style="font:600 12px/1 var(--font-body); letter-spacing:.12em; text-transform:uppercase; color:var(--zluri-red-700); margin:0">The challenge</p></div>
+
+  <h2 class="sec">Display (social, video) — size is a % of canvas width</h2>
+  <div class="dark">
+    <p class="d" style="font:400 122px/1.16 var(--font-display); letter-spacing:-0.06em">The <span style="color:#4ad89a">Access Visibility</span> Gap</p>
+    <p style="font:300 14px/1.5 var(--font-mono); color:#a8a8a8; margin:12px 0 48px">Cover headline · Satoshi Regular · 10% of canvas width (122px on 1200) · tracking −0.06em · line-height 1.16</p>
+    <p class="d" style="font:400 88px/1.2 var(--font-display); letter-spacing:-0.04em">Save 100+ IT Hours <span style="color:#4ad89a">in Google Workspace</span></p>
+    <p style="font:300 14px/1.5 var(--font-mono); color:#a8a8a8; margin:12px 0 48px">Post headline · 5–7.5% of width · tracking −0.04em · line-height 1.2</p>
+    <p class="d" style="font:500 54px/1.2 var(--font-display)">Digital Bank &amp; Finance <span style="color:#4ad89a">Santiago</span></p>
+    <p style="font:300 14px/1.5 var(--font-mono); color:#a8a8a8; margin:12px 0 48px">Event title · Satoshi Medium · 4.5% of width (54px on 1200×627)</p>
+    <p style="font:300 42px/1.2 var(--font-body); color:#e2ded7; margin:0; max-width:900px">Supporting line — Inter Light, 3.5% of width, Warm Linen.</p>
+  </div>
+
+  <h2 class="sec">Rules</h2>
+  <div class="rules">
+    <div class="rule"><b>Emphasis by colour, once</b>One phrase in Mint (dark) or Blue (light), or on a highlight block. Never two colours in one headline.</div>
+    <div class="rule"><b>Regular ↔ Medium</b>Weight contrast lives between 400 and 500. <span class="no">Bold headlines.</span></div>
+    <div class="rule"><b>Tight display tracking</b>−0.04em at ≥60px, −0.06em at ≥100px, 0 on web headings and all Inter.</div>
+    <div class="rule"><b>Sentence case</b>Caps only for ≤14px eyebrows with tracking. <span class="no">ALL-CAPS HEADLINES.</span></div>
+    <div class="rule"><b>Left-aligned</b>Centre only for title cards, greetings and hero statements.</div>
+    <div class="rule"><b>Two or three sizes</b>Headline, one supporting line, metadata. A fourth is a tiny eyebrow.</div>
+  </div>
+</main>
+</body>
+</html>

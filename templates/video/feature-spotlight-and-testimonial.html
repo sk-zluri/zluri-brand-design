@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zluri · Feature Spotlight intro + testimonial cards</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens.css">
+<link rel="stylesheet" href="../zluri.css">
+<style>
+  /* guidelines/05 §2 — authored at 1920×1080, deliver at 3840×2160 */
+  .fs { background: linear-gradient(100deg, #1d4ba6 0%, #1340a0 38%, #2f6bdc 70%, #a9c4f7 100%); }
+  .fs .layer.glow { background: radial-gradient(60% 80% at 38% 55%, rgba(11,29,64,.55) 0%, rgba(11,29,64,0) 70%); }
+  .fs .stack { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; text-align: center; gap: calc(var(--zluri-u) * 1.4); color: #fbf9f6; }
+  .fs .tag { display: inline-flex; align-items: center; height: calc(var(--zluri-u) * 3.4); padding: 0 calc(var(--zluri-u) * 1.5); border: 1px solid #fff; border-radius: 999px; font: 400 calc(var(--zluri-u) * 1.82)/1 var(--font-display); letter-spacing: -0.02em; }
+  .fs h1 { font: 400 calc(var(--zluri-u) * 5.21)/1 var(--font-display); letter-spacing: -0.02em; margin: 0; max-width: 9em; }
+  .rec .win { position: absolute; left: 1.6%; right: 1.6%; top: 8.6%; bottom: -6%; border-radius: calc(var(--zluri-u) * 1.2); background: #1f2226; border: 1px solid rgba(255,255,255,.35); box-shadow: 0 0 0 calc(var(--zluri-u) * .3) rgba(255,255,255,.08); }
+  .rec .win::before { content: "Screen recording goes here — 16:10 app window, tab strip on top"; position: absolute; inset: 0; display: grid; place-items: center; font: 400 calc(var(--zluri-u) * 1.1)/1 var(--font-body); color: #8b8f92; }
+  .rec .name { position: absolute; right: 2.2%; top: 3.2%; font: 400 calc(var(--zluri-u) * .95)/1 var(--font-body); color: #fbf9f6; }
+  /* testimonial (pure black) */
+  .tm .co { position: absolute; right: calc(var(--zluri-u) * 4.2); top: calc(var(--zluri-u) * 3.4); }
+  .tm .stack { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; text-align: center; gap: calc(var(--zluri-u) * 1.2); }
+  .tm h1 { font: 400 calc(var(--zluri-u) * 5.2)/1.15 var(--font-display); letter-spacing: -0.02em; margin: 0; }
+  .tm p { font: 300 calc(var(--zluri-u) * 2.3)/1.3 var(--font-body); color: #e2ded7; margin: 0; }
+  .tm .swoosh { position: absolute; left: -5%; right: -5%; bottom: -19%; height: 30%; border-radius: 50% 50% 0 0 / 100% 100% 0 0; background: linear-gradient(90deg, #2f6bdc 0%, #1d4ba6 28%, #ffffff 52%, #88a9ef 78%, #2f5cf0 100%); z-index: 1; -webkit-mask-image: linear-gradient(180deg,#000 30%, transparent 100%); }
+  .tm .link { width: calc(var(--zluri-u) * 4.6); }
+  .lt { position: absolute; left: 10.8%; bottom: 8.4%; background: rgba(120,120,120,.55); backdrop-filter: blur(12px); padding: calc(var(--zluri-u) * 1.2) calc(var(--zluri-u) * 2.2) calc(var(--zluri-u) * 1.5); min-width: 36%; color: #fbf9f6; }
+  .lt b { display: block; font: 400 calc(var(--zluri-u) * 3.3)/1.2 var(--font-display); }
+  .lt span { font: 300 calc(var(--zluri-u) * 1.5)/1.2 var(--font-body); }
+  .lt::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: calc(var(--zluri-u) * .32); background: linear-gradient(90deg, #366ecf, #fff); }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <figure>
+    <div class="artboard fs gridlines" style="--w:1920px; --h:1080px">
+      <div class="layer"></div><div class="layer glow"></div>
+      <div class="stack">
+        <img class="logo" style="width:calc(var(--zluri-u)*7.2); margin-bottom:calc(var(--zluri-u)*.6)" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+        <span class="tag">Feature Spotlight</span>
+        <h1>[Feature Name]</h1>
+      </div>
+    </div>
+    <figcaption>Feature Spotlight intro — blue gradient with faint grid, white logo, outline pill, Satoshi Regular 200 (on 4K) / −2%</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard fs rec" style="--w:1920px; --h:1080px">
+      <img class="logo abs" style="left:2.2%; top:2.4%; width:calc(var(--zluri-u)*3.4)" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+      <span class="name">[Feature Name]</span>
+      <div class="win"></div>
+    </div>
+    <figcaption>Screen-recording layout — same field, dark rounded window bleeding off the bottom</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-pure tm" style="--w:1920px; --h:1080px; --bg:#000">
+      <div class="co cobrand"><img class="logo" style="width:calc(var(--zluri-u)*7.4)" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri"><span style="font:300 calc(var(--zluri-u)*1.2)/1 var(--font-body)">×</span><span class="partner" style="font-size:calc(var(--zluri-u)*1.25)">CUSTOMER</span></div>
+      <div class="stack">
+        <img class="link" src="../../assets/motifs/chain-link.svg" alt="">
+        <h1>Always <span class="key">Audit-Ready</span></h1>
+        <p>How [Customer] Runs Access Reviews with Zluri</p>
+      </div>
+      <div class="swoosh"></div>
+    </div>
+    <figcaption>Testimonial title card — pure black, co-brand top-right, chain-link glyph, Mint key phrase, blue→white swoosh footer</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-pure tm" style="--w:1920px; --h:1080px; --bg:#000">
+      <div class="photo" style="position:absolute; inset:0; z-index:1; background:#4a4843 repeating-linear-gradient(135deg, rgba(255,255,255,.04) 0 14px, transparent 14px 28px)"><span class="ph">INTERVIEW FOOTAGE</span></div>
+      <div class="co cobrand"><img class="logo" style="width:calc(var(--zluri-u)*7.4)" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri"><span style="font:300 calc(var(--zluri-u)*1.2)/1 var(--font-body)">×</span><span class="partner" style="font-size:calc(var(--zluri-u)*1.25)">CUSTOMER</span></div>
+      <div class="lt"><b>[Speaker Name]</b><span>[Role, Company]</span></div>
+    </div>
+    <figcaption>Lower third — frosted grey panel, Satoshi name, Inter role, blue→white underline that draws in from the left</figcaption>
+  </figure>
+
+</div>
+</body>
+</html>

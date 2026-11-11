@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zluri · Paid ad 4:5</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens.css">
+<link rel="stylesheet" href="../zluri.css">
+<style>
+  /* guidelines/04 §G — 1500×1875, #1A1815, outcome headline + glow panel of dark low-fi UI */
+  .ad .logo { position: absolute; left: calc(var(--zluri-u) * 7.4); top: calc(var(--zluri-u) * 7.6); width: calc(var(--zluri-u) * 13.1); }
+  .ad .copy { position: absolute; left: calc(var(--zluri-u) * 7.4); right: calc(var(--zluri-u) * 9.4); top: calc(var(--zluri-u) * 20); }
+  .ad h1 { font: 400 calc(var(--zluri-u) * 6.67)/1.1 var(--font-display); margin: 0; letter-spacing: -0.01em; }
+  .ad .copy p { font: 400 calc(var(--zluri-u) * 3.33)/1.22 var(--font-body); letter-spacing: -0.02em; color: #fbf9f6; margin-top: calc(var(--zluri-u) * 3.3); }
+  .ad .panel { position: absolute; left: 4.5%; right: 4.5%; top: 50.5%; bottom: 2.2%; border-radius: calc(var(--zluri-u) * 1.2); overflow: hidden; padding: calc(var(--zluri-u) * 3.4) calc(var(--zluri-u) * 3) 0; }
+  .ad .panel::before { content: ""; position: absolute; inset: 0; background: radial-gradient(110% 70% at 50% 100%, #3fb7b0 0%, #2f76d3 34%, #1d3f86 62%, rgba(26,24,21,0) 92%); }
+  .ad .panel::after { content: ""; position: absolute; inset: 0; background-image: var(--zluri-grain); mix-blend-mode: soft-light; opacity: .5; }
+  .ad .ribbon { position: absolute; left: 50%; transform: translateX(-50%); top: 46.4%; z-index: 4; width: 86%; justify-content: center; font-size: calc(var(--zluri-u) * 2.05); padding: calc(var(--zluri-u) * 1.25) 0; box-shadow: 0 0 0 calc(var(--zluri-u) * .5) rgba(255,255,255,.08); }
+  .ad .cols { position: relative; z-index: 2; display: grid; grid-template-columns: 1fr 1fr; gap: calc(var(--zluri-u) * 1.4); align-items: start; }
+  .ad .ui { --k: calc(var(--zluri-u) * 1.45); color: #fbf9f6; }
+  .ad .frame { background: rgba(255,255,255,.1); border: 2px solid rgba(226,222,215,.15); border-radius: calc(var(--zluri-u) * .9); padding: calc(var(--zluri-u) * .7); margin-bottom: calc(var(--zluri-u) * 1.2); position: relative; }
+  .ad .frame .ui-card { background: #1b1b1b; border-color: #474640; color: #fbf9f6; }
+  .ad .dot { position: absolute; right: calc(var(--zluri-u) * -.6); top: calc(var(--zluri-u) * -.6); width: calc(var(--zluri-u) * 1.2); aspect-ratio: 1; border-radius: 50%; background: #d52a00; }
+  .ad .step { display: flex; gap: .6em; align-items: center; font: 400 calc(var(--k) * 1.1)/1.2 var(--font-body); padding: .35em 0; }
+  .ad .step i { display: grid; place-items: center; width: 1.25em; height: 1.25em; border-radius: .2em; font: 600 .7em/1 var(--font-body); font-style: normal; color: #fff; background: #366ecf; }
+  .ad .step i.o { background: #e89604; } .ad .step i.r { background: #d52a00; }
+  .ad .grp { font: 400 calc(var(--k) * 1.05)/1 var(--font-body); color: #e2ded7; margin: .9em 0 .4em; }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <figure>
+    <div class="artboard c-ink ad" style="--w:1500px; --h:1875px">
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+      <div class="copy">
+        <h1><span class="key">Save 100+ IT Hours</span> in<br>Google Workspace</h1>
+        <p>Add joiner-mover-leaver automation, access requests and access reviews—without Okta’s price tag</p>
+      </div>
+      <span class="ribbon">40% boost in IT productivity · 75% faster audits · 100% Shadow IT/AI visibility</span>
+      <div class="panel">
+        <div class="cols ui">
+          <div>
+            <div class="frame"><div class="ui-card">
+              <div style="display:flex; justify-content:space-between"><b style="font:500 calc(var(--k)*1.35)/1.2 var(--font-display)">Daniel Miller</b><span class="ui-label" style="color:#4ad89a">• Active</span></div>
+              <div style="font:400 calc(var(--k)*1.02)/1.3 var(--font-body)">Customer Support Associate</div><div class="ui-label">User Type: Employee</div>
+            </div></div>
+            <div class="frame">
+              <div class="grp" style="margin-top:.2em">Joiner</div>
+              <div class="ui-card"><div class="step"><i>1</i>Create a new user</div><div class="step"><i>2</i>Assign permissions to the user</div></div>
+              <div class="grp">Mover</div>
+              <div class="ui-card"><div class="step"><i class="o">1</i>Update role of a user</div></div>
+              <div class="grp">Leaver</div>
+              <div class="ui-card"><div class="step"><i class="r">1</i>Remove all the permissions assigned</div><div class="step"><i class="r">2</i>Deactivate a user</div></div>
+            </div>
+          </div>
+          <div>
+            <div class="frame"><span class="dot"></span><div class="ui-card">
+              <div style="font:600 calc(var(--k)*1.05)/1 var(--font-body); letter-spacing:.1em; color:#ddd">SLACK NOTIFICATION</div>
+              <div style="font:400 calc(var(--k)*1.3)/1.2 var(--font-body); margin:.8em 0">Access Request for AWS needs your approval!</div>
+              <span class="ui-btn ok">Approve</span> <span class="ui-btn no">Reject</span>
+            </div></div>
+            <div class="frame"><div class="ui-card">
+              <div class="ui-title" style="font-size:calc(var(--k)*1.35)">SOC2 Audit</div>
+              <div class="ui-row" style="color:#a8a8a8; font-size:calc(var(--k)*.85)"><span>Users</span><span>Status</span><span>Action</span></div>
+              <div class="ui-row"><span>John</span><span>Inactive</span><span class="ui-chip solid red">Revoked</span></div>
+              <div class="ui-row"><span>Alison</span><span>Active</span><span style="color:#4ad89a">✓</span></div>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <figcaption>Paid ad 1500×1875 — outcome in Mint + context in white (Satoshi Regular 100), Inter 50 sub, Forest ribbon, glow panel of dark UI cards with one red notification dot</figcaption>
+  </figure>
+
+</div>
+</body>
+</html>

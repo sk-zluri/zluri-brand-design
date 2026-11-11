@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zluri · Banners and email graphics</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens.css">
+<link rel="stylesheet" href="../zluri.css">
+<style>
+  /* guidelines/04 §I */
+  .bn h1 { font: 400 calc(var(--zluri-u) * 3.9)/1.2 var(--font-display); margin: 0; text-shadow: 0 0 calc(var(--zluri-u) * .5) rgba(255,255,255,.35); }
+  .li .txt { position: absolute; left: 27.3%; top: 50%; transform: translateY(-50%); width: 62%; }
+  .li .logo { position: absolute; right: 3.3%; bottom: 14%; width: 7.9%; }
+  .li .pill { position: absolute; right: 5.6%; top: 20%; display: inline-flex; align-items: center; height: calc(var(--zluri-u) * 4.7); padding: 0 calc(var(--zluri-u) * 1.7); border-radius: 999px; background: rgba(22,20,17,.75); box-shadow: inset 0 0 0 1px rgba(255,255,255,.14); font: 600 calc(var(--zluri-u) * 2)/1 var(--font-body); letter-spacing: .02em; }
+  .em .logo { position: absolute; left: 6.6%; top: 19%; width: 11.9%; }
+  .em h1 { position: absolute; left: 6.6%; top: 46.5%; width: 60%; font-size: calc(var(--zluri-u) * 3.59); text-shadow: none; }
+  .em .orb { position: absolute; right: 8%; top: 17%; width: 16.6%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 35% 30%, rgba(255,255,255,.22), rgba(255,255,255,.04) 60%); box-shadow: inset 0 0 0 1px rgba(255,255,255,.25); display: grid; place-items: center; }
+  .em .orb svg { width: 56%; }
+  .em .ring { position: absolute; right: 3.6%; top: 44%; width: 26%; height: 19%; border-radius: 50%; border: 1px solid rgba(255,255,255,.75); transform: rotate(-9deg); filter: blur(.4px); }
+  .g2 .logo { position: absolute; left: 3.1%; top: 22%; width: 7.6%; }
+  .g2 .txt { position: absolute; left: 25.7%; top: 39%; }
+  .g2 h1 { font-size: calc(var(--zluri-u) * 3.4); text-shadow: none; }
+  .g2 p { font: 300 calc(var(--zluri-u) * 1.42)/1.3 var(--font-body); margin: calc(var(--zluri-u) * .9) 0 0; color: #fbf9f6; }
+  .g2 .qr { position: absolute; right: 3.9%; top: 15%; height: 66%; aspect-ratio: 1; background: #fff; display: grid; place-items: center; font: 600 calc(var(--zluri-u) * .9)/1 var(--font-body); color: #161411; }
+  .g2 .rule { position: absolute; left: 0; right: 0; bottom: 0; height: 1.9%; background: linear-gradient(90deg, #3fd0c0 0%, #366ecf 45%, #ffffff 72%, #e84393 100%); z-index: 3; }
+  .bar { display: flex; justify-content: center; align-items: center; gap: 14px; height: 40px; width: 1200px; background: linear-gradient(180deg, #351e78, #57429b); color: #fff; font: 500 18px/1 var(--font-display); letter-spacing: -.01em; }
+  .bar a { display: inline-flex; align-items: center; height: 26px; padding: 0 10px; border-radius: 6px; background: #dbd5ef; color: #341070; font: 500 14px/1 var(--font-display); text-decoration: none; }
+  .bar.red { background: #8e1c00; font: 400 13px/1 var(--font-body); } .bar.red a { background: #fff; color: #8e1c00; font: 500 12px/1 var(--font-body); border-radius: 999px; }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <figure>
+    <div class="artboard c-pure bn li aurora" style="--w:1584px; --h:396px; --bg:#000">
+      <div class="layer"></div>
+      <div class="txt"><h1>The Identity Security Platform for Autonomous Enterprises</h1></div>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+    </div>
+    <figcaption>LinkedIn personal banner 1584×396 — black + indigo aurora, tagline Satoshi Regular 62 with a faint glow, left 27% kept clear for the avatar</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-pure bn em aurora" style="--w:800px; --h:200px; --bg:#000">
+      <div class="layer"></div>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+      <h1>The Identity Security Platform for Autonomous Enterprises</h1>
+      <div class="ring"></div>
+      <div class="orb"><svg viewBox="0 0 24 24"><defs><linearGradient id="sh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c3caf9"/><stop offset=".5" stop-color="#336beb"/></linearGradient></defs><path fill="url(#sh)" d="M12 2.5l8 3v6.200c0 4.800-3.300 8.300-8 9.800-4.700-1.500-8-5-8-9.800V5.500z"/></svg></div>
+    </div>
+    <figcaption>Email header 800×200 — logo top-left, tagline Satoshi Regular 28.7, single hero object at right (shield in a glass orb with an orbit ring)</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-pure bn g2" style="--w:1400px; --h:267px; --bg:#000">
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+      <div class="txt"><h1>Zluri Named in the <span class="key">[Analyst® Report]:</span></h1><p>[Report title in one line]</p></div>
+      <div class="qr">QR</div>
+      <div class="rule"></div>
+    </div>
+    <figcaption>Review-site banner (2500×476 ratio) — logo left, Mint phrase, QR right, 6px rainbow rule (the only place the rainbow rule appears)</figcaption>
+  </figure>
+
+  <figure>
+    <div class="bar">Zluri joins Infotech. <a href="#">Read the announcement →</a></div>
+    <div class="bar red" style="margin-top:14px">[One-sentence announcement.] <a href="#">Claim Your Seat →</a></div>
+    <figcaption>Website announcement bars — purple gradient (current) and red-brown (events)</figcaption>
+  </figure>
+
+</div>
+</body>
+</html>

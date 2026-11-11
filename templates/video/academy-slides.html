@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zluri · Academy video slides</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens.css">
+<link rel="stylesheet" href="../zluri.css">
+<style>
+  /* guidelines/05 §1 — 1920×1080, cream + soft blobs + 10% grain */
+  .ac .logo { width: calc(var(--zluri-u) * 4.85); }
+  .ac .eyebrow { font: 500 calc(var(--zluri-u) * 1.25)/1.3 var(--font-display); letter-spacing: -0.04em; text-transform: none; color: var(--zluri-deep-blue); }
+  .ac h1 { font: 400 calc(var(--zluri-u) * 4.17)/1.25 var(--font-display); letter-spacing: -0.04em; margin: 0; }
+  .ac .credit { font: 500 calc(var(--zluri-u) * 2.19)/1.3 var(--font-display); letter-spacing: -0.04em; color: var(--zluri-deep-blue); }
+  /* title */
+  .title .stack { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; text-align: center; gap: calc(var(--zluri-u) * 2.6); }
+  .title h1 { font-size: calc(var(--zluri-u) * 5.21); line-height: 1; max-width: 11.2em; }
+  .title .logo { width: calc(var(--zluri-u) * 7.24); }
+  /* framed course intro */
+  .course .frame { position: absolute; inset: calc(var(--zluri-u) * 1.56); bottom: calc(var(--zluri-u) * 5.7); border: 1px solid #9fb4de; border-radius: calc(var(--zluri-u) * .62); overflow: hidden; z-index: 1; }
+  .course .block { position: absolute; left: calc(var(--zluri-u) * 5.2); top: 16%; }
+  .course .block h1 { font-size: calc(var(--zluri-u) * 4.6); line-height: 1.12; margin-top: calc(var(--zluri-u) * 1.7); }
+  .course .block .credit { display: block; margin-top: calc(var(--zluri-u) * 2.4); font-size: calc(var(--zluri-u) * 1.9); }
+  .tabs { position: absolute; left: calc(var(--zluri-u) * 2.6); bottom: calc(var(--zluri-u) * 1.6); display: flex; align-items: flex-start; gap: calc(var(--zluri-u) * 2.4); font: 400 calc(var(--zluri-u) * .95)/1 var(--font-body); color: #161411; }
+  .tabs span { padding: calc(var(--zluri-u) * 1.05) calc(var(--zluri-u) * 1.3); }
+  .tabs .on { background: var(--zluri-deep-blue); color: #fff; clip-path: polygon(0 0, 100% 0, 88% 100%, 12% 100%); padding: calc(var(--zluri-u) * 1.05) calc(var(--zluri-u) * 2.4); margin-top: calc(var(--zluri-u) * -.02); }
+  /* pointers */
+  .pts .head { position: absolute; left: calc(var(--zluri-u) * 7.3); top: calc(var(--zluri-u) * 5.2); }
+  .pts .head h1 { margin-top: calc(var(--zluri-u) * 1.1); }
+  .pts .row { position: absolute; left: 20.3%; right: 20.3%; top: 36.1%; display: grid; grid-template-columns: repeat(3, 1fr); gap: calc(var(--zluri-u) * 6.25); }
+  .pts .tile { aspect-ratio: 1; border-radius: calc(var(--zluri-u) * 1.04); box-shadow: 0 calc(var(--zluri-u) * .8) calc(var(--zluri-u) * 2.4) rgba(22,20,17,.08); }
+  .pts .row h3 { font: 400 calc(var(--zluri-u) * 1.67)/1.2 var(--font-body); letter-spacing: -0.04em; margin: calc(var(--zluri-u) * 1.6) 0 calc(var(--zluri-u) * .8); max-width: 9em; }
+  .pts .row p { font: 400 calc(var(--zluri-u) * .94)/1.25 var(--font-body); letter-spacing: -0.02em; margin: 0; max-width: 16em; }
+  /* icon + bullets */
+  .ib .head { position: absolute; left: calc(var(--zluri-u) * 7.3); top: calc(var(--zluri-u) * 7.6); }
+  .ib .eyebrow { font: 500 calc(var(--zluri-u) * .9)/1 var(--font-body); letter-spacing: 0; text-transform: uppercase; }
+  .ib .tileico { width: calc(var(--zluri-u) * 5); aspect-ratio: 1; border-radius: calc(var(--zluri-u) * .5); display: grid; place-items: center; margin: calc(var(--zluri-u) * 6) 0 calc(var(--zluri-u) * 2.2); }
+  .ib .tileico svg { width: 52%; stroke: #1d4ba6; fill: none; stroke-width: 1.5; }
+  .ib h3 { font: 500 calc(var(--zluri-u) * 2.1)/1.2 var(--font-body); margin: 0 0 calc(var(--zluri-u) * 1.1); }
+  .ib ul { margin: 0; padding-left: 1.2em; font: 400 calc(var(--zluri-u) * 1.55)/1.45 var(--font-body); color: #474640; }
+  /* quote */
+  .q .stack { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; }
+  .q blockquote { margin: 0; font: 400 calc(var(--zluri-u) * 3.6)/1.25 var(--font-display); letter-spacing: -0.04em; max-width: 19em; }
+  .q .qm { position: absolute; width: calc(var(--zluri-u) * 6.6); }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <figure>
+    <div class="artboard c-cream ac title blobs grain" style="--w:1920px; --h:1080px">
+      <div class="layer"></div>
+      <div class="stack">
+        <img class="logo" src="../../assets/logos/default/zluri-logo-on-light.svg" alt="Zluri">
+        <h1>The visibility gap in identity security</h1>
+        <span class="credit">With [Presenter Name],<br>[Title]</span>
+      </div>
+    </div>
+    <figcaption>Title / intro — centred, Satoshi Regular 100 / −4%, credit in Deep Blue Satoshi Medium 42</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-cream ac course blobs grain" style="--w:1920px; --h:1080px">
+      <div class="layer"></div>
+      <div class="frame"></div>
+      <div class="block">
+        <img class="logo" style="width:calc(var(--zluri-u)*5.9)" src="../../assets/logos/default/zluri-logo-on-light.svg" alt="Zluri">
+        <h1>Title of the<br>course here<br><span class="medium">Submodule title here</span></h1>
+        <span class="credit">With [Presenter Name],<br>[Title]</span>
+      </div>
+      <div class="tabs"><span class="on">1</span><span>Topic 2</span><span>Topic 3</span><span>Topic 4</span><span>Topic 5</span><span>Topic 6</span><span>Topic 7</span></div>
+    </div>
+    <figcaption>Course intro — inset hairline frame, Regular→Medium weight shift, folder-tab chapter nav (active = Deep Blue)</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-cream ac pts grain" style="--w:1920px; --h:1080px">
+      <img class="logo abs" style="right:calc(var(--zluri-u)*3.4); top:calc(var(--zluri-u)*2.6)" src="../../assets/logos/default/zluri-logo-on-light.svg" alt="Zluri">
+      <div class="head">
+        <p class="eyebrow">Section or module name</p>
+        <h1>Three things to remember</h1>
+      </div>
+      <div class="row">
+        <div><div class="tile" style="background:var(--zluri-tile-lavender-peach)"></div><h3>First point in a few words</h3><p>One supporting line, kept short and concrete.</p></div>
+        <div><div class="tile" style="background:var(--zluri-tile-blue-mint)"></div><h3>Second point in a few words</h3><p>One supporting line, kept short and concrete.</p></div>
+        <div><div class="tile" style="background:var(--zluri-tile-peach-orange)"></div><h3>Third point in a few words</h3><p>One supporting line, kept short and concrete.</p></div>
+      </div>
+    </div>
+    <figcaption>Icons / pointers — eyebrow + title top-left, three 300px pastel-gradient tiles (radius 20), Inter 32 labels</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-cream ac ib grain" style="--w:1920px; --h:1080px">
+      <img class="logo abs" style="right:calc(var(--zluri-u)*3.4); top:calc(var(--zluri-u)*2.6)" src="../../assets/logos/default/zluri-logo-on-light.svg" alt="Zluri">
+      <div class="head">
+        <p class="eyebrow">Access Reviews</p>
+        <h1 style="margin-top:calc(var(--zluri-u)*1.1); font-size:calc(var(--zluri-u)*3.6)">Why Group Review Certifications Matter</h1>
+        <div class="tileico" style="background:var(--zluri-tile-blue-mint)"><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M6 8.5v4a3 3 0 0 0 3 3h6.5"/></svg></div>
+        <h3>How SSO Groups Work</h3>
+        <ul><li>Teams use groups (e.g., “Sales”) to manage app access</li><li>Apps like Salesforce and Zendesk are tied to these groups</li><li>New hires automatically gain access when added to the group</li></ul>
+      </div>
+    </div>
+    <figcaption>Icon + bullets — tiny caps eyebrow, Satoshi title, pastel icon tile with Fluent outline icon, Inter bullets; most of the canvas stays empty</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-cream ac q blobs grain" style="--w:1920px; --h:1080px">
+      <div class="layer"></div>
+      <img class="logo abs" style="right:calc(var(--zluri-u)*3.4); top:calc(var(--zluri-u)*2.6)" src="../../assets/logos/default/zluri-logo-on-light.svg" alt="Zluri">
+      <img class="qm" style="left:5.5%; top:15%" src="../../assets/motifs/quote-mark.svg" alt="">
+      <img class="qm" style="right:5.5%; bottom:10%; transform:rotate(180deg)" src="../../assets/motifs/quote-mark.svg" alt="">
+      <div class="stack"><blockquote>“Most organizations lack visibility into the tools their teams use, <span class="medium">and you can’t govern what you can’t see.”</span></blockquote></div>
+    </div>
+    <figcaption>Quote — Satoshi Regular with the key clause in Medium; gradient quote marks top-left and bottom-right</figcaption>
+  </figure>
+
+</div>
+</body>
+</html>
