@@ -4,7 +4,7 @@ Working HTML/CSS starting points, measured against the Figma references. Open an
 
 | File | Artboards | Guideline |
 | --- | --- | --- |
-| `social/event-thumbnails.html` (Event thumbnails) | 3 | `guidelines/` 04 A |
+| `social/event-thumbnails.html` (Event thumbnails) | 4 | `guidelines/` 04 A |
 | `social/product-launch.html` (Product announcement) | 2 | `guidelines/` 04 C |
 | `social/carousel-dark.html` (Carousel, dark statement) | 3 | `guidelines/` 04 D1 |
 | `social/carousel-customer-spotlight.html` (Carousel, customer spotlight) | 3 | `guidelines/` 04 D3 |
