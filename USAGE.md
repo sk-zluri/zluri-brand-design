@@ -9,7 +9,7 @@ Package guide for Open Design agents and reviewers.
 3. Paste the `:root` block of `tokens.css` into the first `<style>` of the artifact before writing component CSS. Add `class="zluri-dark"` to any section that should sit on Deep Black.
 4. Open `components.html` for exact component rules (buttons, eyebrows, cards, collapsed grids, stats, low-fi product UI, pill bar).
 5. For the asset type you are making, read the matching file in `guidelines/` and open the matching file in `templates/` — it is a working starting point.
-6. Look at 2–4 images from `references/` for that asset type (`references/figma/index.json` lists every frame by category).
+6. Look at 2–4 images from `references/` for that asset type (`references/figma/index.json` lists every frame by category; `references/figma/specs/<node-id>.json` gives its measured layout).
 7. Run `guidelines/12-anti-slop-checklist.md` before presenting.
 
 ## Design Highlights

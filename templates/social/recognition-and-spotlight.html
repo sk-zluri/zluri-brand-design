@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zluri · Recognition banners + employee spotlight</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../tokens.css">
+<link rel="stylesheet" href="../zluri.css">
+<style>
+  /* ── Recognition banner (1915×1088) — guidelines/04 §H, guidelines/02 §5–6 ── */
+  .rc .lead { position: absolute; left: calc(var(--zluri-u) * 4.2); top: calc(var(--zluri-u) * 5.6); }
+  .rc .lead small { display: block; font: 300 calc(var(--zluri-u) * 2.9)/1.2 var(--font-display); letter-spacing: -0.01em; }
+  .rc .lead h1 { font: 400 calc(var(--zluri-u) * 7.4)/1.15 var(--font-display); letter-spacing: -0.03em; margin: calc(var(--zluri-u) * .6) 0 0; }
+  .rc .by { position: absolute; left: calc(var(--zluri-u) * 4.2); bottom: calc(var(--zluri-u) * 4.6); font: 400 calc(var(--zluri-u) * 1.72)/1.3 var(--font-body); }
+  .rc .by b { font-weight: 600; }
+  .rc .logo { position: absolute; right: calc(var(--zluri-u) * 4); bottom: calc(var(--zluri-u) * 4.2); width: calc(var(--zluri-u) * 8); }
+  .rc.navy { background: radial-gradient(90% 120% at 78% 30%, #1d4ba6 0%, #123a8a 30%, #0b1d40 70%, #08142e 100%); color: #fbf9f6; }
+  .rc.navy .crop { position: absolute; right: 0; top: 0; height: 100%; width: auto; opacity: .16; filter: brightness(0) invert(1); z-index: 1; }
+  .rc.linen { background: linear-gradient(135deg, #c9c4bc 0%, #dedad3 45%, #f0eeea 100%); color: #161411; }
+  .rc.linen .arcs { position: absolute; right: 0; top: calc(var(--zluri-u) * 5.2); height: 90%; z-index: 1; }
+  .rc.cream { background: #fbf9f6; color: #161411; }
+  .rc.cream .bands { position: absolute; left: 6%; bottom: -4%; width: 104%; opacity: .5; z-index: 1; filter: hue-rotate(0deg); }
+
+  /* ── Employee spotlight (1500×1500) — guidelines/04 §E ── */
+  .es { --sq: calc(var(--zluri-u) * 11.73); }
+  .es .fade { position: absolute; left: 2.1%; right: 2.1%; top: 30.6%; bottom: 2.1%; border-radius: calc(var(--zluri-u) * 1.6); overflow: hidden; z-index: 1;
+    background: linear-gradient(180deg, #161411 0%, #0e1928 24%, #0f2241 44%, #10335f 70%, #144378 85%, #1256a6 100%); }
+  .es .copy { position: absolute; left: calc(var(--zluri-u) * 7.5); top: calc(var(--zluri-u) * 8.2); width: 37%; }
+  .es h1 { font: 500 calc(var(--zluri-u) * 6.33)/1.16 var(--font-display); margin: 0; }
+  .es .copy p { font: 300 calc(var(--zluri-u) * 2.33)/1.24 var(--font-body); color: #fff; margin-top: calc(var(--zluri-u) * 2.7); }
+  .es .portrait { position: absolute; right: 2.1%; top: 9.5%; width: 62%; bottom: 8.4%; z-index: 2; background: transparent; }
+  .es .portrait .ph { background: rgba(251,249,246,.9); }
+  .es .sq { position: absolute; width: var(--sq); height: var(--sq); background: var(--zluri-bright-blue); z-index: 3; }
+  .es .band { position: absolute; left: 2.1%; right: 2.1%; bottom: 2.1%; height: var(--sq); background: var(--zluri-bright-blue); border-radius: 0 0 calc(var(--zluri-u) * 1.6) calc(var(--zluri-u) * 1.6); z-index: 3; }
+  .es .name { position: absolute; left: calc(var(--zluri-u) * 7.5); bottom: calc(var(--zluri-u) * 4.6); z-index: 4; font: 400 calc(var(--zluri-u) * 3.73)/1.35 var(--font-display); }
+  .es .name b { display: block; font-weight: 500; }
+  .es .logo { position: absolute; right: calc(var(--zluri-u) * 5.6); bottom: calc(var(--zluri-u) * 5); width: calc(var(--zluri-u) * 9.3); z-index: 4; }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <figure>
+    <div class="artboard rc navy grain" style="--w:1915px; --h:1088px">
+      <img class="crop" src="../../assets/motifs/wordmark-crop-solid.svg" alt="">
+      <div class="lead"><small>Zluri recognized as a</small><h1>[Recognition title]</h1></div>
+      <p class="by">by <b>[Analyst / Report name]</b>:<br>[Category, period]</p>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+    </div>
+    <figcaption>Recognition banner — Midnight navy radial, cropped wordmark tone-on-tone at the right edge, lead-in Satoshi Light + title Satoshi Regular, attribution bottom-left, logo bottom-right</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard rc linen grain" style="--w:1915px; --h:1088px">
+      <img class="arcs" src="../../assets/motifs/corner-arc-lines.svg" alt="">
+      <div class="lead"><small>Zluri recognized as a</small><h1><span class="mark" style="background:#2f3fe0">[Recognition title]</span></h1></div>
+      <p class="by">by <b>[Analyst / Report name]</b>:<br>[Category, period]</p>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-light.svg" alt="Zluri">
+    </div>
+    <figcaption>Linen diagonal gradient + grain, corner arc lines, title on a royal-blue highlight block (one of the explored options)</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-black es" style="--w:1500px; --h:1500px">
+      <div class="fade"></div>
+      <div class="copy">
+        <h1>Employee<br>Spotlight!</h1>
+        <p>[Two to four lines telling the person’s story at Zluri: when they joined, what they built, how they grew. Supplied by the People team.]</p>
+      </div>
+      <div class="photo portrait"><span class="ph">GREYSCALE CUT-OUT PORTRAIT supplied by Zluri (transparent background), anchored bottom-right</span></div>
+      <i class="sq" style="left:calc(var(--zluri-u)*7.5); top:57.1%"></i>
+      <i class="sq" style="left:calc(var(--zluri-u)*7.5 + var(--sq)); top:calc(57.1% + var(--sq))"></i>
+      <i class="sq" style="left:calc(var(--zluri-u)*7.5 + var(--sq)*2 + var(--zluri-u)*5.2); top:calc(57.1% + var(--sq)*2)"></i>
+      <i class="sq" style="right:2.1%; top:36%"></i>
+      <i class="sq" style="right:calc(2.1% + var(--sq)*.3); top:calc(36% + var(--sq)*1.35)"></i>
+      <i class="sq" style="right:calc(2.1% + var(--sq)*1.35); top:calc(36% + var(--sq)*2.2)"></i>
+      <div class="band"></div>
+      <p class="name">[First name]<b>[Title] at Zluri</b></p>
+      <img class="logo" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+    </div>
+    <figcaption>Employee spotlight 1500×1500 — black fading to blue panel, Satoshi Medium 95 title, Inter Light story, Bright-Blue pixel steps, blue footer band with name and title</figcaption>
+  </figure>
+
+</div>
+</body>
+</html>

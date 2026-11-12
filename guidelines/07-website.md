@@ -28,7 +28,7 @@ Full-width, ~40px, `linear-gradient(#351E78, #57429B)`. Centred: "Zluri joins In
 
 ### Navigation
 - Floating white bar, **radius 20**, max-width ≈1400, 12px below the announcement bar, shadow `0 0 10px rgba(0,0,0,.1)`; height ≈72.
-- Left: endorsed logo ("AN INFOTECH COMPANY"). Links: Inter 16/400 `#161411`, 48px apart: Products · Platform · Solutions · Why Zluri · Partners · Company · Resources. Right: "Login" text link + pill CTA "Get a Demo" (`#366ECF`, white, radius 100, ~15px label).
+- Left: endorsed logo ("AN INFOTECH COMPANY"). Links: Inter 16/400 `#161411`, 48px apart: Products · Platform · Solutions · Why Zluri · Partners · Company · Resources. Links have 20×16 padding. Right: "Login" text link + pill CTA "Get a Demo" (`#366ECF`, white label Inter 16/400, padding 8×20, 35px tall, radius 100).
 - **Mega menu:** drops as a cream `#FBF9F6` sheet beneath the bar. Column headers Inter 14/500 caps, tracking 1.4px, `#474640`. Product items are rows with a 48px linen `#E2DED7` rounded-8 icon tile + two-line label (acronym Inter 600 12.8 caps / full name Inter 16). Selected item gets a white rounded-8 card with a linen border. The Products menu has a left list (IVIP · IGA · ISPM · SMP) that switches the middle "About" panel **on hover**, plus a right "Platform" column (IRIS, Universal Identity Connector). Simple menus are 3 text columns (e.g. "BY USE CASE: / BY REGULATION: / OKTA ALTERNATIVE"). External links carry a faint ↗.
 - Nav slides up out of view while a sticky in-page tab bar is active, and returns after.
 
@@ -39,7 +39,7 @@ Full-width, ~40px, `linear-gradient(#351E78, #57429B)`. Centred: "Zluri joins In
 
 | Token | Size / line | Use |
 | --- | --- | --- |
-| H1 | 56 / 67.2 | hero (some product heroes use 40–48 inside a card) |
+| H1 | 56 / 67.2 · **64 / 76.8 on the homepage hero** | hero (some product heroes use 40–48 inside a card) |
 | H2 | 48 / 57.6 · 54 / 64.8 · 40 / 48 | section titles |
 | H3 | 32 / 38.4 | feature titles |
 | H4 / card title | 24 / 28.8 · 28 / 33.6 | cards |
@@ -62,7 +62,7 @@ All headings: Satoshi 500, `#161411` (cream on dark), letter-spacing normal. Hea
 
 ## Hero types
 
-1. **Dark statement hero (home, UIC):** full-viewport `#161411` with a WebGL streak or light-ray field. Centred: eyebrow chip (dark pill, caps Inter 600 ≈11px) → H1 white, 2 lines → lede `#E2DED7` → primary + outline buttons (16px gap).
+1. **Dark statement hero (home, UIC):** full-viewport `#161411` with a WebGL streak or light-ray field. Centred: eyebrow chip (dark translucent pill, padding 8×16, caps Inter 12/600, tracking 1.2px, cream) → H1 white 64/76.8, 2 lines → lede Inter 20/24 `#E2DED7` (max ≈700px) → primary + outline buttons (66px tall, 16px gap).
 2. **Contextual-UI hero (IVIP, ISPM):** full-bleed lifestyle photo (person at a laptop, neutral office); a white rounded-16 card on the left holds eyebrow, H1 (40–48), lede (16), two buttons; 2–3 floating UI cards (stat tiles, "Risk Detected" chips) overlap the photo on the right with soft shadows.
 3. **Light split hero (compliance, partners, stories):** white; text left (H1 56, lede, buttons); image or UI collage right in a radius-16 frame.
 4. **Themed hero (NHI, State of AI):** a page-specific colour world — NHI: deep maroon `#2A000A` with a depth-blurred field of pink outline icons; State of AI: violet→magenta gradient with isometric keyboard keys, white highlight blocks behind key words, gradient pill "Download Report".
@@ -103,7 +103,7 @@ Then always: logo marquee on Deep Black with a centred Inter 20 line ("Trusted b
 
 **Cards:** radius 8, 1px `#E2DED7`, no shadow, 24–32 padding. Dark cards: `#1F1F1F`/transparent with 1px `rgba(245,245,245,.16)`.
 
-**Forms (get-demo):** labels Inter 12–14; inputs 40px tall, radius 8, pale-blue fill `#EEF3FA`-range, no visible border until focus (2px `#366ECF`); checkboxes for solution interest; a Forrester recognition badge overlaps the portrait photo at right.
+**Forms (get-demo):** the form itself is an embedded third-party form, so its field styles could not be measured; from the capture: small Inter labels above pale blue-grey rounded inputs (~40px tall), checkbox list for solution interest, selects for country and employee range, a blue submit button. For new forms use: label Inter 14 `#474640`; input 44px tall, radius 8, 1px `#E2DED7` border on white, focus ring `--focus-ring`; submit = primary button. A Forrester recognition badge overlaps the portrait photo at right.
 
 **Radii:** 8 (cards, images) · 16 (buttons, media) · 20 (nav) · 12 · 6 · pill.
 **Borders:** 1px `#E2DED7`; on dark `rgba(245,245,245,.82)` for emphasis or `#474640` for dividers.

@@ -32,7 +32,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-56.json"
   },
   {
    "id": "1:83",
@@ -62,7 +63,8 @@
     "#94e9c0"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-83.json"
   },
   {
    "id": "1:106",
@@ -95,7 +97,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-106.json"
   },
   {
    "id": "1:132",
@@ -127,7 +130,8 @@
     "#94e9c0"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-132.json"
   },
   {
    "id": "1:153",
@@ -161,7 +165,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-153.json"
   },
   {
    "id": "1:191",
@@ -194,7 +199,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-191.json"
   },
   {
    "id": "1:228",
@@ -228,7 +234,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-228.json"
   },
   {
    "id": "1:259",
@@ -260,7 +267,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-259.json"
   },
   {
    "id": "1:279",
@@ -291,7 +299,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-279.json"
   },
   {
    "id": "1:298",
@@ -324,7 +333,8 @@
     "#000000"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-298.json"
   },
   {
    "id": "1:333",
@@ -359,7 +369,8 @@
     "#000000"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-333.json"
   },
   {
    "id": "1:391",
@@ -394,7 +405,8 @@
     "#94e9c0"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-391.json"
   },
   {
    "id": "1:430",
@@ -429,7 +441,8 @@
     "#f3bd60"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-430.json"
   },
   {
    "id": "1:480",
@@ -463,7 +476,8 @@
     "#4ad89a"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-480.json"
   },
   {
    "id": "1:5149",
@@ -498,7 +512,8 @@
     "#2266e2"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/1-5149.json"
   },
   {
    "id": "1:6289",
@@ -533,7 +548,8 @@
     "#2266e2"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/1-6289.json"
   },
   {
    "id": "1:37601",
@@ -566,7 +582,8 @@
     "#88a9ef"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-37601.json"
   },
   {
    "id": "1:37665",
@@ -601,7 +618,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-37665.json"
   },
   {
    "id": "1:37703",
@@ -634,7 +652,8 @@
     "#d9d9d9"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-37703.json"
   },
   {
    "id": "1:37739",
@@ -668,7 +687,8 @@
     "#a99ce3"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-37739.json"
   },
   {
    "id": "1:37777",
@@ -703,7 +723,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-37777.json"
   },
   {
    "id": "1:37817",
@@ -736,7 +757,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-37817.json"
   },
   {
    "id": "1:37873",
@@ -773,7 +795,8 @@
     "#00007f"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-37873.json"
   },
   {
    "id": "1:39177",
@@ -806,7 +829,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-39177.json"
   },
   {
    "id": "1:39202",
@@ -841,7 +865,8 @@
     "#fbf9f6"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-39202.json"
   },
   {
    "id": "1:39568",
@@ -878,7 +903,8 @@
     "#00007f"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/1-39568.json"
   },
   {
    "id": "1:40839",
@@ -914,7 +940,8 @@
     "#366ecf"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/1-40839.json"
   },
   {
    "id": "1:40888",
@@ -950,7 +977,8 @@
     "#366ecf"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/1-40888.json"
   },
   {
    "id": "1:40938",
@@ -986,7 +1014,8 @@
     "#366ecf"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/1-40938.json"
   },
   {
    "id": "1:40988",
@@ -1022,7 +1051,8 @@
     "#94e9c0"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/1-40988.json"
   },
   {
    "id": "1:41599",
@@ -1058,7 +1088,8 @@
     "#2266e2"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-41599.json"
   },
   {
    "id": "1:56241",
@@ -1089,7 +1120,8 @@
     "#ebebeb"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/1-56241.json"
   },
   {
    "id": "1:56240",
@@ -1120,7 +1152,8 @@
     "#ebebeb"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/1-56240.json"
   },
   {
    "id": "1:56264",
@@ -1151,7 +1184,8 @@
     "#ebebeb"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/1-56264.json"
   },
   {
    "id": "1:56502",
@@ -1175,7 +1209,8 @@
     "#fbf9f6"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-56502.json"
   },
   {
    "id": "1:56511",
@@ -1210,7 +1245,8 @@
     "#fbf9f6"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-56511.json"
   },
   {
    "id": "1:56794",
@@ -1245,7 +1281,8 @@
     "#fbf9f6"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-56794.json"
   },
   {
    "id": "1:57077",
@@ -1281,7 +1318,8 @@
     "#fbf9f6"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/1-57077.json"
   },
   {
    "id": "1:57346",
@@ -1317,7 +1355,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-57346.json"
   },
   {
    "id": "1:57373",
@@ -1353,7 +1392,8 @@
     "#88a9ef"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-57373.json"
   },
   {
    "id": "1:57400",
@@ -1389,7 +1429,8 @@
     "#000000"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-57400.json"
   },
   {
    "id": "1:57502",
@@ -1425,7 +1466,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-57502.json"
   },
   {
    "id": "1:57529",
@@ -1461,7 +1503,8 @@
     "#366ecf"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-57529.json"
   },
   {
    "id": "1:57556",
@@ -1497,7 +1540,8 @@
     "#f3bd60"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-57556.json"
   },
   {
    "id": "1:57583",
@@ -1533,7 +1577,8 @@
     "#4ad89a"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-57583.json"
   },
   {
    "id": "1:57615",
@@ -1561,7 +1606,8 @@
     "#94e9c0"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-57615.json"
   },
   {
    "id": "1:57627",
@@ -1589,7 +1635,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-57627.json"
   },
   {
    "id": "1:57643",
@@ -1617,7 +1664,8 @@
     "#a99ce3"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/1-57643.json"
   },
   {
    "id": "3:58347",
@@ -1652,7 +1700,8 @@
     "#ffffff"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-58347.json"
   },
   {
    "id": "3:58391",
@@ -1686,7 +1735,8 @@
     "#ffffff"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-58391.json"
   },
   {
    "id": "3:58453",
@@ -1721,7 +1771,8 @@
     "#fbf9f6"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-58453.json"
   },
   {
    "id": "3:58733",
@@ -1754,7 +1805,8 @@
     "#ffffff"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-58733.json"
   },
   {
    "id": "3:58829",
@@ -1791,7 +1843,8 @@
     "#a7c439"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-58829.json"
   },
   {
    "id": "3:59019",
@@ -1828,7 +1881,8 @@
     "#252530"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-59019.json"
   },
   {
    "id": "3:59155",
@@ -1865,7 +1919,8 @@
     "#18ade5"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-59155.json"
   },
   {
    "id": "3:59301",
@@ -1902,7 +1957,8 @@
     "#1b9464"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-59301.json"
   },
   {
    "id": "3:59597",
@@ -1939,7 +1995,8 @@
     "#366ecf"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-59597.json"
   },
   {
    "id": "3:59684",
@@ -1973,7 +2030,8 @@
     "#d9d9d9"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-59684.json"
   },
   {
    "id": "3:59736",
@@ -2010,7 +2068,8 @@
     "#723707"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-59736.json"
   },
   {
    "id": "3:59837",
@@ -2045,7 +2104,8 @@
     "#ffffff"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-59837.json"
   },
   {
    "id": "3:67833",
@@ -2076,7 +2136,8 @@
     "#181818"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-67833.json"
   },
   {
    "id": "3:120395",
@@ -2110,7 +2171,8 @@
     "#1b1b1b"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-120395.json"
   },
   {
    "id": "3:120434",
@@ -2144,7 +2206,8 @@
     "#1d1d1d"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-120434.json"
   },
   {
    "id": "3:120471",
@@ -2178,7 +2241,8 @@
     "#1b1b1b"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-120471.json"
   },
   {
    "id": "3:120507",
@@ -2212,7 +2276,8 @@
     "#1b1b1b"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-120507.json"
   },
   {
    "id": "3:120543",
@@ -2245,7 +2310,8 @@
     "#1b1b1b"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-120543.json"
   },
   {
    "id": "3:120917",
@@ -2278,7 +2344,8 @@
     "#1b1b1b"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-120917.json"
   },
   {
    "id": "3:120952",
@@ -2306,7 +2373,8 @@
     "#000000"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-120952.json"
   },
   {
    "id": "3:120958",
@@ -2334,7 +2402,8 @@
     "#000000"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-120958.json"
   },
   {
    "id": "3:120964",
@@ -2365,7 +2434,8 @@
     "#1b1b1b"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-120964.json"
   },
   {
    "id": "8:51344",
@@ -2393,7 +2463,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-51344.json"
   },
   {
    "id": "8:51364",
@@ -2425,7 +2496,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-51364.json"
   },
   {
    "id": "8:51387",
@@ -2458,7 +2530,8 @@
     "#ffffff"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-51387.json"
   },
   {
    "id": "8:51419",
@@ -2486,7 +2559,8 @@
     "#000002"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-51419.json"
   },
   {
    "id": "8:51454",
@@ -2514,7 +2588,8 @@
     "#000002"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-51454.json"
   },
   {
    "id": "8:51489",
@@ -2542,7 +2617,8 @@
     "#000002"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-51489.json"
   },
   {
    "id": "8:51519",
@@ -2570,7 +2646,8 @@
     "#000002"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-51519.json"
   },
   {
    "id": "8:51547",
@@ -2595,7 +2672,8 @@
     "#000002"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-51547.json"
   },
   {
    "id": "8:51607",
@@ -2623,7 +2701,8 @@
     "#000002"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-51607.json"
   },
   {
    "id": "8:51637",
@@ -2655,7 +2734,8 @@
     "#000002"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-51637.json"
   },
   {
    "id": "8:51961",
@@ -2691,7 +2771,8 @@
     "#fff8f2"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-51961.json"
   },
   {
    "id": "8:52180",
@@ -2727,7 +2808,8 @@
     "#d53987"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-52180.json"
   },
   {
    "id": "8:52614",
@@ -2758,7 +2840,8 @@
     "#003cb2"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-52614.json"
   },
   {
    "id": "8:52642",
@@ -2789,7 +2872,8 @@
     "#003cb2"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-52642.json"
   },
   {
    "id": "8:52700",
@@ -2824,7 +2908,8 @@
     "#107c41"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-52700.json"
   },
   {
    "id": "1:57810",
@@ -2861,7 +2946,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/1-57810.json"
   },
   {
    "id": "3:44166",
@@ -2897,7 +2983,8 @@
     "#d9d9d9"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-44166.json"
   },
   {
    "id": "3:44199",
@@ -2933,7 +3020,8 @@
     "#d9d9d9"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-44199.json"
   },
   {
    "id": "3:44237",
@@ -2969,7 +3057,8 @@
     "#d9d9d9"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-44237.json"
   },
   {
    "id": "3:44266",
@@ -3000,7 +3089,8 @@
     "#43e8a9"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-44266.json"
   },
   {
    "id": "3:44547",
@@ -3031,7 +3121,8 @@
     "#4ad89a"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-44547.json"
   },
   {
    "id": "3:44828",
@@ -3065,7 +3156,8 @@
     "#20265e"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-44828.json"
   },
   {
    "id": "3:45999",
@@ -3097,7 +3189,8 @@
     "#ff4b33"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-45999.json"
   },
   {
    "id": "3:46228",
@@ -3129,7 +3222,8 @@
     "#ff4b33"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-46228.json"
   },
   {
    "id": "3:46457",
@@ -3162,7 +3256,8 @@
     "#ff4b33"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-46457.json"
   },
   {
    "id": "3:46687",
@@ -3194,7 +3289,8 @@
     "#ff4b33"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-46687.json"
   },
   {
    "id": "3:46917",
@@ -3228,7 +3324,8 @@
     "#4ad89a"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-46917.json"
   },
   {
    "id": "3:48077",
@@ -3263,7 +3360,8 @@
     "#47475f"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-48077.json"
   },
   {
    "id": "3:48455",
@@ -3296,7 +3394,8 @@
     "#ff4b33"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-48455.json"
   },
   {
    "id": "3:48684",
@@ -3331,7 +3430,8 @@
     "#47475f"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-48684.json"
   },
   {
    "id": "3:49080",
@@ -3365,7 +3465,8 @@
     "#f3a3c3"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-49080.json"
   },
   {
    "id": "3:52326",
@@ -3399,7 +3500,8 @@
     "#201e1b"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-52326.json"
   },
   {
    "id": "3:52880",
@@ -3431,7 +3533,8 @@
     "#1b9464"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-52880.json"
   },
   {
    "id": "3:53586",
@@ -3461,7 +3564,8 @@
     "#1b9464"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-53586.json"
   },
   {
    "id": "3:54241",
@@ -3487,7 +3591,8 @@
     "#d7d7d7"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-54241.json"
   },
   {
    "id": "3:54716",
@@ -3520,7 +3625,8 @@
     "#1b9464"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-54716.json"
   },
   {
    "id": "3:55422",
@@ -3554,7 +3660,8 @@
     "#4ad89a"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-55422.json"
   },
   {
    "id": "3:57443",
@@ -3590,7 +3697,8 @@
     "#ffffff"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-57443.json"
   },
   {
    "id": "3:57614",
@@ -3622,7 +3730,8 @@
     "#4343e8"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-57614.json"
   },
   {
    "id": "3:55685",
@@ -3658,7 +3767,8 @@
     "#47475f"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-55685.json"
   },
   {
    "id": "3:56107",
@@ -3693,7 +3803,8 @@
     "#47475f"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-56107.json"
   },
   {
    "id": "3:56492",
@@ -3721,7 +3832,8 @@
     "#47475f"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-56492.json"
   },
   {
    "id": "3:56877",
@@ -3756,7 +3868,8 @@
     "#47475f"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-56877.json"
   },
   {
    "id": "3:57263",
@@ -3790,7 +3903,8 @@
     "#47475f"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-57263.json"
   },
   {
    "id": "3:57513",
@@ -3824,7 +3938,8 @@
     "#3c88ec"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-57513.json"
   },
   {
    "id": "3:63862",
@@ -3858,7 +3973,8 @@
     "#d9d9d9"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-63862.json"
   },
   {
    "id": "3:63896",
@@ -3892,7 +4008,8 @@
     "#d9d9d9"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-63896.json"
   },
   {
    "id": "3:63933",
@@ -3923,7 +4040,8 @@
     "#e84393"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-63933.json"
   },
   {
    "id": "3:64008",
@@ -3954,7 +4072,8 @@
     "#e84393"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64008.json"
   },
   {
    "id": "3:64083",
@@ -3985,7 +4104,8 @@
     "#e84393"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64083.json"
   },
   {
    "id": "3:64158",
@@ -4016,7 +4136,8 @@
     "#e84393"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64158.json"
   },
   {
    "id": "3:64233",
@@ -4051,7 +4172,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64233.json"
   },
   {
    "id": "3:64312",
@@ -4086,7 +4208,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64312.json"
   },
   {
    "id": "3:64391",
@@ -4121,7 +4244,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64391.json"
   },
   {
    "id": "3:64470",
@@ -4156,7 +4280,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64470.json"
   },
   {
    "id": "3:64549",
@@ -4191,7 +4316,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64549.json"
   },
   {
    "id": "3:64630",
@@ -4226,7 +4352,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64630.json"
   },
   {
    "id": "3:64711",
@@ -4261,7 +4388,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64711.json"
   },
   {
    "id": "3:64792",
@@ -4296,7 +4424,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64792.json"
   },
   {
    "id": "3:64873",
@@ -4328,7 +4457,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64873.json"
   },
   {
    "id": "3:64948",
@@ -4360,7 +4490,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-64948.json"
   },
   {
    "id": "3:65023",
@@ -4392,7 +4523,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-65023.json"
   },
   {
    "id": "3:65098",
@@ -4424,7 +4556,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-65098.json"
   },
   {
    "id": "3:65173",
@@ -4456,7 +4589,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-65173.json"
   },
   {
    "id": "3:65248",
@@ -4488,7 +4622,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-65248.json"
   },
   {
    "id": "3:65323",
@@ -4520,7 +4655,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-65323.json"
   },
   {
    "id": "3:65399",
@@ -4552,7 +4688,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-65399.json"
   },
   {
    "id": "3:65474",
@@ -4585,7 +4722,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-65474.json"
   },
   {
    "id": "3:65551",
@@ -4617,7 +4755,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-65551.json"
   },
   {
    "id": "3:65915",
@@ -4654,7 +4793,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-65915.json"
   },
   {
    "id": "3:66067",
@@ -4691,7 +4831,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-66067.json"
   },
   {
    "id": "3:66205",
@@ -4728,7 +4869,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-66205.json"
   },
   {
    "id": "3:66352",
@@ -4765,7 +4907,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-66352.json"
   },
   {
    "id": "3:66498",
@@ -4802,7 +4945,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-66498.json"
   },
   {
    "id": "3:66645",
@@ -4839,7 +4983,8 @@
     "#e89604"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-66645.json"
   },
   {
    "id": "3:66800",
@@ -4876,7 +5021,8 @@
     "#e89604"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-66800.json"
   },
   {
    "id": "3:66954",
@@ -4913,7 +5059,8 @@
     "#fbf9f6"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-66954.json"
   },
   {
    "id": "3:67209",
@@ -4950,7 +5097,8 @@
     "#fbf9f6"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-67209.json"
   },
   {
    "id": "3:67800",
@@ -4985,7 +5133,8 @@
     "#101010"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-67800.json"
   },
   {
    "id": "3:67903",
@@ -5019,7 +5168,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-67903.json"
   },
   {
    "id": "3:67932",
@@ -5055,7 +5205,8 @@
     "#4ad89a"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-67932.json"
   },
   {
    "id": "3:67989",
@@ -5091,7 +5242,8 @@
     "#4ad89a"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-67989.json"
   },
   {
    "id": "3:68046",
@@ -5127,7 +5279,8 @@
     "#4ad89a"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-68046.json"
   },
   {
    "id": "3:68103",
@@ -5160,7 +5313,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-68103.json"
   },
   {
    "id": "3:68143",
@@ -5193,7 +5347,8 @@
     "#fff8f2"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-68143.json"
   },
   {
    "id": "3:68210",
@@ -5226,7 +5381,8 @@
     "#dd870c"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-68210.json"
   },
   {
    "id": "3:90948",
@@ -5260,7 +5416,8 @@
     "#7d55ff"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-90948.json"
   },
   {
    "id": "3:90973",
@@ -5295,7 +5452,8 @@
     "#101010"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-90973.json"
   },
   {
    "id": "3:91003",
@@ -5331,7 +5489,8 @@
     "#181818"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-91003.json"
   },
   {
    "id": "3:91041",
@@ -5367,7 +5526,8 @@
     "#181818"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-91041.json"
   },
   {
    "id": "3:91079",
@@ -5403,7 +5563,8 @@
     "#e84393"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-91079.json"
   },
   {
    "id": "3:91117",
@@ -5436,7 +5597,8 @@
     "#101010"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-91117.json"
   },
   {
    "id": "3:92172",
@@ -5473,7 +5635,8 @@
     "#afe4d0"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-92172.json"
   },
   {
    "id": "3:92306",
@@ -5511,7 +5674,8 @@
     "#afe4d0"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-92306.json"
   },
   {
    "id": "3:94093",
@@ -5547,7 +5711,8 @@
     "#7c4dff"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-94093.json"
   },
   {
    "id": "3:94154",
@@ -5583,7 +5748,8 @@
     "#7c4dff"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-94154.json"
   },
   {
    "id": "3:94223",
@@ -5612,7 +5778,8 @@
     "#000000"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-94223.json"
   },
   {
    "id": "3:94329",
@@ -5649,7 +5816,8 @@
     "#a4a4a4"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-94329.json"
   },
   {
    "id": "3:94520",
@@ -5688,7 +5856,8 @@
     "#dcba50"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-94520.json"
   },
   {
    "id": "3:95300",
@@ -5726,7 +5895,8 @@
     "#5beeb5"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-95300.json"
   },
   {
    "id": "3:95529",
@@ -5765,7 +5935,8 @@
     "#dcba50"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-95529.json"
   },
   {
    "id": "3:95715",
@@ -5803,7 +5974,8 @@
     "#5beeb5"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-95715.json"
   },
   {
    "id": "3:95999",
@@ -5841,7 +6013,8 @@
     "#164733"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-95999.json"
   },
   {
    "id": "3:96346",
@@ -5876,7 +6049,8 @@
     "#000000"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-96346.json"
   },
   {
    "id": "3:99936",
@@ -5910,7 +6084,8 @@
     "#000000"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-99936.json"
   },
   {
    "id": "3:103442",
@@ -5944,7 +6119,8 @@
     "#000000"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-103442.json"
   },
   {
    "id": "3:106947",
@@ -5977,7 +6153,8 @@
     "#f2f2f2"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-106947.json"
   },
   {
    "id": "3:108010",
@@ -6011,7 +6188,8 @@
     "#fbf9f6"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-108010.json"
   },
   {
    "id": "3:108057",
@@ -6045,7 +6223,8 @@
     "#f2f2f2"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-108057.json"
   },
   {
    "id": "3:108293",
@@ -6079,7 +6258,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-108293.json"
   },
   {
    "id": "3:108410",
@@ -6112,7 +6292,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-108410.json"
   },
   {
    "id": "3:108531",
@@ -6148,7 +6329,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-108531.json"
   },
   {
    "id": "3:108652",
@@ -6179,7 +6361,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-108652.json"
   },
   {
    "id": "3:108762",
@@ -6214,7 +6397,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-108762.json"
   },
   {
    "id": "3:108885",
@@ -6246,7 +6430,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-108885.json"
   },
   {
    "id": "3:109001",
@@ -6277,7 +6462,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-109001.json"
   },
   {
    "id": "3:109178",
@@ -6309,7 +6495,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-109178.json"
   },
   {
    "id": "3:109284",
@@ -6345,7 +6532,8 @@
     "#34a853"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-109284.json"
   },
   {
    "id": "3:109439",
@@ -6378,7 +6566,8 @@
     "#4ad89a"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-109439.json"
   },
   {
    "id": "3:109558",
@@ -6408,7 +6597,8 @@
     "#161411"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-109558.json"
   },
   {
    "id": "3:109664",
@@ -6439,7 +6629,8 @@
     "#161411"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-109664.json"
   },
   {
    "id": "3:109775",
@@ -6470,7 +6661,8 @@
     "#fbfbfb"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-109775.json"
   },
   {
    "id": "3:109884",
@@ -6503,7 +6695,8 @@
     "#4ad89a"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-109884.json"
   },
   {
    "id": "3:109999",
@@ -6539,7 +6732,8 @@
     "#2b2b2b"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-109999.json"
   },
   {
    "id": "3:110143",
@@ -6573,7 +6767,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-110143.json"
   },
   {
    "id": "3:110260",
@@ -6606,7 +6801,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-110260.json"
   },
   {
    "id": "3:110381",
@@ -6640,7 +6836,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-110381.json"
   },
   {
    "id": "3:110502",
@@ -6671,7 +6868,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-110502.json"
   },
   {
    "id": "3:110612",
@@ -6706,7 +6904,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-110612.json"
   },
   {
    "id": "3:110735",
@@ -6738,7 +6937,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-110735.json"
   },
   {
    "id": "3:110854",
@@ -6771,7 +6971,8 @@
     "#161411"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-110854.json"
   },
   {
    "id": "3:112055",
@@ -6808,7 +7009,8 @@
     "#9ec1fa"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-112055.json"
   },
   {
    "id": "3:112173",
@@ -6845,7 +7047,8 @@
     "#000000"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-112173.json"
   },
   {
    "id": "3:112352",
@@ -6879,7 +7082,8 @@
     "#f6f7fa"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-112352.json"
   },
   {
    "id": "3:112626",
@@ -6913,7 +7117,8 @@
     "#222222"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-112626.json"
   },
   {
    "id": "3:112965",
@@ -6950,7 +7155,8 @@
     "#e1e8f8"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-112965.json"
   },
   {
    "id": "3:113074",
@@ -6984,7 +7190,8 @@
     "#484848"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-113074.json"
   },
   {
    "id": "3:113452",
@@ -7018,7 +7225,8 @@
     "#2266e2"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-113452.json"
   },
   {
    "id": "3:113691",
@@ -7052,7 +7260,8 @@
     "#f6f7fa"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-113691.json"
   },
   {
    "id": "3:113984",
@@ -7085,7 +7294,8 @@
     "#366ecf"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-113984.json"
   },
   {
    "id": "3:115184",
@@ -7117,7 +7327,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-115184.json"
   },
   {
    "id": "3:115325",
@@ -7150,7 +7361,8 @@
     "#f2f2f2"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-115325.json"
   },
   {
    "id": "3:115438",
@@ -7185,7 +7397,8 @@
     "#ff9a02"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-115438.json"
   },
   {
    "id": "3:116436",
@@ -7218,7 +7431,8 @@
     "#fbf9f6"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-116436.json"
   },
   {
    "id": "3:116461",
@@ -7252,7 +7466,8 @@
     "#022864"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-116461.json"
   },
   {
    "id": "3:116492",
@@ -7288,7 +7503,8 @@
     "#7c4dff"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-116492.json"
   },
   {
    "id": "3:116553",
@@ -7324,7 +7540,8 @@
     "#7c4dff"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-116553.json"
   },
   {
    "id": "3:116621",
@@ -7358,7 +7575,8 @@
     "#ff4b33"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-116621.json"
   },
   {
    "id": "3:116674",
@@ -7393,7 +7611,8 @@
     "#ff4b33"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-116674.json"
   },
   {
    "id": "3:116703",
@@ -7428,7 +7647,8 @@
     "#ff4b33"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-116703.json"
   },
   {
    "id": "3:116733",
@@ -7462,7 +7682,8 @@
     "#181818"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-116733.json"
   },
   {
    "id": "3:116782",
@@ -7496,7 +7717,8 @@
     "#366ecf"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-116782.json"
   },
   {
    "id": "3:116831",
@@ -7532,7 +7754,8 @@
     "#ff4b33"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-116831.json"
   },
   {
    "id": "3:116924",
@@ -7567,7 +7790,8 @@
     "#ff4b33"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-116924.json"
   },
   {
    "id": "3:116954",
@@ -7601,7 +7825,8 @@
     "#ff4b33"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-116954.json"
   },
   {
    "id": "3:116979",
@@ -7637,7 +7862,8 @@
     "#ff4b33"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-116979.json"
   },
   {
    "id": "3:117009",
@@ -7672,7 +7898,8 @@
     "#ff4b33"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117009.json"
   },
   {
    "id": "3:117043",
@@ -7708,7 +7935,8 @@
     "#ff4b33"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117043.json"
   },
   {
    "id": "3:117172",
@@ -7741,7 +7969,8 @@
     "#161411"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117172.json"
   },
   {
    "id": "3:117207",
@@ -7774,7 +8003,8 @@
     "#161411"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117207.json"
   },
   {
    "id": "3:117241",
@@ -7807,7 +8037,8 @@
     "#161411"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117241.json"
   },
   {
    "id": "3:117276",
@@ -7843,7 +8074,8 @@
     "#65b2e8"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117276.json"
   },
   {
    "id": "3:117331",
@@ -7876,7 +8108,8 @@
     "#161411"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117331.json"
   },
   {
    "id": "3:117367",
@@ -7912,7 +8145,8 @@
     "#7c4dff"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117367.json"
   },
   {
    "id": "3:117425",
@@ -7948,7 +8182,8 @@
     "#0758fb"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117425.json"
   },
   {
    "id": "3:117502",
@@ -7983,7 +8218,8 @@
     "#0758fb"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117502.json"
   },
   {
    "id": "3:117559",
@@ -8019,7 +8255,8 @@
     "#65b2e8"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117559.json"
   },
   {
    "id": "3:117614",
@@ -8055,7 +8292,8 @@
     "#d9d9d9"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117614.json"
   },
   {
    "id": "3:117686",
@@ -8091,7 +8329,8 @@
     "#2929e1"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117686.json"
   },
   {
    "id": "3:117732",
@@ -8127,7 +8366,8 @@
     "#366ecf"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117732.json"
   },
   {
    "id": "3:117809",
@@ -8163,7 +8403,8 @@
     "#2929e1"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117809.json"
   },
   {
    "id": "3:117856",
@@ -8197,7 +8438,8 @@
     "#161411"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117856.json"
   },
   {
    "id": "3:117898",
@@ -8231,7 +8473,8 @@
     "#e2ded7"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117898.json"
   },
   {
    "id": "3:117955",
@@ -8265,7 +8508,8 @@
     "#2929e1"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-117955.json"
   },
   {
    "id": "3:118225",
@@ -8301,7 +8545,8 @@
     "#fffffe"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/3-118225.json"
   },
   {
    "id": "3:118370",
@@ -8337,7 +8582,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-118370.json"
   },
   {
    "id": "3:118678",
@@ -8372,7 +8618,8 @@
     "#513636"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-118678.json"
   },
   {
    "id": "3:118950",
@@ -8408,7 +8655,8 @@
     "#4ad89a"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-118950.json"
   },
   {
    "id": "3:120081",
@@ -8444,7 +8692,8 @@
     "#e2ded7"
    ],
    "uses_photo": true,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/3-120081.json"
   },
   {
    "id": "4:120995",
@@ -8479,7 +8728,8 @@
     "#fbf4ec"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/4-120995.json"
   },
   {
    "id": "4:121053",
@@ -8513,7 +8763,8 @@
     "#00ca72"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/4-121053.json"
   },
   {
    "id": "4:121193",
@@ -8547,7 +8798,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/4-121193.json"
   },
   {
    "id": "4:121242",
@@ -8581,7 +8833,8 @@
     "#000000"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/4-121242.json"
   },
   {
    "id": "4:121283",
@@ -8615,7 +8868,8 @@
     "#ff4b33"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/4-121283.json"
   },
   {
    "id": "4:121332",
@@ -8651,7 +8905,8 @@
     "#ff4b33"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/4-121332.json"
   },
   {
    "id": "5:121434",
@@ -8684,7 +8939,8 @@
     "#ff4b33"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/5-121434.json"
   },
   {
    "id": "5:131196",
@@ -8720,7 +8976,8 @@
     "#ff4b33"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/5-131196.json"
   },
   {
    "id": "5:131424",
@@ -8748,7 +9005,8 @@
     "#050811"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/5-131424.json"
   },
   {
    "id": "5:131434",
@@ -8778,7 +9036,8 @@
     "#ff4b33"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/5-131434.json"
   },
   {
    "id": "5:131455",
@@ -8806,7 +9065,8 @@
     "#050811"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/5-131455.json"
   },
   {
    "id": "5:131465",
@@ -8839,7 +9099,8 @@
     "#ff4b33"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/5-131465.json"
   },
   {
    "id": "5:131494",
@@ -8871,7 +9132,8 @@
     "#ff4b33"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/5-131494.json"
   },
   {
    "id": "5:131851",
@@ -8903,7 +9165,8 @@
     "#2d2828"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/5-131851.json"
   },
   {
    "id": "5:131876",
@@ -8935,7 +9198,8 @@
     "#ffd8b4"
    ],
    "uses_photo": true,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/5-131876.json"
   },
   {
    "id": "5:131915",
@@ -8971,7 +9235,8 @@
     "#ffffff"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/5-131915.json"
   },
   {
    "id": "7:3229",
@@ -9001,7 +9266,8 @@
     "#fbf9f6"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/7-3229.json"
   },
   {
    "id": "7:3284",
@@ -9031,7 +9297,8 @@
     "#ffb8b8"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/7-3284.json"
   },
   {
    "id": "7:3293",
@@ -9060,7 +9327,8 @@
     "#dbd5ef"
    ],
    "uses_photo": false,
-   "uses_grain": true
+   "uses_grain": true,
+   "spec": "references/figma/specs/7-3293.json"
   },
   {
    "id": "8:52879",
@@ -9096,7 +9364,8 @@
     "#94e9c0"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-52879.json"
   },
   {
    "id": "8:53016",
@@ -9127,7 +9396,8 @@
     "#fbf9f6"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-53016.json"
   },
   {
    "id": "8:53239",
@@ -9163,7 +9433,8 @@
     "#69696b"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-53239.json"
   },
   {
    "id": "8:57292",
@@ -9199,7 +9470,8 @@
     "#002856"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-57292.json"
   },
   {
    "id": "8:57749",
@@ -9234,7 +9506,8 @@
     "#e88a85"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-57749.json"
   },
   {
    "id": "8:58288",
@@ -9269,7 +9542,8 @@
     "#f4f4f4"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-58288.json"
   },
   {
    "id": "8:58673",
@@ -9305,7 +9579,8 @@
     "#002856"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-58673.json"
   },
   {
    "id": "8:63076",
@@ -9341,7 +9616,8 @@
     "#69696b"
    ],
    "uses_photo": false,
-   "uses_grain": false
+   "uses_grain": false,
+   "spec": "references/figma/specs/8-63076.json"
   }
  ]
 }

@@ -8,7 +8,9 @@ Working HTML/CSS starting points, measured against the Figma references. Open an
 | `social/product-launch.html` (Product announcement) | 2 | `guidelines/` 04 C |
 | `social/carousel-dark.html` (Carousel, dark statement) | 3 | `guidelines/` 04 D1 |
 | `social/carousel-customer-spotlight.html` (Carousel, customer spotlight) | 3 | `guidelines/` 04 D3 |
+| `social/carousel-variants.html` (Carousel variants: panels, security news, light feature tour) | 5 | `guidelines/` 04 D2, D4, D5 |
 | `social/people-new-joiners.html` (People, new joiners) | 3 | `guidelines/` 04 E |
+| `social/recognition-and-spotlight.html` (Recognition banners and employee spotlight) | 3 | `guidelines/` 04 H and E |
 | `social/greeting-z-overlay.html` (Greeting, Z overlay) | 2 | `guidelines/` 04 F and 02 section 2 |
 | `social/ad-portrait.html` (Paid ad 4:5) | 1 | `guidelines/` 04 G |
 | `video/academy-slides.html` (Academy video slides) | 5 | `guidelines/` 05 section 1 |

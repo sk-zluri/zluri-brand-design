@@ -47,14 +47,14 @@ p{margin:0}a{color:inherit;text-decoration:none}
 .nav{max-width:1400px;margin:0 auto;height:72px;background:#fff;border-radius:var(--radius-lg);box-shadow:var(--elev-raised);display:flex;align-items:center;gap:48px;padding:0 44px 0 48px;color:var(--fg)}
 .nav img{height:44px}.nav .links{display:flex;gap:40px;font-size:16px}.nav .links a{transition:color var(--motion-fast)}.nav .links a:hover{color:var(--accent)}
 .nav .right{margin-left:auto;display:flex;align-items:center;gap:32px;font-size:16px}
-.nav .pill{display:inline-flex;align-items:center;height:40px;padding:0 22px;border-radius:999px;background:var(--accent);color:#fff;transition:background-color var(--motion-base) var(--ease-standard)}.nav .pill:hover{background:var(--accent-hover)}
+.nav .pill{display:inline-flex;align-items:center;height:35px;padding:0 20px;border-radius:999px;background:var(--accent);color:#fff;transition:background-color var(--motion-base) var(--ease-standard)}.nav .pill:hover{background:var(--accent-hover)}
 
 /* hero — cursor-reactive streak field */
 .hero{position:relative;min-height:880px;background:var(--zluri-deep-black);display:grid;place-items:center;text-align:center;overflow:hidden;margin-top:-12px;padding:172px 24px 120px}
 .hero canvas{position:absolute;inset:0;width:100%;height:100%}
 .hero .in{position:relative;z-index:2;max-width:1040px}
-.chip{display:inline-flex;align-items:center;height:30px;padding:0 16px;border-radius:999px;background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px rgba(255,255,255,.14);color:#fbf9f6;font:600 11px/1 var(--font-body);letter-spacing:.12em;text-transform:uppercase;margin-bottom:28px}
-.hero h1{color:#fbf9f6;margin-bottom:24px}.hero .lede{color:var(--zluri-on-dark-muted);margin:0 auto 44px;max-width:680px}.hero .cta-row{justify-content:center}
+.chip{display:inline-flex;align-items:center;height:30px;padding:0 16px;border-radius:999px;background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px rgba(255,255,255,.14);color:#fbf9f6;font:600 12px/1 var(--font-body);letter-spacing:.1em;text-transform:uppercase;margin-bottom:28px}
+.hero h1{color:#fbf9f6;margin-bottom:24px;font-size:var(--zluri-text-hero)}.hero .lede{color:var(--zluri-on-dark-muted);margin:0 auto 44px;max-width:680px}.hero .cta-row{justify-content:center}
 
 /* marquee */
 .marquee{background:var(--zluri-deep-black);color:var(--zluri-on-dark-muted);padding:36px 0 44px;text-align:center;font-size:20px;overflow:hidden;border-top:1px solid rgba(245,245,245,.08)}
@@ -128,10 +128,10 @@ footer .legal{margin-top:48px;font-size:14px;color:var(--zluri-on-dark-muted)}
 
 [data-reveal]{opacity:0;transform:translateY(24px);transition:opacity .6s var(--ease-standard),transform .6s var(--ease-standard)}[data-reveal].in{opacity:1;transform:none}
 
-@media (max-width:991px){h1{font-size:40px}h2{font-size:36px}h3{font-size:28px}.sec{padding:var(--section-y-tablet) 0}.wrap{padding:0 var(--container-gutter-tablet)}
+@media (max-width:991px){h1,.hero h1{font-size:40px}h2{font-size:36px}h3{font-size:28px}.sec{padding:var(--section-y-tablet) 0}.wrap{padding:0 var(--container-gutter-tablet)}
   .nav .links{display:none}.grid{grid-template-columns:1fr 1fr}.feat,.ctaband{grid-template-columns:1fr;gap:40px}.feat.flip .txt{order:0}.cards{grid-template-columns:1fr 1fr}.cards:hover .card{opacity:1}
   .layers{grid-template-columns:1fr}.stack{display:none}.layers .notes ul{display:grid;margin-bottom:24px}.quotes{grid-template-columns:1fr}footer .cols{grid-template-columns:1fr 1fr}}
-@media (max-width:767px){h1{font-size:32px}h2{font-size:28px}.lede,.btn,.link{font-size:18px}.btn{height:56px;padding:0 28px}.sec{padding:var(--section-y-phone) 0}.wrap{padding:0 var(--container-gutter-phone)}
+@media (max-width:767px){h1,.hero h1{font-size:32px}h2{font-size:28px}.lede,.btn,.link{font-size:18px}.btn{height:56px;padding:0 28px}.sec{padding:var(--section-y-phone) 0}.wrap{padding:0 var(--container-gutter-phone)}
   .grid,.cards{grid-template-columns:1fr}.cmp{grid-template-columns:1fr}.cmp .h{display:none}.announce{font-size:14px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}[data-reveal]{opacity:1;transform:none}.mark{background-size:100% 100%}}
 </style>

@@ -12,7 +12,7 @@ You are an agent asked to produce a design for **Zluri** (identity security plat
 | --- | --- | --- |
 | 1 | `DESIGN.md` | The whole system in one read: character, logo, colour, type, layout, motifs, components, imagery, motion, do/don't. |
 | 2 | The guideline for your format (table below) | Exact specs: canvas, sizes, positions, variants. |
-| 3 | 2–4 images from `references/` for that format | Your visual target. Find them with `references/figma/index.json` or `references/website/index.json`. **Look at them before you design.** |
+| 3 | 2–4 images from `references/` for that format | Your visual target. Find them with `references/figma/index.json` or `references/website/index.json`. **Look at them before you design.** Each Figma frame also has a measured layout spec (`references/figma/specs/<node-id>.json`: every text box with position, font, size, colour, tracking; fills; gradients; effects) — read it when you need exact numbers. |
 | 4 | The matching file in `templates/` | A working HTML starting point that already renders correctly. |
 | 5 | `tokens.css` | Paste the `:root` block; use `var(--…)` only. |
 | 6 | `guidelines/12-anti-slop-checklist.md` | Run it before you show anything. |
@@ -25,13 +25,15 @@ Do not skip step 3. Text specs alone produce mediocre results; the references ca
 | --- | --- | --- | --- |
 | Event post / thumbnail / invite | `04` §A–B | `figma/social-events/` | `social/event-thumbnails.html` |
 | Product or feature announcement | `04` §C | `figma/social-product-launch/` | `social/product-launch.html` |
-| LinkedIn carousel (insight, explainer) | `04` §D1, D2, D4 | `figma/social-carousels/` | `social/carousel-dark.html` |
+| LinkedIn carousel — statement / insight | `04` §D1 | `figma/social-carousels/carousel-access-visibility-gap*` | `social/carousel-dark.html` |
+| LinkedIn carousel — problem → solution panels, security news / explainer | `04` §D2, D4 | `figma/social-carousels/carousel-gbar*`, `carousel-security-news*` | `social/carousel-variants.html` |
 | Customer story carousel | `04` §D3 | `figma/social-carousels/carousel-customer-spotlight-*` | `social/carousel-customer-spotlight.html` |
-| Feature-tour carousel (light) | `04` §D5 | `figma/social-carousels/carousel-zluri-2-0-light*` | adapt `social/carousel-dark.html` on `.c-white` |
-| New-joiner / employee / culture post | `04` §E | `figma/social-people/` | `social/people-new-joiners.html` |
+| Feature-tour carousel (light) | `04` §D5 | `figma/social-carousels/carousel-zluri-2-0-light*` | `social/carousel-variants.html` (last artboard) |
+| New-joiner / culture post | `04` §E | `figma/social-people/new-joiners*` | `social/people-new-joiners.html` |
+| Employee spotlight | `04` §E | `figma/social-people/employee-spotlight*` | `social/recognition-and-spotlight.html` |
 | Holiday / observance greeting | `04` §F | `figma/social-festive/` | `social/greeting-z-overlay.html` |
 | Paid social ad | `04` §G | `figma/ads/` | `social/ad-portrait.html` |
-| Award / recognition banner | `04` §H | `figma/brand-backgrounds/` | adapt `banners/banners-and-email.html` |
+| Award / recognition banner | `04` §H | `figma/brand-backgrounds/` | `social/recognition-and-spotlight.html` |
 | Profile banner, email header/signature, site bar | `04` §I | `figma/banners-and-email/` | `banners/banners-and-email.html` |
 | Course / explainer video slides | `05` §1 | `figma/video/academy-*` | `video/academy-slides.html` |
 | Feature video intro, testimonial video cards | `05` §2–3 | `figma/video/feature-spotlight*`, `customer-testimonial*` | `video/feature-spotlight-and-testimonial.html` |
@@ -86,7 +88,7 @@ guidelines/            12 deep-dive documents (foundations → anti-slop)
 templates/             working HTML for social, video, banners, deck, web
 assets/logos/          every logo variant, named by the background it sits on
 assets/motifs/         SVG motifs exported from the designers' Figma file
-references/figma/      276 designer frames by category + index.json
+references/figma/      276 designer frames by category + index.json + specs/ (measured layout per frame)
 references/website/    39 full-page captures, live interaction captures + index.json
 references/brand-guidelines-pdf/  the 31 guideline pages + extracted text
 preview/               colour / type / spacing / motif pages and rendered templates

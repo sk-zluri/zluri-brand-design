@@ -550,6 +550,10 @@
     "zluri-ease-power3": {
       "$value": "cubic-bezier(0.165, 0.84, 0.44, 1)",
       "$type": "cubicBezier"
+    },
+    "zluri-text-hero": {
+      "$value": "64px",
+      "$type": "dimension"
     }
   },
   "dark": {

@@ -1,6 +1,6 @@
 # 04 · Social and marketing assets
 
-Every recurring asset type in the Figma library, as a buildable spec. Sizes are in px on the stated canvas; scale proportionally for other sizes. Reference images: `references/figma/<category>/` (look up exact files in `references/figma/index.json`). Matching HTML: `templates/social/`.
+Every recurring asset type in the Figma library, as a buildable spec. Sizes are in px on the stated canvas; scale proportionally for other sizes. Reference images: `references/figma/<category>/` (look up exact files in `references/figma/index.json`). Exact measurements for any frame: `references/figma/specs/<node-id>.json`. Matching HTML: `templates/social/` and `templates/banners/`.
 
 ---
 

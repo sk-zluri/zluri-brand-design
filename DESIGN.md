@@ -119,7 +119,7 @@ Two families. No third face, ever (pixel/retro fonts appear only inside delibera
 
 ### Scales
 
-**Web (zluri.com, px):** H1 56/67 · H2 48/58 (or 40/48 compact) · H3 32/38 · card title 24/29 · lede 20/24 · body 16/23 · small 14/22 · eyebrow 12–14 caps, +0.1em, weight 500–600. All headings Satoshi 500.
+**Web (zluri.com, px):** H1 56/67 (64/77 on the homepage hero) · H2 48/58 (or 40/48 compact) · H3 32/38 · card title 24/29 · lede 20/24 · body 16/23 · small 14/22 · eyebrow 12–14 caps, +0.1em, weight 500–600. All headings Satoshi 500.
 
 **Social / video (as % of canvas width — measured):**
 

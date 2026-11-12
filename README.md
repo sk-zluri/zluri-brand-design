@@ -35,10 +35,10 @@ After import, pick **Zluri** as the design system. For best results also attach 
 | `tokens.css` | All design tokens: Open Design's shared schema plus `--zluri-*` extensions and a `.zluri-dark` remap. |
 | `components.html` | Component fixture rendered only from tokens. |
 | `guidelines/` | Twelve documents: foundations, visual language, layout & formats, social & marketing, video & motion, presentations & diagrams, website, web interactions, product-UI illustration, photography & stock sourcing, voice & copy, anti-slop checklist. |
-| `templates/` | Working HTML/CSS for 12 asset families (33 artboards) and a full interactive landing page. Rendered previews in `preview/templates/`. |
+| `templates/` | Working HTML/CSS for 14 asset families (44 artboards) including a full interactive landing page. Rendered previews in `preview/templates/`. |
 | `assets/logos/` | Default, monochrome, tagline and Infotech-endorsed logos + the eye mark. |
 | `assets/motifs/` | SVG brand motifs exported from Figma (Z-overlay shape, cropped wordmark, arc lines, orbit ellipses, z-maze pattern, quote marks, chain link). |
-| `references/` | 276 Figma frames in 12 categories, 39 website pages, 30 live interaction captures, 31 brand-guideline pages — each set with an `index.json`. |
+| `references/` | 276 Figma frames in 14 categories (each with a measured layout spec in `figma/specs/`), 39 website pages, 30 live interaction captures, 31 brand-guideline pages — with `index.json` files for lookup. |
 | `preview/` | Colour, typography, spacing and motif pages; rendered templates. |
 | `tokens/zluri.tokens.json` | Tokens as JSON (generated from `tokens.css`). |
 | `source/` | Evidence and provenance, measured style data, and the scripts used to extract everything. |
