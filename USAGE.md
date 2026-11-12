@@ -6,11 +6,14 @@ Package guide for Open Design agents and reviewers.
 
 1. Read this file to understand the package.
 2. Read `DESIGN.md` for visual intent, constraints and anti-patterns.
-3. Paste the `:root` block of `tokens.css` into the first `<style>` of the artifact before writing component CSS. Add `class="zluri-dark"` to any section that should sit on Deep Black.
-4. Open `components.html` for exact component rules (buttons, eyebrows, cards, collapsed grids, stats, low-fi product UI, pill bar).
-5. For the asset type you are making, read the matching file in `guidelines/` and open the matching file in `templates/` — it is a working starting point.
-6. Look at 2–4 images from `references/` for that asset type (`references/figma/index.json` lists every frame by category; `references/figma/specs/<node-id>.json` gives its measured layout).
-7. Run `guidelines/12-anti-slop-checklist.md` before presenting.
+3. For the asset type you are making, read the matching file in `guidelines/` (routing table in `AGENTS.md`).
+4. Look at 2–4 images from `references/` for that asset type (`references/figma/index.json` lists every frame by category; `references/figma/specs/<node-id>.json` gives its measured layout).
+5. Open the matching file in `templates/` — it is a working starting point.
+6. Paste the **whole** `tokens.css` (the `:root` block and the `.zluri-dark` / `[data-theme="dark"]` remap) into the first `<style>` of the artifact, or link the file. Add `class="zluri-dark"` or `data-theme="dark"` to any section that should sit on Deep Black.
+7. Open `components.html` for exact component rules (buttons, eyebrows, cards, collapsed grids, stats, low-fi product UI, pill bar).
+8. Run `guidelines/12-anti-slop-checklist.md` before presenting.
+
+When rules collide, follow the precedence order in `AGENTS.md` §3a: brief → format recipe → global rules → token defaults.
 
 ## Design Highlights
 
@@ -32,7 +35,7 @@ Package guide for Open Design agents and reviewers.
 
 ## Avoid
 
-- Raw hex values outside the token block.
+- Raw hex values outside the token block (third-party logo colours and photo placeholders excepted).
 - Purple-to-pink "AI" gradients, glassmorphism everywhere, neon glows, heavy shadows.
 - Bold or all-caps headlines, a third typeface, centred-everything layouts.
 - Icon-plus-blurb filler rows, emoji, generic "network of dots" art.

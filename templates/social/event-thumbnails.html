@@ -22,7 +22,7 @@
   .sko .badge { width: calc(var(--zluri-u) * 9.7); aspect-ratio: 1; border-radius: calc(var(--zluri-u) * .7); background: var(--zluri-bright-blue); display: grid; place-content: center; text-align: center; font: 700 calc(var(--zluri-u) * 4.2)/1 var(--font-display); }
   .sko .badge small { display: block; font-size: calc(var(--zluri-u) * 1.7); margin-top: .25em; }
   /* C · gradient field, no photo */
-  .ev-g .layer { background: radial-gradient(90% 120% at 100% 100%, #7763c7 0%, rgba(54,110,207,.9) 28%, rgba(27,148,100,.55) 52%, rgba(22,20,17,0) 78%); }
+  .ev-g .layer { background: var(--zluri-glow-event); }
   .ev-g .sponsor { display: flex; align-items: center; gap: calc(var(--zluri-u) * 2.4); }
   .ev-g .sponsor b { font: 600 calc(var(--zluri-u) * 1.05)/1 var(--font-body); letter-spacing: .16em; }
   .ev-g .sponsor span { font: 600 calc(var(--zluri-u) * 1.3)/1 var(--font-body); opacity: .9; }
@@ -84,7 +84,27 @@
         <div class="foot sponsor"><b>SPONSORED BY</b><span style="margin-left:auto">[Sponsor 1]</span><span>[Sponsor 2]</span><span>[Sponsor 3]</span></div>
       </div>
     </div>
-    <figcaption>C · No-photo variant — aurora gradient + grain, sponsor row</figcaption>
+    <figcaption>C · No-photo variant — event glow (<code>--zluri-glow-event</code>) + grain, sponsor row</figcaption>
+  </figure>
+
+  <figure>
+    <div class="artboard c-pure ev ev-g grain" style="--w:1200px; --h:627px">
+      <div class="layer"></div>
+      <div class="text" style="width:100%">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start">
+          <img class="logo sm" src="../../assets/logos/default/zluri-logo-on-dark.svg" alt="Zluri">
+          <span class="pill-outline">Save your seat →</span>
+        </div>
+        <p class="eyebrow" style="margin-top:calc(var(--zluri-u)*3.6); color:var(--muted)">Webinar</p>
+        <h1 class="h-event" style="margin-top:calc(var(--zluri-u)*1.2); max-width:62%">[Webinar title with a] <span class="key">[key phrase]</span></h1>
+        <div class="meta-rows">
+          <div><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg>[Date]</div>
+          <div><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3 2"/></svg>[Time + zone]</div>
+        </div>
+        <div class="foot"><span class="t-meta">www.zluri.com</span><span class="t-meta">[Optional: speaker name, title]</span></div>
+      </div>
+    </div>
+    <figcaption>D · Webinar / unsponsored online event — same field; eyebrow label, CTA pill top-right, URL bottom-left, optional speaker line bottom-right (use speaker tiles from guidelines/04 §A when headshots are supplied)</figcaption>
   </figure>
 
 </div>

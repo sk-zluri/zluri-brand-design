@@ -14,7 +14,7 @@ You are an agent asked to produce a design for **Zluri** (identity security plat
 | 2 | The guideline for your format (table below) | Exact specs: canvas, sizes, positions, variants. |
 | 3 | 2–4 images from `references/` for that format | Your visual target. Find them with `references/figma/index.json` or `references/website/index.json`. **Look at them before you design.** Each Figma frame also has a measured layout spec (`references/figma/specs/<node-id>.json`: every text box with position, font, size, colour, tracking; fills; gradients; effects) — read it when you need exact numbers. |
 | 4 | The matching file in `templates/` | A working HTML starting point that already renders correctly. |
-| 5 | `tokens.css` | Paste the `:root` block; use `var(--…)` only. |
+| 5 | `tokens.css` | Link the file (as the templates do) or, for a single-file artifact, paste the **whole file** — the `:root` block *and* the `.zluri-dark` remap — into the first `<style>`. Do one, not both. Use `var(--…)` only. |
 | 6 | `guidelines/12-anti-slop-checklist.md` | Run it before you show anything. |
 
 Do not skip step 3. Text specs alone produce mediocre results; the references carry the taste.
@@ -23,7 +23,7 @@ Do not skip step 3. Text specs alone produce mediocre results; the references ca
 
 | The user wants… | Guideline | References (`references/…`) | Template (`templates/…`) |
 | --- | --- | --- | --- |
-| Event post / thumbnail / invite | `04` §A–B | `figma/social-events/` | `social/event-thumbnails.html` |
+| Event post / thumbnail / invite, webinar thumbnail | `04` §A–B | `figma/social-events/` | `social/event-thumbnails.html` (D = webinar / unsponsored) |
 | Product or feature announcement | `04` §C | `figma/social-product-launch/` | `social/product-launch.html` |
 | LinkedIn carousel — statement / insight | `04` §D1 | `figma/social-carousels/carousel-access-visibility-gap*` | `social/carousel-dark.html` |
 | LinkedIn carousel — problem → solution panels, security news / explainer | `04` §D2, D4 | `figma/social-carousels/carousel-gbar*`, `carousel-security-news*` | `social/carousel-variants.html` |
@@ -37,7 +37,9 @@ Do not skip step 3. Text specs alone produce mediocre results; the references ca
 | Profile banner, email header/signature, site bar | `04` §I | `figma/banners-and-email/` | `banners/banners-and-email.html` |
 | Course / explainer video slides | `05` §1 | `figma/video/academy-*` | `video/academy-slides.html` |
 | Feature video intro, testimonial video cards | `05` §2–3 | `figma/video/feature-spotlight*`, `customer-testimonial*` | `video/feature-spotlight-and-testimonial.html` |
-| Launch teaser, year-in-review | `05` §4–5 | `figma/video/iris-launch-teaser*`, `zluri-wrapped-2025*` | — (build from references) |
+| Launch teaser, year-in-review, milestone grid video | `05` §4–6 | `figma/video/iris-launch-teaser*`, `zluri-wrapped-2025*`, `50k-followers*` | — (build from references + specs) |
+| Concept / thought-leadership post, testimonial post | `04` §K | `figma/social-thought-leadership/` | adapt `social/carousel-dark.html` or `social/product-launch.html` |
+| Internal poster, standee | `04` §J | `figma/print-and-posters/` | — (build from references + specs) |
 | Pitch deck slide, product diagram | `06` | `figma/decks-and-diagrams/`, `brand-guidelines-pdf/` | `deck/slides.html` |
 | Web page / landing page / section | `07` + `08` | `website/full-pages/`, `website/live/` | `web/landing-page.html` |
 | Product UI mock-up inside any of the above | `09` | `brand-guidelines-pdf/page-25…27`, `website/live/home-capabilities-*` | UI blocks in `templates/zluri.css` |
@@ -50,14 +52,35 @@ Format not listed? Extend the nearest system (see `12-anti-slop-checklist.md` §
 
 1. **Fonts:** Satoshi (headlines, Regular/Medium) + Inter (everything else). Nothing else.
 2. **Canvas:** cream `#FBF9F6`, warm near-black `#161411`, or Deep/Bright Blue. Named atmospheres only.
-3. **One accent moment** per canvas. Mint keyword on dark; blue on light.
+3. **One accent moment** per canvas: one emphasised phrase per headline (Mint on dark, blue on light) and no competing colour families. A system's built-in kit — arrow capsule, bullets, highlight-block label — is part of that system, not an extra accent.
 4. **Big, light, tight headlines.** Never bold, never all caps, ≤ 3 lines.
 5. **Three anchors:** headline block, small corner logo, one footer item. Keep the empty space.
 6. **One signature motif** from `guidelines/02-visual-language.md`.
 7. **Product UI is the illustration.** Build it in HTML/CSS with plausible data.
 8. **Logo:** correct file for the background, ≈12% of width on squares, corner placement, untouched.
-9. **Web pages are interactive:** hover states, reveal-on-scroll, and at least one cursor-responsive moment (`guidelines/08`).
+9. **Web pages are interactive:** hover states, reveal-on-scroll, and at least one cursor-responsive moment (`guidelines/08-web-interactions.md`).
 10. **Never invent facts.** No fake stats, quotes, customers, dates or awards. Use `[bracketed placeholders]` and list them.
+
+## 3a · When rules collide — precedence
+
+1. The user's explicit brief (size, copy, slide count).
+2. The **format recipe** in `guidelines/04`–`07` and its reference frames. A recipe's measured values (type size, tracking, colours, slide structure) win over global defaults.
+3. The global rules in `DESIGN.md` and the non-negotiables above.
+4. Token defaults in `tokens.css`.
+
+Documented exceptions (allowed only where listed, never as a general licence):
+
+| Exception | Only in |
+| --- | --- |
+| Pure `#000` field and `#111` inset | dark statement carousel, launch posts, testimonial / teaser video, no-photo event field |
+| Pink arrow capsule + blue highlight label + Mint bullets together | dark statement carousel (`guidelines/04-social-and-marketing.md` §D1) |
+| Red and green panels together | problem → solution carousel (§D2) |
+| Satoshi **Bold** | Wrapped, small square badges ("SKO 2026"), bold key clause in Academy quote slides |
+| Montserrat Black caps | city names over Z-overlay city tiles |
+| Sora, pixel / Win95 fonts | inside product-UI mock-ups and deliberate "legacy tooling" gags |
+| All-caps display headlines, illustration-led layouts | internal POSH posters |
+| Secondary palette used loudly, 3D/glossy objects | Wrapped, seasonal illustrated carousel, festive greetings |
+| Two motifs on one canvas | the allowed pairs in `guidelines/02-visual-language.md` ("Combining motifs") |
 
 ## 4 · Stock photography — ask first
 

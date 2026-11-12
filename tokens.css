@@ -67,7 +67,7 @@
   --danger:  #d52a00;        /* Red (secondary palette) */
 
   /* ─── Typography — fonts (#Zluri 4) ────────────────────────────── */
-  --font-display: "Satoshi", "Satoshi Variable", "General Sans", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Satoshi", "Satoshi Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-body:    "Inter", "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-mono:    ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
 
@@ -83,7 +83,8 @@
 
   --leading-body:     1.4;
   --leading-tight:    1.2;   /* every Satoshi heading */
-  --tracking-display: -0.02em;
+  --tracking-display: -0.02em;  /* safe default for 32–56px headings. Web headings on zluri.com use 0; large social/video display uses the
+                                    --zluri-tracking-display-* tokens below; a format's guideline value wins over this default. */
 
   /* ─── Spacing (4px base) ───────────────────────────────────────── */
   --space-1:  4px;
@@ -150,6 +151,8 @@
   --zluri-cool-black-2: #1f2226;
   --zluri-cool-black-3: #0e1114;
   --zluri-ink-social:   #1a1815;  /* near-black used for ad / post canvases */
+  --zluri-black-pure:   #000000;  /* cinematic video, launch posts, carousel field */
+  --zluri-carousel-inset: #111111; /* inset card on the pure-black carousel field */
 
   /* Secondary palette — 3 steps each (dark / base / light). Use sparingly. */
   --zluri-purple-700: #4a3794;  --zluri-purple-500: #7763c7;  --zluri-purple-300: #a99ce3;
@@ -163,6 +166,13 @@
   --zluri-mark-lime:  #d3ff57;
   --zluri-mark-coral: #ff5757;
   --zluri-mark-core:  #1c1c1f;
+
+  /* Accessible text colours for small status / link text (≥4.5:1 on their canvas).
+     The palette colours themselves stay for fills, large type and icons. */
+  --zluri-link:         #2f62bd;  /* body-size links on cream/white (Bright Blue is fine ≥20px) */
+  --zluri-success-text: #157a52;
+  --zluri-warn-text:    #9a5f00;
+  --zluri-danger-text:  #b82400;
 
   /* On-dark text */
   --zluri-on-dark:       #fbf9f6;
@@ -190,6 +200,7 @@
   /* Atmosphere: glows + blobs (apply as backgrounds on a positioned layer) */
   --zluri-glow-launch:   radial-gradient(60% 70% at 85% 110%, #1b9464 0%, #366ecf 27%, rgba(0,0,0,0) 100%);
   --zluri-glow-indigo:   linear-gradient(115deg, #040940 0%, #262eaa 50%, #818bc9 100%);
+  --zluri-glow-event:    radial-gradient(90% 120% at 100% 100%, #7763c7 0%, rgba(54,110,207,.9) 28%, rgba(27,148,100,.55) 52%, rgba(22,20,17,0) 78%);  /* no-photo event / webinar field on black */
   --zluri-blob-lavender: #a99ce3;
   --zluri-blob-blue:     #88a9ef;
   --zluri-blob-mint:     #94e9c0;
@@ -253,5 +264,9 @@
   --accent-hover: #1d4ba6;
   --success:      #4ad89a;
   --elev-raised:  0 0 0 1px rgba(245, 245, 245, 0.08);
+  --zluri-link:         #88a9ef;
+  --zluri-success-text: #4ad89a;
+  --zluri-warn-text:    #f3bd60;
+  --zluri-danger-text:  #ee8466;
   --focus-ring:   0 0 0 2px #161411, 0 0 0 4px #88a9ef;
 }

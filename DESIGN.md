@@ -77,7 +77,7 @@ Tokens: `tokens.css`. Full reasoning: `guidelines/01-brand-foundations.md`.
 - **Light canvas** = cream + warm-black text + a blue action. Blue keyword allowed in headlines (`#366ECF` / `#2266E2`).
 - **Dark canvas** = `#161411` (or `#1A1815`, `#181818`, pure `#000` for cinematic video) + cream text + **one mint keyword**.
 - **Brand-colour canvas** = solid Deep Blue `#1D4BA6` or Bright Blue `#366ECF` with white type; used for people/culture posts and "meet the team".
-- **Roughly 60/30/10**: 60% canvas, 30% neutral structure (text, hairlines, cards), 10% accent. If more than one saturated hue competes, remove one.
+- **Rule of thumb, roughly 60/30/10** (an interpretation of the frames, not a measured figure): 60% canvas, 30% neutral structure (text, hairlines, cards), 10% accent. If more than one saturated hue competes, remove one.
 
 ### Secondary palette (ration it)
 
@@ -110,7 +110,7 @@ Two families. No third face, ever (pixel/retro fonts appear only inside delibera
 ### Rules that make it look like Zluri
 
 1. **Big and light.** Headlines are large with a light stroke: weight 400–500, never 700+.
-2. **Tight tracking on display.** Satoshi at ≥60px: `-0.04em`; at ≥100px: `-0.06em`. Web headings: `0`. Inter: `0` (small caps labels: `+0.1em` to `+0.2em`).
+2. **Tight tracking on display.** Satoshi at ≥60px: `-0.04em`; at ≥100px: `-0.06em` (launch posts, carousel covers). Web headings: `0`. Inter: `0` (small caps labels: `+0.1em` to `+0.2em`). Format recipes override this where the designers did: Academy slides stay at `-0.04em` even at 100px, Feature Spotlight titles use `-0.02em` at 200px. The `--tracking-display` token (`-0.02em`) is only a safe default for mid-size headings.
 3. **Line-height 1.2** for headings (1.1–1.16 at the largest sizes). Body 1.3–1.5.
 4. **Sentence case.** Title Case appears in some headlines; ALL CAPS only for ≤14px eyebrow labels with tracking.
 5. **Emphasis by colour on one phrase**, not by bold: `The <mint>Access Visibility</mint> Gap`. On light: blue. Alternative emphasis: a solid highlight block behind the phrase (blue on black, pink on deep blue) or Regular→Medium weight shift inside a quote.
@@ -149,7 +149,7 @@ Canvas presets and safe zones for every format are in `guidelines/03-layout-and-
 
 ## 6. Signature motifs
 
-These recur across the designers' work and are what make an output unmistakably Zluri. Use **one per canvas**. Recipes and SVGs: `guidelines/02-visual-language.md`, `assets/motifs/`.
+These recur across the designers' work and are what make an output unmistakably Zluri. Use **one primary motif per canvas** (grain and the allowed pairs in `guidelines/02-visual-language.md` aside). Recipes and SVGs: `guidelines/02-visual-language.md`, `assets/motifs/`.
 
 1. **Mint keyword on near-black** — the single most common move.
 2. **Z colour overlay** — a black-and-white photo with a giant, rotated *z* letterform in a brand colour laid over it in `multiply` (green, pink, blue or purple). Events, greetings, city tiles.

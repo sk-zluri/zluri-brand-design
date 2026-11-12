@@ -43,12 +43,12 @@ Run it **before** showing any design. If any item in section A is true, fix it f
 
 **Colour**
 - [ ] Every hex is from `tokens.css`. No near-miss blues/greens.
-- [ ] One accent moment. Logo ring colours not used as fills.
-- [ ] Gradients are named ones, used as background or panel only.
+- [ ] One accent moment (one emphasised phrase; no competing colour families — a system's built-in kit of capsule / bullets / highlight label is not an extra accent). Logo ring colours not used as fills.
+- [ ] Gradients are named ones (brand gradients or the `--zluri-glow-*` atmospheres), used as background or panel only.
 
 **Composition**
 - [ ] Three anchors (headline block, logo, footer item) + at most one media group.
-- [ ] One signature motif (`02-visual-language.md`), not zero, not three.
+- [ ] One primary signature motif (`guidelines/02-visual-language.md`), not zero, not three; pairs only from the allowed list.
 - [ ] Shared left edge; consistent margins; hairlines 1px.
 - [ ] Logo: right file, right corner, right size, clear space kept.
 

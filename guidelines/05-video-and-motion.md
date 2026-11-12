@@ -1,6 +1,6 @@
 # 05 · Video storyboards and motion
 
-Five video systems exist in the library. Each has its own canvas mood but shares the type system and logo rules. References: `references/figma/video/`. Templates: `templates/video/`.
+Six video systems exist in the library. Each has its own canvas mood but shares the type system and logo rules. References: `references/figma/video/`. Templates: `templates/video/`.
 
 ---
 
@@ -14,7 +14,7 @@ Five video systems exist in the library. Each has its own canvas mood but shares
 | --- | --- |
 | **Title / intro** (8 variants) | Centred: logo 139px → title Satoshi Regular 100/1.0, −4%, `#161411`, width 1026 → presenter credit Satoshi Medium 42, Deep Blue ("With Ritish Reddy, / CEO & Co-founder"). Left-aligned variant: block bottom-left at x=140. Optional inset hairline frame (radius 12) with folder-tab chapter nav above or below. Optional floating 3D-ish gradient star / badge shapes at the edges, slightly blurred. |
 | **Course intro** | Inset frame; "Title of the course here" Satoshi Regular + "Submodule title here" Satoshi Medium (weight shift = hierarchy); credit in Deep Blue; tab row with the active chapter as a Deep-Blue tab. |
-| **Quote — full screen** | Quote centred, Satoshi Regular ≈64; the key clause switches to **Medium** (optionally boxed with a 1px hairline). Gradient quote marks (mint→purple parallelograms) top-left and bottom-right. Logo top-right. |
+| **Quote — full screen** | Quote centred, Satoshi Regular 80/1.25 on 1920 (−4%); the key clause switches to a heavier weight — **Bold** in the source frame, Medium is an acceptable lighter option — optionally boxed with a 1px hairline. Gradient quote marks (mint→purple parallelograms) top-left and bottom-right. Logo top-right. |
 | **Quote + presenter** | Same, quote in the left 55%, presenter panel right. |
 | **Titles / sub-topics** | Eyebrow (Satoshi Medium 24, Deep Blue) → title Satoshi Regular 80 at x=140,y=156 → outline folder tabs "PART 1…5" in pastel strokes → big chapter word. |
 | **Icons / pointers ×3** | Eyebrow + title, then three 300×300 pastel-gradient rounded-20 tiles at x=390/810/1230,y=390 with label Inter 32 and caption Inter 18 beneath. |
@@ -44,7 +44,7 @@ Five video systems exist in the library. Each has its own canvas mood but shares
 - **Intro:** white logo (centre) → outline pill "Feature Spotlight" (1px white, full radius, Satoshi Regular 70) → feature name Satoshi Regular 200/1.0, −2%, cream, centred, two lines max.
 - **Screen-recording layout:** same blue field; white logo top-left; feature name top-right in small Inter; the recording sits in a dark rounded-24 window with a thin light border and a tab strip, inset ~1.5% from the edges and bleeding off the bottom.
 
-Template: `templates/video/feature-spotlight-intro.html`. (The `zluri-product-spotlight` skill automates this format.)
+Template: `templates/video/feature-spotlight-and-testimonial.html`.
 
 ---
 
@@ -91,6 +91,17 @@ Use this vocabulary only for celebratory recaps.
 Cream field with a hairline square grid rotated ≈−15°. Some cells are solid brand-colour tiles (orange, red-brown, mint, blue, forest) carrying a tiny caps label, a product name and a circular icon badge; other cells hold blue Inter-Light text snippets, pink year pills, a map, a mini chart. The hero number ("50,000") is set in a blue→teal gradient. The camera pans/zooms across the grid.
 
 ---
+
+## Tracking by system (measured)
+
+| System | Display size | Tracking |
+| --- | --- | --- |
+| Academy titles and quotes | 80–100px on 1920 | −4% |
+| Feature Spotlight title | 200px on 3840 | −2% |
+| Wrapped headlines (Satoshi Bold) | 60px on 1200 | −3% |
+| Testimonial / teaser titles | 100–200px on 3840 | 0 to −2% |
+
+These override the general display-tracking rule in `DESIGN.md` §4.
 
 ## Motion principles (all video)
 

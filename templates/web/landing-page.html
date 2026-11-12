@@ -122,18 +122,20 @@ p{margin:0}a{color:inherit;text-decoration:none}
 .ctaband{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}.ctaband h2{font-size:40px}.ctaband p{color:#fbf9f6;font-size:20px;line-height:1.25;margin-bottom:28px}
 .mark{background:linear-gradient(var(--zluri-bright-blue),var(--zluri-bright-blue)) no-repeat 0 0/0% 100%;transition:background-size var(--zluri-motion-wipe) var(--ease-standard);padding:0 .12em}.mark.in{background-size:100% 100%}
 footer{background:var(--zluri-warm-black-2);color:var(--zluri-on-dark);padding:72px 0 40px;font-size:16px}
-footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:48px}footer h6{font:600 14px/1 var(--font-body);letter-spacing:.04em;text-transform:uppercase;color:#6b6962;margin:0 0 20px}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:48px}footer h6{font:600 14px/1 var(--font-body);letter-spacing:.04em;text-transform:uppercase;color:var(--zluri-on-dark-meta);margin:0 0 20px}  /* zluri.com uses a dimmer header here; raised for contrast */
 footer a{display:block;margin-bottom:14px;transition:color var(--motion-fast)}footer a:hover{color:var(--zluri-mark-lime)}
 footer .legal{margin-top:48px;font-size:14px;color:var(--zluri-on-dark-muted)}
 
-[data-reveal]{opacity:0;transform:translateY(24px);transition:opacity .6s var(--ease-standard),transform .6s var(--ease-standard)}[data-reveal].in{opacity:1;transform:none}
+/* content is visible by default; reveal only applies once JS has added .js to <html> */
+.js [data-reveal]{opacity:0;transform:translateY(24px);transition:opacity .6s var(--ease-standard),transform .6s var(--ease-standard)}.js [data-reveal].in{opacity:1;transform:none}
+.menu-btn{display:none;all:unset;cursor:pointer;font:400 16px/1 var(--font-body);padding:10px 14px;border:1px solid var(--border);border-radius:var(--radius-sm)}
 
 @media (max-width:991px){h1,.hero h1{font-size:40px}h2{font-size:36px}h3{font-size:28px}.sec{padding:var(--section-y-tablet) 0}.wrap{padding:0 var(--container-gutter-tablet)}
-  .nav .links{display:none}.grid{grid-template-columns:1fr 1fr}.feat,.ctaband{grid-template-columns:1fr;gap:40px}.feat.flip .txt{order:0}.cards{grid-template-columns:1fr 1fr}.cards:hover .card{opacity:1}
+  .nav{position:relative;gap:16px;padding:0 20px 0 24px}.nav .links{display:none;position:absolute;left:0;right:0;top:calc(100% + 8px);flex-direction:column;gap:0;background:#fff;border-radius:var(--radius-md);box-shadow:var(--elev-raised);padding:12px 24px}.nav .links a{padding:12px 0;border-top:1px solid var(--border)}.nav .links a:first-child{border-top:0}.nav.open .links{display:flex}.menu-btn{display:inline-flex}.nav .right a:first-child{display:none}.hero canvas{display:none}.grid{grid-template-columns:1fr 1fr}.feat,.ctaband{grid-template-columns:1fr;gap:40px}.feat.flip .txt{order:0}.cards{grid-template-columns:1fr 1fr}.cards:hover .card{opacity:1}
   .layers{grid-template-columns:1fr}.stack{display:none}.layers .notes ul{display:grid;margin-bottom:24px}.quotes{grid-template-columns:1fr}footer .cols{grid-template-columns:1fr 1fr}}
 @media (max-width:767px){h1,.hero h1{font-size:32px}h2{font-size:28px}.lede,.btn,.link{font-size:18px}.btn{height:56px;padding:0 28px}.sec{padding:var(--section-y-phone) 0}.wrap{padding:0 var(--container-gutter-phone)}
-  .grid,.cards{grid-template-columns:1fr}.cmp{grid-template-columns:1fr}.cmp .h{display:none}.announce{font-size:14px}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}[data-reveal]{opacity:1;transform:none}.mark{background-size:100% 100%}}
+  .grid,.cards{grid-template-columns:1fr}.cmp{grid-template-columns:1fr}.cmp .h{display:none}.cmp>div[data-label]::before{content:attr(data-label) ": ";font-weight:600;color:var(--fg);margin-right:4px}.cmp .k{padding-bottom:6px;border-bottom:0}.announce{font-size:14px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js [data-reveal]{opacity:1;transform:none}.mark{background-size:100% 100%}}
 </style>
 </head>
 <body>
@@ -141,8 +143,8 @@ footer .legal{margin-top:48px;font-size:14px;color:var(--zluri-on-dark-muted)}
 <div class="announce">Zluri joins Infotech. <a href="#">Read the announcement →</a></div>
 <div class="navwrap"><nav class="nav" aria-label="Primary">
   <img src="../../assets/logos/infotech-endorsed/zluri-infotech-on-light.png" alt="Zluri, an Infotech company">
-  <div class="links"><a href="#">Products</a><a href="#">Platform</a><a href="#">Solutions</a><a href="#">Why Zluri</a><a href="#">Partners</a><a href="#">Company</a><a href="#">Resources</a></div>
-  <div class="right"><a href="#">Login</a><a class="pill" href="#">Get a Demo</a></div>
+  <div class="links" id="nav-links"><a href="#">Products</a><a href="#">Platform</a><a href="#">Solutions</a><a href="#">Why Zluri</a><a href="#">Partners</a><a href="#">Company</a><a href="#">Resources</a></div>
+  <div class="right"><a href="#">Login</a><a class="pill" href="#">Get a Demo</a><button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button></div>
 </nav></div>
 
 <header class="hero">
@@ -218,9 +220,9 @@ footer .legal{margin-top:48px;font-size:14px;color:var(--zluri-on-dark-muted)}
   <div class="head" data-reveal><p class="eyebrow problem">Why Zluri</p><h2>Built for Modern Identity Complexity</h2></div>
   <div class="cmp" data-reveal>
     <div class="h">Capability</div><div class="h z top">Zluri</div><div class="h">Traditional IGA</div>
-    <div class="k">Discovery</div><div class="z ok">Multi-source coverage across SaaS, cloud, endpoints and APIs</div><div class="warn">Limited to connected systems</div>
-    <div class="k">Shadow IT and AI</div><div class="z ok">Real-time detection and enforcement</div><div class="warn">Review-driven visibility</div>
-    <div class="k">Deployment</div><div class="z ok">Weeks with pre-built connectors</div><div class="warn">Months with a heavy rollout of services</div>
+    <div class="k">Discovery</div><div class="z ok" data-label="Zluri">Multi-source coverage across SaaS, cloud, endpoints and APIs</div><div class="warn" data-label="Traditional IGA">Limited to connected systems</div>
+    <div class="k">Shadow IT and AI</div><div class="z ok" data-label="Zluri">Real-time detection and enforcement</div><div class="warn" data-label="Traditional IGA">Review-driven visibility</div>
+    <div class="k">Deployment</div><div class="z ok" data-label="Zluri">Weeks with pre-built connectors</div><div class="warn" data-label="Traditional IGA">Months with a heavy rollout of services</div>
   </div>
 </div></section>
 
@@ -247,19 +249,26 @@ footer .legal{margin-top:48px;font-size:14px;color:var(--zluri-on-dark-muted)}
 </div></footer>
 
 <script>
-/* 1 · Cursor-reactive streak field (guidelines/08, recipe A) */
+document.documentElement.classList.add('js');
+(() => { const b = document.querySelector('.menu-btn'), n = document.querySelector('.nav'); if (b) b.addEventListener('click', () => { const o = n.classList.toggle('open'); b.setAttribute('aria-expanded', o); }); })();
+/* 1 · Cursor-reactive streak field (guidelines/08, recipe A) — desktop only, one rAF loop, paused off-screen */
 (() => {
   const c = document.getElementById('field'); if (!c) return; const x = c.getContext('2d');
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  let W, H, t = 0, run = true; const m = { x: -9999, y: -9999, tx: -9999, ty: -9999 };
+  const desktop = matchMedia('(min-width: 992px)');
+  let W, H, t = 0, visible = true, raf = 0; const m = { x: -9999, y: -9999, tx: -9999, ty: -9999 };
+  const start = () => { if (!raf && visible && desktop.matches && !reduce) raf = requestAnimationFrame(frame); };
+  const stop = () => { if (raf) cancelAnimationFrame(raf); raf = 0; };
   const fit = () => { const d = Math.min(devicePixelRatio || 1, 1.5); W = c.width = c.clientWidth * d; H = c.height = c.clientHeight * d; };
   addEventListener('resize', fit); fit();
   const host = c.parentElement;
   host.addEventListener('pointermove', e => { const r = c.getBoundingClientRect(), d = W / r.width; m.tx = (e.clientX - r.left) * d; m.ty = (e.clientY - r.top) * d; if (m.x < -999) { m.x = m.tx; m.y = m.ty; } });
   host.addEventListener('pointerleave', () => { m.tx = m.ty = -9999; });
-  new IntersectionObserver(es => { run = es[0].isIntersecting; if (run && !reduce) requestAnimationFrame(frame); }).observe(c);
+  new IntersectionObserver(es => { visible = es[0].isIntersecting; visible ? start() : stop(); }).observe(c);
+  desktop.addEventListener('change', () => { fit(); desktop.matches ? start() : stop(); });
   const N = 110;
   function frame() {
+    raf = 0;
     x.clearRect(0, 0, W, H); t += 0.0035; m.x += (m.tx - m.x) * 0.08; m.y += (m.ty - m.y) * 0.08;
     const R = W * 0.2;
     for (let i = 0; i < N; i++) {
@@ -275,9 +284,9 @@ footer .legal{margin-top:48px;font-size:14px;color:var(--zluri-on-dark-muted)}
       const a = 0.025 + 0.075 * Math.abs(Math.sin(i * 1.7));
       x.strokeStyle = `rgba(251,249,246,${a})`; x.lineWidth = (i % 9 === 0 ? 2.4 : 1) * (W / c.clientWidth); x.stroke();
     }
-    if (run && !reduce) requestAnimationFrame(frame);
+    start();
   }
-  frame();
+  if (reduce && desktop.matches) frame(); else start();   // reduced motion: draw one static frame
 })();
 
 /* 2 · Hover-driven layer stack (recipe B, dependency-free) */

@@ -4,6 +4,8 @@ Each motif below was found repeatedly in the designers' frames. For each: what i
 
 SVG sources exported from Figma are in `assets/motifs/`.
 
+> **Class names.** The CSS in this file is illustrative and uses a `z-` prefix (`.z-key`, `.z-blobs`, `.z-mark` …). The shared template stylesheet (`templates/zluri.css`) implements the same motifs under shorter names: `.key` / `.key-grad` / `.key-vivid` (keyword), `.mark` / `.mark-pink` (highlight block), `.blobs` + `.grain` (soft blobs), `.glow-launch`, `.aurora`, `.gridlines`, `.device`, `.pillbar` + `.capsule`, `.z-overlay`. When working from a template, use the template names.
+
 ---
 
 ## 1. Mint keyword on near-black

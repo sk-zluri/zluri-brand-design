@@ -4,7 +4,7 @@ Derived from the live Webflow site — 39 pages crawled at 1920px on 11 Nov 2026
 
 ## Page anatomy
 
-Every marketing page follows the same spine:
+Product, platform, solution and compliance pages follow this spine (other page types have their own anatomy — see "Page templates on the site" below; company, resources and conversion pages keep only the chrome, a hero and their own body):
 
 1. **Announcement bar** (optional, site-wide)
 2. **Floating nav**
@@ -67,7 +67,7 @@ All headings: Satoshi 500, `#161411` (cream on dark), letter-spacing normal. Hea
 3. **Light split hero (compliance, partners, stories):** white; text left (H1 56, lede, buttons); image or UI collage right in a radius-16 frame.
 4. **Themed hero (NHI, State of AI):** a page-specific colour world — NHI: deep maroon `#2A000A` with a depth-blurred field of pink outline icons; State of AI: violet→magenta gradient with isometric keyboard keys, white highlight blocks behind key words, gradient pill "Download Report".
 
-Then always: logo marquee on Deep Black with a centred Inter 20 line ("Trusted by Leading Organizations").
+On product, platform, solution, compliance and partner pages the hero is followed by the logo marquee on Deep Black (cream on the partners page) with a centred Inter 20 line ("Trusted by Leading Organizations").
 
 ## Section patterns
 

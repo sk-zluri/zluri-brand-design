@@ -18,7 +18,8 @@ Every recurring asset type in the Figma library, as a buildable spec. Sizes are 
 
 Variants:
 
-- **Gradient field** (no photo): black → teal/blue/violet aurora with grain; "SPONSORED BY" caps label + partner logo row along the bottom; CTA pill top-right.
+- **Gradient field** (no photo): black with the event glow (`--zluri-glow-event`: violet → blue → green rising from the bottom-right) and grain; "SPONSORED BY" caps label + partner logo row along the bottom; CTA pill top-right.
+- **Webinar / unsponsored online event:** same gradient field; small caps eyebrow ("Webinar") above the title; date and time rows; CTA pill top-right ("Save your seat →"); `www.zluri.com` bottom-left and an optional speaker line bottom-right (or speaker tiles when headshots are supplied). Template artboard D.
 - **Square 1200×1200:** same stack, title 2 lines, sponsor row at the bottom.
 - **SKO / networking tile:** photo on top (inset 21px, radius 8, height 428), co-brand in a black notch top-left (`zluri × PARTNER`), title Satoshi Medium 47 below with Mint keyword, meta rows inline, Bright-Blue square badge 116×116 radius 8 bottom-right ("SKO / 2026" Satoshi Bold 50 / 20).
 - **Meet the team:** title + meta at top, then a row of 4–6 speaker tiles (cream cards radius 8, headshot, name Inter Semibold, role muted). On Bright Blue `#366ECF` or black.
@@ -37,6 +38,7 @@ Photo direction: the venue building, city skyline or a recognisable landmark; cl
 - Meta rows Inter Regular 30, icons 24px, y=706/780/853.
 - Footer: `www.zluri.com` Inter 25 bottom-left, logo bottom-right, hairline above optional.
 - Speaker strip variant: 5 headshot tiles (radius 8) with name/title, Inter 12–14.
+- **Navy pattern variant** (`social-events/navy-pattern-invites--*`): indigo-navy gradient canvas (`#14143C → #2A2670`) with a faint faceted tone-on-tone pattern; white logo top-left (top-right when speakers are shown); title Satoshi Regular, white, no coloured keyword; date/time block in white with the venue in muted lavender-grey beneath; a **full-colour** photo panel on the right (≈39% width, inset 20px, radius 12) instead of the Z overlay; square version adds a white arrow-in-circle swipe badge top-left. Co-brand version: two thin outlined circles overlapping (Venn), intersection filled Mint→blue, one logo in each circle.
 
 ---
 
@@ -63,11 +65,11 @@ Partner-program variant (Ascend Alliance): `#161411`, dotted world map with avat
 
 ## D. Carousels
 
-All carousels: 1 cover + 3–7 content slides + 1 CTA slide. Same background, logo position and footer device on every slide. One idea per slide.
+All carousels: 1 cover + 2–7 content slides + 1 CTA slide (4–9 frames; follow the brief if it sets a count). Same background, logo position and footer device on every slide. One idea per slide. Templates: `templates/social/carousel-dark.html` (D1), `carousel-variants.html` (D2, D4, D5), `carousel-customer-spotlight.html` (D3).
 
 ### D1 · "Visibility gap" (dark statement) — 1200×1200
 
-`#000` with an inset `#111` card. Logo top-right 146px.
+`#000` (`--zluri-black-pure`) with an inset `#111` card (`--zluri-carousel-inset`, inset 30px). Logo top-right 146px. This system's kit — blue highlight label, Mint bullets, pink arrow capsule — is fixed and does not count as extra accents.
 
 - **Cover:** headline Satoshi Regular 122/1.16, −6%, cream with Mint phrase, x=70 y=155; sub Inter Light 42.5 `#E2DED7` y=492; orbit ellipses bottom-right; pill bar bottom-left with pink arrow capsule + "Swipe to learn more".
 - **Content:** highlight block label (Bright Blue, Satoshi Regular 62) at y=151 → plain sub-title Satoshi 62 at y=268 → 3 bullets Inter Light 41.7 `#E2DED7` with 50px Mint rounded-8 square bullets containing a pale dot; full-width pill bar at the bottom with the capsule at the right.
@@ -176,9 +178,20 @@ A/B rule the designers followed: change **one** thing per version (headline, sub
 
 ---
 
-## J. Internal posters
+## J. Internal posters and print
 
 POSH series (A3 and 420×595): expressive, illustration-led (hand-drawn fist, lime hands, gender symbols), Satoshi/geometric bold caps headings allowed here, logo bottom-right. These are the only pieces where heavy caps headlines are acceptable.
+
+**Standee / roll-up** (1365×2822, `print-and-posters/standee--*`): `#1F1E1B` canvas; white logo top-left; headline Satoshi Regular in two lines with one phrase in lavender→blue gradient ("Next-**Gen IGA** / for the Cloud Era"); two-line Inter descriptor beneath; the top 35% carries all text (eye level), the middle stays empty, and a single Z-overlay photo tile (blue overlay, radius 8) sits in the bottom 15%. Keep text above 60% of the height so it clears table height at events.
+
+---
+
+## K. Concept and proof posts
+
+Single 1080 / 1200 squares that explain one idea or show proof. Refs: `social-thought-leadership/*`.
+
+- **Named-concept post** ("Samsara Cycle"): cream top third with the headline in Satoshi Light/Regular (one word in a blue→teal gradient), a one-line Inter description ending in an underlined text link ("Read the Blog"), dark logo top-right; the lower two-thirds is a black panel (inset 15px) holding a simple diagram — here a circular loop built from four gradient arc segments (blue, lavender, white) with week labels, a centre word in Satoshi ("Trapped") and four dark label chips at the compass points. One diagram, one idea.
+- **Testimonial post** ("Our Early Adopters Are Loving Zluri 2.0"): diagonal pink → purple → blue gradient field; headline Satoshi Regular, white, two lines, left-aligned at ~17% from the left; three stacked glass cards (white at ~15% with a 1px white border, radius 8) each with five gold stars and a short quote in Satoshi/Inter white; white logo centred at the bottom. This is the one sanctioned use of a pink-to-blue gradient field and glass cards — do not generalise it. Quotes must be real and approved.
 
 ---
 
@@ -189,5 +202,5 @@ POSH series (A3 and 420×595): expressive, illustration-led (hand-drawn fist, li
 3. One motif, one accent, three anchors.
 4. Headline ≤ 3 lines at the stated size. Keyword coloured.
 5. Logo version and size correct for the background.
-6. If a photo is needed → ask the user → source per `10-photography-and-stock.md`.
+6. If a photo is needed → ask the user → source per `guidelines/10-photography-and-stock.md`.
 7. Run `12-anti-slop-checklist.md`.

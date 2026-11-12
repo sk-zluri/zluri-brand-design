@@ -18,12 +18,13 @@ How this design system was derived, what was measured, and what is interpretatio
 - Logo colours (from the SVG sources).
 - Web type scale, weights, line-heights, button metrics, radii, borders, shadows, container width, section padding (computed styles; counts in `site-computed-styles.json`).
 - Social/video type sizes, tracking, line-heights, positions and canvas sizes (Figma node data; the specs in `guidelines/04` and `05` quote these numbers).
-- Interaction behaviour and timings on the site (read from the page scripts and verified with before/after captures).
+- Interaction behaviour and timings on the site (read from the page scripts — extracts in `source/site-interaction-scripts.md` — and verified with before/after captures in `references/website/live/`).
 
 **Interpreted (designer judgement, stated as rules)**
 
 - Brand character, the "three-anchor" composition rule, the motif catalogue and the allowed motif pairings — patterns observed across the frames, named and generalised here.
 - Format-relative type ratios (% of canvas width) — computed from the measured sizes.
+- The 60/30/10 colour-distribution rule of thumb in `DESIGN.md` — an interpretation, not a measurement.
 - Voice and headline patterns — derived from copy on the frames and the site; not an official messaging guide.
 - The anti-slop checklist — failure modes named from experience with generic AI output, each paired with the observed Zluri alternative.
 - A few token choices where the sources differ (see below).
@@ -53,10 +54,13 @@ How this design system was derived, what was measured, and what is interpretatio
 - `components.html` embeds the full `tokens.css` in its `<style>`; after editing tokens, replace that block.
 - `tokens/zluri.tokens.json` is parsed from `tokens.css` (`:root` → `core` / `zluri`, `.zluri-dark` → `dark`).
 - `preview/templates/*.jpg` are rendered from `templates/` with `source/scripts/render.py` (requires a browser-automation harness; paths at the top of the script need adjusting).
-- `references/` is rebuilt with `export_figma.py` → `build_refs.py` and `crawl_site.py` (same note about paths).
+- `references/` is rebuilt with `export_figma.py` → `build_refs.py` → `build_specs.py` and `crawl_site.py`.
+
+The scripts in `source/scripts/` are kept as a record of the method, not as a turnkey pipeline. They were run through a browser-automation harness attached to a signed-in Chrome session and contain three placeholders to replace before use: `<SCRATCH_DIR>` (a working folder for raw exports; `frames.json` there is the same file as `source/figma-frames.json`), `<REPO_DIR>` (this repository) and `<BRAND_DIR>` (the folder holding the guidelines PDF and logo package).
 
 ## Privacy and rights
 
 - Reference images contain real campaign content, including names and portraits of Zluri employees and speakers and third-party logos. They are included as internal design references. Do not reuse personal names, portraits, customer quotes or statistics in new work unless supplied for that purpose.
 - No stock photographs were downloaded for this repository; templates use labelled placeholders.
 - Font files are not redistributed.
+- Email addresses that appeared in frame text (internal posters) are redacted to `[email]` in `references/figma/specs/`, `references/figma/index.json` and `source/figma-frames.json`. Names and portraits remain visible inside the reference images themselves; keep this repository private or strip `references/figma/social-people/` and `print-and-posters/` before sharing it outside Zluri.

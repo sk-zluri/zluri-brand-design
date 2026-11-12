@@ -81,7 +81,7 @@ If you need a fourth group, it is media (photo, device, diagram) and it takes on
 
 ## Alignment
 
-- Left-align everything in a block to one x. Metadata icons hang in the margin of the text they label (text aligns with the headline, icon sits 26px to the left) on the newest thumbnails; older ones align icons with the headline.
+- Left-align everything in a block to one x. In metadata rows the **icon** sits on that shared left edge and the text follows it (on the 1200×627 thumbnail: headline and icons at x=40, row text at x=66).
 - Centre alignment is reserved for: title cards, greetings, single-statement hero posts, outro CTAs.
 - Numbers ("01", "02") bottom-left or top-left, Inter Regular, same colour as body text.
 
