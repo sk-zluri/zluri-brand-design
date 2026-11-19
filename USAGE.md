@@ -31,6 +31,7 @@ When rules collide, follow the precedence order in `AGENTS.md` §3a: brief → f
 - Use `--accent` for the single primary action and for links; use `--zluri-mint-green` only as emphasis on dark.
 - Start from the closest template and the closest reference image.
 - Keep three anchors per canvas (headline block, small corner logo, one footer item) and leave the middle open.
+- Default logo is the Zluri × Infotech lockup: `assets/logos/primary/zluri-infotech-on-{light,dark}.svg`, chosen by background, never under 110px wide. Other logo files only when the user asks.
 - Ask the user before sourcing any stock photo, then follow `guidelines/10-photography-and-stock.md`.
 
 ## Avoid

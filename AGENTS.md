@@ -57,7 +57,7 @@ Format not listed? Extend the nearest system (see `12-anti-slop-checklist.md` §
 5. **Three anchors:** headline block, small corner logo, one footer item. Keep the empty space.
 6. **One signature motif** from `guidelines/02-visual-language.md`.
 7. **Product UI is the illustration.** Build it in HTML/CSS with plausible data.
-8. **Logo:** correct file for the background, ≈12% of width on squares, corner placement, untouched.
+8. **Logo:** the **Zluri × Infotech lockup** (`assets/logos/primary/zluri-infotech-on-{light,dark}.svg`) unless the user asks for another — choose only by background. ≈12% of width on squares, never under 110px, corner placement, untouched.
 9. **Web pages are interactive:** hover states, reveal-on-scroll, and at least one cursor-responsive moment (`guidelines/08-web-interactions.md`).
 10. **Never invent facts.** No fake stats, quotes, customers, dates or awards. Use `[bracketed placeholders]` and list them.
 
@@ -109,7 +109,7 @@ components.html        web + social component fixture built only from tokens
 manifest.json USAGE.md Open Design package files
 guidelines/            12 deep-dive documents (foundations → anti-slop)
 templates/             working HTML for social, video, banners, deck, web
-assets/logos/          every logo variant, named by the background it sits on
+assets/logos/          primary/ = Zluri × Infotech lockup (default); others on request only; named by background
 assets/motifs/         SVG motifs exported from the designers' Figma file
 references/figma/      276 designer frames by category + index.json + specs/ (measured layout per frame)
 references/website/    39 full-page captures, live interaction captures + index.json

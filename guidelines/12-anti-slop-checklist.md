@@ -19,7 +19,7 @@ Run it **before** showing any design. If any item in section A is true, fix it f
 | Rainbow of accents (blue + green + purple + orange + pink together) | One accent moment per canvas; secondary colours only in their documented jobs |
 | Heavy drop shadows, neon glows, bevels | Flat; one ambient shadow `0 0 10px rgba(0,0,0,.1)` at most |
 | Cool grey text / `#000` on `#FFF` | Warm neutrals: `#161411`, `#474640`, `#E2DED7`, `#FBF9F6` |
-| Giant centred logo, logo with effects, wrong logo on wrong background | Small corner logo (≈12% width on squares), correct on-light/on-dark/mono file |
+| Giant centred logo, logo with effects, wrong logo on wrong background | Small corner logo (≈12% width on squares, ≥110px), Zluri × Infotech lockup in the correct on-light/on-dark file |
 | Lorem ipsum, fake stats, invented customer quotes | Real or user-supplied copy; bracketed placeholders flagged to the user |
 | Random stock photo dropped in without asking | Ask first; follow `10-photography-and-stock.md` |
 | A third typeface (serif "editorial" accent, mono "techy" labels) | Satoshi + Inter only |
@@ -50,7 +50,7 @@ Run it **before** showing any design. If any item in section A is true, fix it f
 - [ ] Three anchors (headline block, logo, footer item) + at most one media group.
 - [ ] One primary signature motif (`guidelines/02-visual-language.md`), not zero, not three; pairs only from the allowed list.
 - [ ] Shared left edge; consistent margins; hairlines 1px.
-- [ ] Logo: right file, right corner, right size, clear space kept.
+- [ ] Logo: Zluri × Infotech lockup from `assets/logos/primary/` (unless the user asked for another), right background file, right corner, ≥110px wide, clear space kept, "AN INFOTECH COMPANY" readable.
 
 **Imagery**
 - [ ] Product UI is built in HTML/CSS with plausible data, readable at final size.

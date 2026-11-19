@@ -36,7 +36,7 @@ After import, pick **Zluri** as the design system. For best results also attach 
 | `components.html` | Component fixture rendered only from tokens. |
 | `guidelines/` | Twelve documents: foundations, visual language, layout & formats, social & marketing, video & motion, presentations & diagrams, website, web interactions, product-UI illustration, photography & stock sourcing, voice & copy, anti-slop checklist. |
 | `templates/` | Working HTML/CSS for 14 template files (42 artboards) including a full interactive landing page. Rendered previews in `preview/templates/`. |
-| `assets/logos/` | Default, monochrome, tagline and Infotech-endorsed logos + the eye mark. |
+| `assets/logos/` | **Primary: Zluri × Infotech lockup** (default everywhere), plus wordmark-only, monochrome and tagline versions for explicit requests, and the eye mark. |
 | `assets/motifs/` | SVG brand motifs exported from Figma (Z-overlay shape, cropped wordmark, arc lines, orbit ellipses, z-maze pattern, quote marks, chain link). |
 | `references/` | 276 Figma frames in 14 categories (each with a measured layout spec in `figma/specs/`), 39 website pages, 30 live interaction captures, 31 brand-guideline pages — with `index.json` files for lookup. |
 | `preview/` | Colour, typography, spacing and motif pages; rendered templates. |

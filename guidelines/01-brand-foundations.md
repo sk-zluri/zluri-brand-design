@@ -17,7 +17,7 @@ Product vocabulary to spell exactly: **IVIP** (Identity Visibility & Intelligenc
 
 ## Logo
 
-Files in `assets/logos/`. Construction: heavy geometric lowercase wordmark; the dot of the *i* is replaced by the eye mark (four concentric circles).
+Files in `assets/logos/`. Construction: heavy geometric lowercase wordmark; the dot of the *i* is replaced by the eye mark (four concentric circles). Since the Infotech acquisition the primary logo stacks the endorsement line **AN INFOTECH COMPANY** (wide-tracked caps, same width as the wordmark) under the wordmark. Source: `D:\Zluri Files\Brand\Zluri ITRG Final Logos` (Nov 2026), cropped to the artwork in `assets/logos/primary/`.
 
 | Ring | Hex |
 | --- | --- |
@@ -28,15 +28,21 @@ Files in `assets/logos/`. Construction: heavy geometric lowercase wordmark; the 
 
 Wordmark colour: `#161411` on light, `#FBF9F6` on dark.
 
-**Choosing a version**
+**Choosing a version — default is always the Zluri × Infotech lockup**
 
-- Light, flat background → `default/zluri-logo-on-light`.
-- Dark, flat background → `default/zluri-logo-on-dark`.
-- Photo, gradient, coloured field, or one-colour reproduction → **monotone** (white on dark/colour is the common case; the eye becomes an outlined ring).
-- Website header and corporate/legal contexts → **Infotech endorsed** lockup.
-- Introductory material where the audience may not know Zluri → **tagline lockup**.
+When the brief says nothing about the logo, use `primary/` and choose by background only:
 
-**Sizing (measured on the Figma frames)**
+- Light background (cream, white, light photo, light gradient) → `primary/zluri-infotech-on-light`.
+- Dark background (near-black, navy, Deep/Bright Blue, dark photo, dark gradient, coloured field) → `primary/zluri-infotech-on-dark`. Keep the scrim/quiet area behind it so the white wordmark and endorsement line hold contrast.
+
+Use another version **only when the user explicitly asks for it**:
+
+- "Plain / old / wordmark-only logo" → `wordmark-only/zluri-wordmark-on-{light,dark}`.
+- One-colour or monochrome reproduction → `monochrome/` (the eye becomes an outlined ring).
+- The 2025 tagline lockup → `tagline-lockup/`.
+- Space too small for the lockup's 110px minimum (favicon, avatar, bullet, diagram hub) → `mark/zluri-eye-mark` alone.
+
+**Sizing** — widths below were measured on the pre-acquisition Figma frames and still apply: the lockup's wordmark is the same width as the old logo, the endorsement line adds ≈28% height below it. **Floor: 110px wide on screen, 25 mm in print** (below this the endorsement line drops under ~4px and becomes illegible); `templates/zluri.css` enforces it with `img[src*="zluri-infotech"] { min-width: 110px }`.
 
 | Canvas | Logo width | Offset from edges |
 | --- | --- | --- |
@@ -48,11 +54,11 @@ Wordmark colour: `#161411` on light, `#FBF9F6` on dark.
 | 1920×1080 slide | 93px (4.8%) corner · 139px (7.2%) on title cards | 50–66px |
 | 800×200 email | ≈95px | 38–53px |
 
-**Clear space:** the eye mark's height on every side.
+**Clear space:** the eye mark's height on every side, measured from the lockup's bounding box (including the endorsement line).
 
 **Co-branding:** `zluri × PARTNER` (thin ×) for joint content; `zluri | PARTNER` (1px vertical rule, ~32px tall on 1200×627) for event sponsorship rows. Partner logo is monochrome-white on dark where possible and never taller than the wordmark. On SKO-style tiles the lockup sits in a notch cut into the top-left of the photo.
 
-**Never:** rotate · stretch · gradient-fill · stroke · drop-shadow · recolour (e.g. red wordmark) · place on a busy area without the monotone version · separate the eye from the wordmark inside a lockup.
+**Never:** rotate · stretch · gradient-fill · stroke · drop-shadow · recolour (e.g. red wordmark) · place on a busy area without the monotone version · separate the eye from the wordmark inside a lockup · drop, retype, resize or recolour the "AN INFOTECH COMPANY" line · use the pre-acquisition wordmark unless the user asked for it.
 
 ---
 

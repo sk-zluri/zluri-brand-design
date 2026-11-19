@@ -62,6 +62,9 @@ body { background: #d9d6d0; font-family: var(--font-body); color: var(--fg); -we
 .logo { display: block; width: calc(var(--zluri-u) * 12); height: auto; }
 .logo.sm { width: calc(var(--zluri-u) * 8.5); }
 .logo.lg { width: calc(var(--zluri-u) * 13); }
+/* Primary logo = Zluri × Infotech lockup. Floor keeps "AN INFOTECH COMPANY" legible;
+   min-width beats any width (incl. inline), so every slot inherits it. */
+img[src*="zluri-infotech"] { min-width: 110px; height: auto; }
 .cobrand { display: flex; align-items: center; gap: calc(var(--zluri-u) * 1); }
 .cobrand .rule { width: 1px; height: calc(var(--zluri-u) * 2.7); background: var(--fg); opacity: .7; }
 .cobrand .partner { font: 600 calc(var(--zluri-u) * 1.5)/1 var(--font-body); letter-spacing: .14em; color: var(--fg); opacity: .9; }

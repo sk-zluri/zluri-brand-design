@@ -30,26 +30,34 @@ The four words to check any output against: **clear, warm, precise, confident.**
 
 ## 2. Logo
 
-The logo is the lowercase wordmark **zluri** with a concentric "eye" mark sitting over the *i*. Files: `assets/logos/`.
+Zluri is now **an Infotech company**. The logo is the lowercase wordmark **zluri** with a concentric "eye" mark sitting over the *i*, stacked above the endorsement line **AN INFOTECH COMPANY**. Files: `assets/logos/`.
 
-| Variant | Use | File |
+**Default logo = the Zluri × Infotech lockup (`assets/logos/primary/`).** Use it on every design — social, ads, decks, video, banners, email, web, print — unless the user explicitly asks for a different logo. Pick only by background:
+
+| Background | File |
+| --- | --- |
+| cream / white / light photo / light gradient | `primary/zluri-infotech-on-light.svg` (dark wordmark) |
+| black / navy / Deep or Bright Blue / dark photo / dark gradient / coloured field | `primary/zluri-infotech-on-dark.svg` (white wordmark) |
+
+Other files exist for **explicit requests only** — never pick them on your own:
+
+| Variant | Only when | File |
 | --- | --- | --- |
-| Full colour, dark wordmark | cream / white / light photo | `default/zluri-logo-on-light.svg` |
-| Full colour, cream wordmark | black / navy / dark photo | `default/zluri-logo-on-dark.svg` |
-| Monotone | busy backgrounds, gradients, single-colour print | `monochrome/zluri-mono-on-{light,dark}.svg` |
-| Tagline lockup | intros, partner decks, event branding | `tagline-lockup/…` |
-| "an Infotech company" endorsed lockup | website nav + corporate contexts since Nov 2025 | `infotech-endorsed/…` |
-| Eye mark alone | favicon, bullet glyph, diagram hub | `mark/zluri-eye-mark.svg` |
+| Wordmark without endorsement (pre-acquisition) | the user asks for "the plain / old / wordmark-only logo" | `wordmark-only/zluri-wordmark-on-{light,dark}.svg` |
+| Monotone wordmark | the user asks for a one-colour / monochrome logo | `monochrome/zluri-mono-on-{light,dark}.svg` |
+| Tagline lockup (2025 positioning) | the user asks for the tagline lockup | `tagline-lockup/…` |
+| Eye mark alone | favicon, bullet glyph, diagram hub, avatar — places a logo can't fit | `mark/zluri-eye-mark.svg` |
 
 Eye-mark rings, outside in: cyan `#57E1FF`, lime `#D3FF57`, coral `#FF5757`, core `#1C1C1F`. **These three ring colours belong to the logo.** They may echo in tiny accents (a hover colour, a 6px rainbow rule, a bullet glyph) but are never used as fills, backgrounds or text colours.
 
 **Placement (observed across all 276 frames):**
 
-- Always in a corner, small: logo width ≈ **11–13% of canvas width** on square posts (≈140px on 1200), ≈ 9% on 16:9, ≈ 5% on video slides.
+- Always in a corner, small: logo width ≈ **11–13% of canvas width** on square posts (≈140px on 1200), ≈ 9% on 16:9, ≈ 5–7% on video slides.
+- **Minimum width 110px** on screen (25 mm in print) so "AN INFOTECH COMPANY" stays legible. If a slot's percentage gives less, use 110px. Smaller than that (favicon, avatar, tiny badge) → eye mark alone.
 - **Top-right** is the default for posts, carousels and video slides. **Top-left** when the logo starts the reading order (ads, launch posts, email headers). **Bottom-left / bottom-right** on event thumbnails (co-brand lockup) and carousels with a top header row.
 - Clear space = height of the eye mark on all sides. Never centred large as a hero, except on dedicated title/outro cards.
-- Co-branding: `zluri × Partner` or `zluri | Partner` (1px vertical rule), partner logo height ≤ wordmark height.
-- Never rotate, stretch, recolour, outline, shadow, or apply a gradient to the logo.
+- Co-branding: `[Zluri × Infotech lockup] × Partner` or `… | Partner` (1px vertical rule), partner logo height ≤ the lockup's wordmark height.
+- Never rotate, stretch, recolour, outline, shadow, or apply a gradient to the logo. Never remove, retype or restyle the "AN INFOTECH COMPANY" line.
 
 ---
 
