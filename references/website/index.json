@@ -4,7 +4,7 @@
   1920,
   1023
  ],
- "note": "Full-page captures miss viewport-triggered animations; see live/ for in-viewport captures.",
+ "note": "Full-page captures miss viewport-triggered animations; see the `live` list for in-viewport captures (hover, cursor and scroll states).",
  "pages": [
   {
    "slug": "company-careers",
@@ -2356,6 +2356,338 @@
      "headings": []
     }
    ]
+  }
+ ],
+ "live": [
+  {
+   "file": "references/website/live/blog-index.jpg",
+   "page": "resources-blog",
+   "url": "https://www.zluri.com/blog?all=All",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Blog index top: page title on white, then a dark 'Editor's pick' panel holding three illustrated article cards."
+  },
+  {
+   "file": "references/website/live/customer-stories-hero.jpg",
+   "page": "why-customer-stories",
+   "url": "https://www.zluri.com/case-studies",
+   "kind": "hero",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Hero: headline with primary and text CTA on the left, photo card with a floating stat chip and avatar row on the right; dark stats band starts below."
+  },
+  {
+   "file": "references/website/live/get-demo-form.jpg",
+   "page": "get-demo",
+   "url": "https://www.zluri.com/get-demo",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Demo form: 'See Zluri in action!' with a blue keyword, form fields on the left, portrait photo with a badge on the right."
+  },
+  {
+   "file": "references/website/live/home-capabilities-ivip.jpg",
+   "page": "home",
+   "url": "https://www.zluri.com/",
+   "kind": "scroll-state",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Capabilities section start: heading, IVIP / IGA / ISPM tab pills (IVIP active), Discover card with checklist and low-fi Identity Landscape UI on a glow panel."
+  },
+  {
+   "file": "references/website/live/home-capabilities-iga.jpg",
+   "page": "home",
+   "url": "https://www.zluri.com/",
+   "kind": "scroll-state",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Stacked capability cards mid-scroll, IGA active in the sticky tabs: Govern card with a low-fi Onboarding Playbook rule UI (IF / THEN rows)."
+  },
+  {
+   "file": "references/website/live/home-capabilities-ispm.jpg",
+   "page": "home",
+   "url": "https://www.zluri.com/",
+   "kind": "scroll-state",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Stacked capability cards further on, ISPM active: Secure card with a High Risk Accounts bar-chart UI on a pink-red glow."
+  },
+  {
+   "file": "references/website/live/home-challenge-slider.jpg",
+   "page": "home",
+   "url": "https://www.zluri.com/",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "'The Identity Surface has Expanded': horizontal card slider with arrow controls and coral illustrated cards."
+  },
+  {
+   "file": "references/website/live/home-footer.jpg",
+   "page": "home",
+   "url": "https://www.zluri.com/",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "End of the Universal Identity Connector band and the footer: warm-black field, lockup, address, link columns, compliance badges."
+  },
+  {
+   "file": "references/website/live/home-hero-cursor-state-a.jpg",
+   "page": "home",
+   "url": "https://www.zluri.com/",
+   "kind": "cursor-state",
+   "size": [
+    1400,
+    746
+   ],
+   "shows": "Dark hero with the WebGL light-streak field, cursor position A. Compare with state B: the streaks bend around the pointer."
+  },
+  {
+   "file": "references/website/live/home-hero-cursor-state-b.jpg",
+   "page": "home",
+   "url": "https://www.zluri.com/",
+   "kind": "cursor-state",
+   "size": [
+    1400,
+    746
+   ],
+   "shows": "Same hero, cursor position B: the streak field has re-flowed around the new pointer position."
+  },
+  {
+   "file": "references/website/live/home-iris-layer-stack.jpg",
+   "page": "home",
+   "url": "https://www.zluri.com/",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "IRIS isometric layer stack at rest: top layer (Intelligence and Decisioning) lit green, layer labels on the left, outcomes on the right."
+  },
+  {
+   "file": "references/website/live/home-iris-layer-hover-relationship-graph.jpg",
+   "page": "home",
+   "url": "https://www.zluri.com/",
+   "kind": "hover-state",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "IRIS stack while hovering 'Relationship graph': that layer lights green and the stack spreads apart; other labels dim."
+  },
+  {
+   "file": "references/website/live/home-iris-layer-hover-aggregation.jpg",
+   "page": "home",
+   "url": "https://www.zluri.com/",
+   "kind": "hover-state",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "IRIS stack while hovering 'Aggregation and staging': the bottom layer is lit green, the layers above are dimmed outlines."
+  },
+  {
+   "file": "references/website/live/home-uic-light-rays-band.jpg",
+   "page": "home",
+   "url": "https://www.zluri.com/",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Bottom of the ISPM capability card, then the dark Universal Identity Connector band with radiating light rays and a centred heading."
+  },
+  {
+   "file": "references/website/live/home-venn-ivip-iga-ispm.jpg",
+   "page": "home",
+   "url": "https://www.zluri.com/",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Venn of three hairline circles (IVIP, IGA, ISPM) over a blue gradient square with concentric arc lines; next section heading below."
+  },
+  {
+   "file": "references/website/live/ispm-hero-contextual-ui.jpg",
+   "page": "product-ispm",
+   "url": "https://www.zluri.com/products/identity-security-posture-management",
+   "kind": "hero",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Contextual hero: full-bleed workplace photo, white text card on the left, floating 'Risk Detected' UI chips on the right."
+  },
+  {
+   "file": "references/website/live/ispm-problem-grid.jpg",
+   "page": "product-ispm",
+   "url": "https://www.zluri.com/products/identity-security-posture-management",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Problem grid: heading and lede above a collapsed hairline grid of icon cards on cream."
+  },
+  {
+   "file": "references/website/live/ivip-hero-contextual-ui.jpg",
+   "page": "product-ivip",
+   "url": "https://www.zluri.com/products/identity-visibility-and-intelligence",
+   "kind": "hero",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Contextual hero: workplace photo, white text card on the left, floating Security Overview and NHI Inventory UI cards on the right."
+  },
+  {
+   "file": "references/website/live/ivip-feature-row.jpg",
+   "page": "product-ivip",
+   "url": "https://www.zluri.com/products/identity-visibility-and-intelligence",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Feature row: eyebrow, heading and checklist on the left, low-fi Applications table UI on the right; next row starts below."
+  },
+  {
+   "file": "references/website/live/ivip-feature-row-2.jpg",
+   "page": "product-ivip",
+   "url": "https://www.zluri.com/products/identity-visibility-and-intelligence",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Mirrored feature row (UI left, text right), then the start of the black 'The IVIP Architecture' section."
+  },
+  {
+   "file": "references/website/live/nhi-hero-icon-field.jpg",
+   "page": "product-nhi",
+   "url": "https://www.zluri.com/identity-visibility-for-non-human-identities",
+   "kind": "hero",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Dark maroon hero with a field of outline icons, left-aligned headline and two CTAs, customer logo marquee below."
+  },
+  {
+   "file": "references/website/live/nhi-problem-cards.jpg",
+   "page": "product-nhi",
+   "url": "https://www.zluri.com/identity-visibility-for-non-human-identities",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Three problem cards: the active one filled Bright Blue, the others outlined; next section eyebrow and heading below."
+  },
+  {
+   "file": "references/website/live/our-story-hero.jpg",
+   "page": "company-our-story",
+   "url": "https://www.zluri.com/our-story",
+   "kind": "hero",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Hero statement with a blue emphasised phrase, photo card with floating icon chips, dark logo marquee below."
+  },
+  {
+   "file": "references/website/live/our-story-body.jpg",
+   "page": "company-our-story",
+   "url": "https://www.zluri.com/our-story",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Two-column body copy on cream, then 'Meet The Founding Team' with greyscale portraits."
+  },
+  {
+   "file": "references/website/live/state-of-ai-hero.jpg",
+   "page": "resources-state-of-ai",
+   "url": "https://www.zluri.com/state-of-ai-in-the-workplace-2025-report",
+   "kind": "hero",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Purple gradient hero: headline with highlight blocks behind two phrases, 3D keyboard of AI-app keys, floating Download Report pill."
+  },
+  {
+   "file": "references/website/live/state-of-ai-stats.jpg",
+   "page": "resources-state-of-ai",
+   "url": "https://www.zluri.com/state-of-ai-in-the-workplace-2025-report",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Stat tiles on black: pink numbers, white labels, hairline-free dark cards; sticky Download Report pill."
+  },
+  {
+   "file": "references/website/live/state-of-ai-highlight-quotes.jpg",
+   "page": "resources-state-of-ai",
+   "url": "https://www.zluri.com/state-of-ai-in-the-workplace-2025-report",
+   "kind": "scroll-state",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Quotes on black with pink and red highlight bars wiped in behind key sentences; avatar attributions."
+  },
+  {
+   "file": "references/website/live/state-of-ai-leaderboard.jpg",
+   "page": "resources-state-of-ai",
+   "url": "https://www.zluri.com/state-of-ai-in-the-workplace-2025-report",
+   "kind": "section",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "'The 2025 AI Leaderboard': ranked logo tiles on black, one pink-highlighted sentence, share icons."
+  },
+  {
+   "file": "references/website/live/uic-hero-light-rays.jpg",
+   "page": "platform-uic",
+   "url": "https://www.zluri.com/products/universal-identity-connector",
+   "kind": "hero",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Dark hero with radiating light rays, centred eyebrow, headline, lede and one CTA."
+  },
+  {
+   "file": "references/website/live/uic-pinned-connector-scene.jpg",
+   "page": "platform-uic",
+   "url": "https://www.zluri.com/products/universal-identity-connector",
+   "kind": "scroll-state",
+   "size": [
+    1400,
+    752
+   ],
+   "shows": "Pinned scroll scene: five pathway cards light up step by step (three lit, two still dim) while green connectors converge on the platform bar."
   }
  ]
 }

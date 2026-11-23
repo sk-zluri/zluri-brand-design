@@ -2,7 +2,7 @@
 Usage:  ZR_FILES="social/event-thumbnails.html;social/product-launch.html" browser-harness < render.py
 """
 import os, json, base64, urllib.parse
-REPO = r"D:\Zluri Files\AI Experiments\Zluri Design System 2026\zluri-brand-design"
+REPO = r"<REPO_DIR>"
 OUT = os.path.join(REPO, "preview", "templates"); os.makedirs(OUT, exist_ok=True)
 files = [f for f in os.environ.get("ZR_FILES", "").split(";") if f]
 tabs = [t for t in list_tabs() if t.get("url", "").startswith("file:///")]

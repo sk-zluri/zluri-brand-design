@@ -17,7 +17,7 @@ Product vocabulary to spell exactly: **IVIP** (Identity Visibility & Intelligenc
 
 ## Logo
 
-Files in `assets/logos/`. Construction: heavy geometric lowercase wordmark; the dot of the *i* is replaced by the eye mark (four concentric circles). Since the Infotech acquisition the primary logo stacks the endorsement line **AN INFOTECH COMPANY** (wide-tracked caps, same width as the wordmark) under the wordmark. Source: `D:\Zluri Files\Brand\Zluri ITRG Final Logos` (Nov 2026), cropped to the artwork in `assets/logos/primary/`.
+Files in `assets/logos/`. Construction: heavy geometric lowercase wordmark; the dot of the *i* is replaced by the eye mark (four concentric circles). Since the Infotech acquisition the primary logo stacks the endorsement line **AN INFOTECH COMPANY** (wide-tracked caps, same width as the wordmark) under the wordmark. Source: the "Zluri ITRG Final Logos" package (Nov 2026), cropped to the artwork in `assets/logos/primary/`.
 
 | Ring | Hex |
 | --- | --- |

@@ -1,0 +1,152 @@
+{
+ "blog-index": {
+  "page": "resources-blog",
+  "kind": "section",
+  "shows": "Blog index top: page title on white, then a dark 'Editor's pick' panel holding three illustrated article cards."
+ },
+ "customer-stories-hero": {
+  "page": "why-customer-stories",
+  "kind": "hero",
+  "shows": "Hero: headline with primary and text CTA on the left, photo card with a floating stat chip and avatar row on the right; dark stats band starts below."
+ },
+ "get-demo-form": {
+  "page": "get-demo",
+  "kind": "section",
+  "shows": "Demo form: 'See Zluri in action!' with a blue keyword, form fields on the left, portrait photo with a badge on the right."
+ },
+ "home-capabilities-ivip": {
+  "page": "home",
+  "kind": "scroll-state",
+  "shows": "Capabilities section start: heading, IVIP / IGA / ISPM tab pills (IVIP active), Discover card with checklist and low-fi Identity Landscape UI on a glow panel."
+ },
+ "home-capabilities-iga": {
+  "page": "home",
+  "kind": "scroll-state",
+  "shows": "Stacked capability cards mid-scroll, IGA active in the sticky tabs: Govern card with a low-fi Onboarding Playbook rule UI (IF / THEN rows)."
+ },
+ "home-capabilities-ispm": {
+  "page": "home",
+  "kind": "scroll-state",
+  "shows": "Stacked capability cards further on, ISPM active: Secure card with a High Risk Accounts bar-chart UI on a pink-red glow."
+ },
+ "home-challenge-slider": {
+  "page": "home",
+  "kind": "section",
+  "shows": "'The Identity Surface has Expanded': horizontal card slider with arrow controls and coral illustrated cards."
+ },
+ "home-footer": {
+  "page": "home",
+  "kind": "section",
+  "shows": "End of the Universal Identity Connector band and the footer: warm-black field, lockup, address, link columns, compliance badges."
+ },
+ "home-hero-cursor-state-a": {
+  "page": "home",
+  "kind": "cursor-state",
+  "shows": "Dark hero with the WebGL light-streak field, cursor position A. Compare with state B: the streaks bend around the pointer."
+ },
+ "home-hero-cursor-state-b": {
+  "page": "home",
+  "kind": "cursor-state",
+  "shows": "Same hero, cursor position B: the streak field has re-flowed around the new pointer position."
+ },
+ "home-iris-layer-stack": {
+  "page": "home",
+  "kind": "section",
+  "shows": "IRIS isometric layer stack at rest: top layer (Intelligence and Decisioning) lit green, layer labels on the left, outcomes on the right."
+ },
+ "home-iris-layer-hover-relationship-graph": {
+  "page": "home",
+  "kind": "hover-state",
+  "shows": "IRIS stack while hovering 'Relationship graph': that layer lights green and the stack spreads apart; other labels dim."
+ },
+ "home-iris-layer-hover-aggregation": {
+  "page": "home",
+  "kind": "hover-state",
+  "shows": "IRIS stack while hovering 'Aggregation and staging': the bottom layer is lit green, the layers above are dimmed outlines."
+ },
+ "home-uic-light-rays-band": {
+  "page": "home",
+  "kind": "section",
+  "shows": "Bottom of the ISPM capability card, then the dark Universal Identity Connector band with radiating light rays and a centred heading."
+ },
+ "home-venn-ivip-iga-ispm": {
+  "page": "home",
+  "kind": "section",
+  "shows": "Venn of three hairline circles (IVIP, IGA, ISPM) over a blue gradient square with concentric arc lines; next section heading below."
+ },
+ "ispm-hero-contextual-ui": {
+  "page": "product-ispm",
+  "kind": "hero",
+  "shows": "Contextual hero: full-bleed workplace photo, white text card on the left, floating 'Risk Detected' UI chips on the right."
+ },
+ "ispm-problem-grid": {
+  "page": "product-ispm",
+  "kind": "section",
+  "shows": "Problem grid: heading and lede above a collapsed hairline grid of icon cards on cream."
+ },
+ "ivip-hero-contextual-ui": {
+  "page": "product-ivip",
+  "kind": "hero",
+  "shows": "Contextual hero: workplace photo, white text card on the left, floating Security Overview and NHI Inventory UI cards on the right."
+ },
+ "ivip-feature-row": {
+  "page": "product-ivip",
+  "kind": "section",
+  "shows": "Feature row: eyebrow, heading and checklist on the left, low-fi Applications table UI on the right; next row starts below."
+ },
+ "ivip-feature-row-2": {
+  "page": "product-ivip",
+  "kind": "section",
+  "shows": "Mirrored feature row (UI left, text right), then the start of the black 'The IVIP Architecture' section."
+ },
+ "nhi-hero-icon-field": {
+  "page": "product-nhi",
+  "kind": "hero",
+  "shows": "Dark maroon hero with a field of outline icons, left-aligned headline and two CTAs, customer logo marquee below."
+ },
+ "nhi-problem-cards": {
+  "page": "product-nhi",
+  "kind": "section",
+  "shows": "Three problem cards: the active one filled Bright Blue, the others outlined; next section eyebrow and heading below."
+ },
+ "our-story-hero": {
+  "page": "company-our-story",
+  "kind": "hero",
+  "shows": "Hero statement with a blue emphasised phrase, photo card with floating icon chips, dark logo marquee below."
+ },
+ "our-story-body": {
+  "page": "company-our-story",
+  "kind": "section",
+  "shows": "Two-column body copy on cream, then 'Meet The Founding Team' with greyscale portraits."
+ },
+ "state-of-ai-hero": {
+  "page": "resources-state-of-ai",
+  "kind": "hero",
+  "shows": "Purple gradient hero: headline with highlight blocks behind two phrases, 3D keyboard of AI-app keys, floating Download Report pill."
+ },
+ "state-of-ai-stats": {
+  "page": "resources-state-of-ai",
+  "kind": "section",
+  "shows": "Stat tiles on black: pink numbers, white labels, hairline-free dark cards; sticky Download Report pill."
+ },
+ "state-of-ai-highlight-quotes": {
+  "page": "resources-state-of-ai",
+  "kind": "scroll-state",
+  "shows": "Quotes on black with pink and red highlight bars wiped in behind key sentences; avatar attributions."
+ },
+ "state-of-ai-leaderboard": {
+  "page": "resources-state-of-ai",
+  "kind": "section",
+  "shows": "'The 2025 AI Leaderboard': ranked logo tiles on black, one pink-highlighted sentence, share icons."
+ },
+ "uic-hero-light-rays": {
+  "page": "platform-uic",
+  "kind": "hero",
+  "shows": "Dark hero with radiating light rays, centred eyebrow, headline, lede and one CTA."
+ },
+ "uic-pinned-connector-scene": {
+  "page": "platform-uic",
+  "kind": "scroll-state",
+  "shows": "Pinned scroll scene: five pathway cards light up step by step (three lit, two still dim) while green connectors converge on the platform bar."
+ }
+}

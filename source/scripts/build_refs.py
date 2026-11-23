@@ -2,7 +2,7 @@
 import json, os, re, shutil, glob
 from PIL import Image
 SP = os.path.dirname(os.path.abspath(__file__))
-REPO = r"D:\Zluri Files\AI Experiments\Zluri Design System 2026\zluri-brand-design"
+REPO = r"<REPO_DIR>"
 REF = os.path.join(REPO, "references")
 frames = [f for f in json.load(open(os.path.join(SP, "frames.json"), encoding="utf8")) if f["type"] in ("FRAME", "GROUP") and f["w"] >= 300]
 
@@ -103,8 +103,6 @@ for p in sorted(glob.glob(os.path.join(SP, "site", "*.jpg"))):
     j = json.load(open(p[:-4] + ".json", encoding="utf8"))
     site.append({"slug": s, "url": j["url"], "title": j["title"], "file": f"references/website/full-pages/{s}.jpg",
                  "sections": [{"class": x["cls"].split(" ")[0], "bg": x["bg"], "h": x["box"]["h"], "headings": [h["t"] for h in x["heads"][:3]]} for x in j["sections"][:24]]})
-json.dump({"crawled": "2026-11-11", "viewport": [1920, 1023], "note": "Full-page captures miss viewport-triggered animations; see live/ for in-viewport captures.", "pages": site},
-          open(os.path.join(REF, "website", "index.json"), "w", encoding="utf8"), indent=1, ensure_ascii=False)
 os.makedirs(os.path.join(REF, "website", "live"), exist_ok=True)
 live = {"home_hero_a": "home-hero-cursor-state-a", "home_hero_b": "home-hero-cursor-state-b", "h00": "home-challenge-slider", "h01": "home-iris-layer-stack", "found_1": "home-iris-layer-hover-relationship-graph",
         "found_3": "home-iris-layer-hover-aggregation", "h03": "home-venn-ivip-iga-ispm", "h04": "home-capabilities-ivip", "h05": "home-capabilities-iga", "h06": "home-capabilities-ispm", "h07": "home-uic-light-rays-band", "h08": "home-footer",
@@ -115,6 +113,17 @@ for k, v in live.items():
     p = os.path.join(SP, "live", k + ".jpg")
     if os.path.exists(p):
         im = Image.open(p).convert("RGB"); im.thumbnail((1400, 1400)); im.save(os.path.join(REF, "website", "live", v + ".jpg"), quality=78, optimize=True)
+# website index: full pages + live captures (descriptions kept in source/site-live-captures.json)
+live_meta = json.load(open(os.path.join(REPO, "source", "site-live-captures.json"), encoding="utf8"))
+urls = {p["slug"]: p["url"] for p in site}
+live_index = []
+for v in sorted(live.values()):
+    fp = os.path.join(REF, "website", "live", v + ".jpg")
+    if os.path.exists(fp) and v in live_meta:
+        m = live_meta[v]
+        live_index.append({"file": f"references/website/live/{v}.jpg", "page": m["page"], "url": urls.get(m["page"], ""), "kind": m["kind"], "size": list(Image.open(fp).size), "shows": m["shows"]})
+json.dump({"crawled": "2026-11-11", "viewport": [1920, 1023], "note": "Full-page captures miss viewport-triggered animations; see the `live` list for in-viewport captures (hover, cursor and scroll states).", "pages": site, "live": live_index},
+          open(os.path.join(REF, "website", "index.json"), "w", encoding="utf8"), indent=1, ensure_ascii=False)
 # brand guideline pages
 os.makedirs(os.path.join(REF, "brand-guidelines-pdf"), exist_ok=True)
 for p in sorted(glob.glob(os.path.join(SP, "pdf", "p*.jpg"))):

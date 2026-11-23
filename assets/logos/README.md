@@ -12,6 +12,6 @@ Files are named by the **background they sit on**.
 | `tagline-lockup/` | `zluri-tagline-on-light.(svg\|png)`, `zluri-tagline-on-dark.(svg\|png)` | 2025 wordmark + "Next-Gen Identity Governance & Administration". **Only when the user asks for it.** |
 | `mark/` | `zluri-eye-mark.(svg\|png)` | The concentric eye mark alone: favicon, avatar, bullet glyph, diagram hub — where the lockup can't reach 110px. |
 
-Source of `primary/`: `D:\Zluri Files\Brand\Zluri ITRG Final Logos` (supplied Nov 2026). The SVGs here are the supplied artwork with the viewBox cropped to the logo (`105 72 426 230`); PNGs are rendered from them at 4×.
+Source of `primary/`: the "Zluri ITRG Final Logos" package (supplied Nov 2026). The SVGs here are the supplied artwork with the viewBox cropped to the logo (`105 72 426 230`); PNGs are rendered from them at 4×.
 
 Rules (sizes, clear space, co-branding, don'ts): `guidelines/01-brand-foundations.md`.

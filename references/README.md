@@ -6,7 +6,7 @@ The visual ground truth for this design system. **Look at these before designing
 | --- | --- | --- |
 | `figma/` | 276 frames exported from the Figma file "Zluri Marketing Brand Design System", grouped by asset category. | `figma/index.json` |
 | `website/full-pages/` | Full-page captures of zluri.com (homepage + every navbar page, 39 pages) at 1920px, scaled to 1100px wide. Viewport-triggered animations are missing from these; see `live/`. | `website/index.json` |
-| `website/live/` | In-viewport captures of animated and interactive sections, including before/after cursor states. | n/a |
+| `website/live/` | In-viewport captures of animated and interactive sections, including before/after cursor states. | `website/index.json` → `live` (page, kind, what each capture shows) |
 | `brand-guidelines-pdf/` | The 31 pages of Zluri Brand Guidelines 1.01 as images, plus `extracted-text.txt`. | n/a |
 
 ## Figma categories
