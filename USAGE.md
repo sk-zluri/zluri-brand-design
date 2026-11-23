@@ -33,6 +33,7 @@ When rules collide, follow the precedence order in `AGENTS.md` §3a: brief → f
 - Keep three anchors per canvas (headline block, small corner logo, one footer item) and leave the middle open.
 - Default logo is the Zluri × Infotech lockup: `assets/logos/primary/zluri-infotech-on-{light,dark}.svg`, chosen by background, never under 110px wide. Other logo files only when the user asks.
 - Ask the user before sourcing any stock photo, then follow `guidelines/10-photography-and-stock.md`.
+- For photos of real employees follow `guidelines/13-employee-photos.md`: same face size, centred and top-aligned across a series; ask **Gemini or ChatGPT** before AI-extending a cropped photo; remove AI watermarks.
 
 ## Avoid
 
@@ -42,3 +43,4 @@ When rules collide, follow the precedence order in `AGENTS.md` §3a: brief → f
 - Icon-plus-blurb filler rows, emoji, generic "network of dots" art.
 - Using the logo's ring colours (cyan, lime, coral) as fills or text.
 - Invented statistics, quotes, customers or dates — use bracketed placeholders and flag them.
+- Feathered or faded photo edges, heads clipped flat at a frame edge, mismatched face sizes, and any AI-tool sparkle or watermark.

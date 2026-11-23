@@ -116,6 +116,8 @@ Sunset gradient fields, a black "torn paper" card, flat silhouettes. Copy device
 - **Cover:** "Welcome to the" + "**Zluri Family!**" on a Pink `#E84393` highlight block, Satoshi Regular 106/1.2 at x=104, y=571; pill bar "Meet our January Joiners" + pink capsule; footer `www.zluri.com` + hairline.
 - **Person card:** cream polaroid 758×779 at x=202, y=223: pink photo field with a cut-out portrait whose head breaks the top edge; name Satoshi Regular 71.5, role Satoshi Regular 36.8, both `#161411`. Footer label "Meet our January Joiners" + hairline `#E2DED7`. Logo top-right.
 - **Closer:** "We're **Growing**" (pink block) / "Interested in joining the Zluri Family?" / "Link in the Bio →".
+- **Series = cover + one card per joiner + closer.** The month in the pill bar and card footer is the current month unless the user says otherwise; names and roles exactly as supplied (first names only if that is all you have — never invent surnames).
+- **Photos:** follow `guidelines/13-employee-photos.md` — `birefnet-portrait` cut-outs; every face the same size (≈205px wide), centred on the field and top-aligned; photo reaching the bottom of the field; cropped photo edges extended with AI (ask the user: Gemini or ChatGPT) — never feathered; no AI watermark may survive.
 
 ### Employee spotlight — 1500×1500
 

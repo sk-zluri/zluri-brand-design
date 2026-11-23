@@ -203,6 +203,8 @@ Three kinds only. Details: `guidelines/09-product-ui-illustration.md`, `guidelin
 
 When a design needs a photo that is not in the repo, **stop and ask the user before sourcing**, then follow the stock protocol (Magnific via MCP, or Pexels via browser).
 
+**Photos of real employees** (new joiners, spotlights) follow `guidelines/13-employee-photos.md`: clean cut-outs (hair edge checked on the pink field), every face in a series the same size, centred and top-aligned, the head breaking the top of the photo field and the photo reaching its bottom. When a supplied photo is cropped (an arm or the top of the head cut off), **never feather the edge** — ask the user whether to extend it with **Gemini** or **ChatGPT** (or align it to the field edge instead), then remove any AI watermark. No AI-tool mark may appear in a deliverable. Use names and roles exactly as supplied; never invent surnames.
+
 ---
 
 ## 9. Motion and interaction

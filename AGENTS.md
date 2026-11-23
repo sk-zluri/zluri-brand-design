@@ -2,6 +2,8 @@
 
 You are an agent asked to produce a design for **Zluri** (identity security platform). This repository is everything you need. It was built from 276 senior-designer Figma frames, the live zluri.com, and the brand guidelines — so that your output looks like Zluri's human designers made it, not like a generic template.
 
+> **Installed as a skill?** It is invoked as `/zluri-design-system`; `SKILL.md` is the entry point. **Given only the repo link?** Before anything else, follow `INSTALL.md` § "For AI agents" — ask the user whether to install it as a skill for all their agents. (Not in Open Design — it imports the repo itself.)
+
 **The failure this repo exists to prevent:** bland, over-decorated "AI slop". The designers' real work is quiet, large-type, warm-neutral and precise. Match it.
 
 ---
@@ -29,7 +31,7 @@ Do not skip step 3. Text specs alone produce mediocre results; the references ca
 | LinkedIn carousel — problem → solution panels, security news / explainer | `04` §D2, D4 | `figma/social-carousels/carousel-gbar*`, `carousel-security-news*` | `social/carousel-variants.html` |
 | Customer story carousel | `04` §D3 | `figma/social-carousels/carousel-customer-spotlight-*` | `social/carousel-customer-spotlight.html` |
 | Feature-tour carousel (light) | `04` §D5 | `figma/social-carousels/carousel-zluri-2-0-light*` | `social/carousel-variants.html` (last artboard) |
-| New-joiner / culture post | `04` §E | `figma/social-people/new-joiners*` | `social/people-new-joiners.html` |
+| New-joiner / culture post | `04` §E + `13` | `figma/social-people/new-joiners*` | `social/people-new-joiners.html` |
 | Employee spotlight | `04` §E | `figma/social-people/employee-spotlight*` | `social/recognition-and-spotlight.html` |
 | Holiday / observance greeting | `04` §F | `figma/social-festive/` | `social/greeting-z-overlay.html` |
 | Paid social ad | `04` §G | `figma/ads/` | `social/ad-portrait.html` |
@@ -44,6 +46,7 @@ Do not skip step 3. Text specs alone produce mediocre results; the references ca
 | Web page / landing page / section | `07` + `08` | `website/full-pages/`, `website/live/` | `web/landing-page.html` |
 | Product UI mock-up inside any of the above | `09` | `brand-guidelines-pdf/page-25…27`, `website/live/home-capabilities-*` | UI blocks in `templates/zluri.css` |
 | Anything with a photo | `10` | — | — |
+| Photos of real employees (cut-outs, matching faces, extending cropped photos) | `13` | `figma/social-people/` | `social/people-new-joiners.html` + `tools/people/` |
 | Copy or headline help | `11` | — | — |
 
 Format not listed? Extend the nearest system (see `12-anti-slop-checklist.md` §D) and tell the user which one you extended.
@@ -92,6 +95,16 @@ If, and only if, the design genuinely needs a photograph you do not have:
 
 Full protocol, search patterns and hard limits: `guidelines/10-photography-and-stock.md`. Approval for one image does not cover the next. Never use stock in place of a real Zluri employee or customer.
 
+## 4a · Employee photos — matched faces, AI extension on request
+
+For supplied photos of real people follow `guidelines/13-employee-photos.md` and `tools/people/`:
+
+1. Cut out with `birefnet-portrait`; check the hair edge on the pink field.
+2. Match every face in the series: same size, centred, top-aligned; head breaks the field's top edge, photo reaches its bottom.
+3. A cropped photo edge that shows after centring is **never feathered**. **Ask the user: extend it with Gemini, with ChatGPT (both in their signed-in browser — the photo is uploaded to that provider), or no AI** (align the edge to the field). No paid credits or multi-GB model downloads without a quoted yes.
+4. Remove every AI watermark (Gemini's sparkle sits 144px from the bottom-right corner, sometimes on the person) and verify at 3× zoom.
+5. Print names and roles exactly as supplied; first names only if that is all you have.
+
 ## 5 · Output expectations
 
 - Build designs as **HTML/CSS at the exact canvas size** (one `.artboard` per frame) unless the user asks for another format. Export PNG/JPG at 1× (posts) or 2× (small banners) when asked.
@@ -107,7 +120,9 @@ DESIGN.md              canonical design prose (start here)
 tokens.css             all tokens; :root (cream) + .zluri-dark remap
 components.html        web + social component fixture built only from tokens
 manifest.json USAGE.md Open Design package files
-guidelines/            12 deep-dive documents (foundations → anti-slop)
+SKILL.md INSTALL.md    skill entry point (/zluri-design-system) + install guide for CLI agents
+guidelines/            13 deep-dive documents (foundations → anti-slop → employee photos)
+tools/people/          employee-photo pipeline scripts (cut-out, face fit, outpaint pad, AI-mark removal)
 templates/             working HTML for social, video, banners, deck, web
 assets/logos/          primary/ = Zluri × Infotech lockup (default); others on request only; named by background
 assets/motifs/         SVG motifs exported from the designers' Figma file

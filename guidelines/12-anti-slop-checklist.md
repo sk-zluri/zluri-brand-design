@@ -22,6 +22,9 @@ Run it **before** showing any design. If any item in section A is true, fix it f
 | Giant centred logo, logo with effects, wrong logo on wrong background | Small corner logo (≈12% width on squares, ≥110px), Zluri × Infotech lockup in the correct on-light/on-dark file |
 | Lorem ipsum, fake stats, invented customer quotes | Real or user-supplied copy; bracketed placeholders flagged to the user |
 | Random stock photo dropped in without asking | Ask first; follow `10-photography-and-stock.md` |
+| People cut-outs at different face sizes, off-centre, or heads clipped flat at the field edge | Same face size, centred, top-aligned, head breaking the field (`13-employee-photos.md` §3) |
+| Cropped photo edge feathered/faded into the background | Extend the photo with AI after asking Gemini or ChatGPT, or align the edge to the field (`13` §4) |
+| AI-tool sparkle / watermark left anywhere in the image | Removed and checked at 3× zoom (`13` §5) |
 | A third typeface (serif "editorial" accent, mono "techy" labels) | Satoshi + Inter only |
 | Rounded-everything (24–32px radii on all boxes) | 8 for cards, 16 for buttons/media, 20 for nav; pills only for tags/capsules |
 | Decorative gradient text on whole headlines | Gradient (or Mint) on **one phrase** only |

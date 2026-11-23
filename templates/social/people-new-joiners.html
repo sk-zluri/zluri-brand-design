@@ -17,7 +17,13 @@
   .nj .hello .pillbar { margin-top: calc(var(--zluri-u) * 4.8); }
   .nj .hello .capsule { width: calc(var(--zluri-u) * 7.6); height: calc(var(--zluri-u) * 5.2); }
   .nj .polaroid { position: absolute; left: 16.8%; top: 18.6%; width: 63.2%; height: 64.9%; background: #fbf9f6; padding: calc(var(--zluri-u) * .8); color: #161411; display: flex; flex-direction: column; }
-  .nj .polaroid .photo { flex: 1; background: #e84393 url("../../assets/motifs/z-maze-pattern.svg") center/160% no-repeat; background-blend-mode: soft-light; }
+  /* Pink field 739×545. zluri.css gives .photo overflow:hidden, which clips the head flat at the
+     field's top edge — so overflow is visible here and clip-path trims only the sides and bottom. */
+  .nj .polaroid .photo { flex: none; height: 71.8%; background: #e84393 url("../../assets/motifs/z-maze-pattern.svg") center/160% no-repeat; background-blend-mode: soft-light;
+    overflow: visible; clip-path: inset(-40% 0 0 0); }
+  /* Cut-out portrait. Get --ph/--t/--l from tools/people/fit_faces.py so every face is the same
+     size (≈205px wide), centred on the field and top-aligned. See guidelines/13-employee-photos.md. */
+  .nj .polaroid .photo img.cutout { position: absolute; inset: auto; top: var(--t); left: var(--l); height: var(--ph); width: auto; max-width: none; object-fit: initial; }
   .nj .polaroid h2 { font: 400 calc(var(--zluri-u) * 5.96)/1.2 var(--font-display); margin: calc(var(--zluri-u) * 1.6) calc(var(--zluri-u) * 1.7) 0; }
   .nj .polaroid p { font: 400 calc(var(--zluri-u) * 3.07)/1.2 var(--font-display); margin: .1em calc(var(--zluri-u) * 1.7) calc(var(--zluri-u) * 2.4); }
 </style>
@@ -43,7 +49,11 @@
       <div class="maze"></div>
       <img class="logo" src="../../assets/logos/primary/zluri-infotech-on-dark.svg" alt="Zluri">
       <div class="polaroid">
-        <div class="photo"><span class="ph">CUT-OUT PORTRAIT supplied by Zluri — head breaks the top edge of the pink field. Never use stock for a real employee.</span></div>
+        <div class="photo">
+          <!-- Replace the placeholder with the cut-out:
+               <img class="cutout" src="cutouts/first-name.png" alt="[Full Name]" style="--ph:660px; --t:-40px; --l:181px"> -->
+          <span class="ph">CUT-OUT PORTRAIT supplied by Zluri — head breaks the top edge of the pink field. Never use stock for a real employee. Pipeline: guidelines/13-employee-photos.md</span>
+        </div>
         <h2>[Full Name]</h2>
         <p>[Role Title]</p>
       </div>

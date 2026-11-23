@@ -1,0 +1,7 @@
+# Employee-photo pipeline — see guidelines/13-employee-photos.md
+# pip install -r tools/people/requirements.txt
+rembg[gpu]>=2.0      # use plain `rembg` on machines without a CUDA GPU
+opencv-python>=4.8
+numpy>=1.24
+pillow>=10
+scipy>=1.10

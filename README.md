@@ -10,7 +10,25 @@ It was reverse-engineered from the work of Zluri's designers rather than from a 
 | **zluri.com** (homepage + every page in the navbar, 39 pages) | Web type scale, components, spacing, section patterns, and the cursor/scroll interaction language. |
 | **Zluri Brand Guidelines 1.01** (PDF) | Logo rules, official palette and gradients, type roles, iconography, imagery principles. |
 
-## Use it with an agent
+## Three ways to use it
+
+| Way | How |
+| --- | --- |
+| **Skill in CLI agents** (Claude Code, Codex, Gemini CLI, Cursor…) | `npx -y skills add sk-zluri/zluri-brand-design -g -y`, then type **`/zluri-design-system`**. Details: [`INSTALL.md`](INSTALL.md). |
+| **Open Design** | Design System → GitHub import → paste this repo's URL → pick **Zluri**. See below. |
+| **Repo link** | Give any agent the link and say "read `AGENTS.md` first". |
+
+> **AI agents:** if a user hands you this repo link, follow [`INSTALL.md`](INSTALL.md) § "For AI agents" — ask whether to install it as a skill for all their agents before continuing.
+
+## Use it as a skill
+
+```bash
+npx -y skills add sk-zluri/zluri-brand-design -g -y     # all your agents, globally
+```
+
+Then in Claude Code type `/zluri-design-system` (Codex: `/skills`), or just ask for something Zluri-branded. `SKILL.md` is the entry point; it hands over to `AGENTS.md`. Manual install, project-only install, updating and removal: [`INSTALL.md`](INSTALL.md).
+
+## Use it with an agent (no install)
 
 Give the agent this repository (clone it or share the link) and say what you need:
 
@@ -34,7 +52,9 @@ After import, pick **Zluri** as the design system. For best results also attach 
 | `DESIGN.md` | The canonical design description — character, logo, colour, type, layout, motifs, components, imagery, motion, do/don't. |
 | `tokens.css` | All design tokens: Open Design's shared schema plus `--zluri-*` extensions and a `.zluri-dark` remap. |
 | `components.html` | Component fixture rendered only from tokens. |
-| `guidelines/` | Twelve documents: foundations, visual language, layout & formats, social & marketing, video & motion, presentations & diagrams, website, web interactions, product-UI illustration, photography & stock sourcing, voice & copy, anti-slop checklist. |
+| `guidelines/` | Thirteen documents: foundations, visual language, layout & formats, social & marketing, video & motion, presentations & diagrams, website, web interactions, product-UI illustration, photography & stock sourcing, voice & copy, anti-slop checklist, employee photos. |
+| `SKILL.md`, `INSTALL.md` | Skill entry point (`/zluri-design-system`) and install guide for CLI agents. |
+| `tools/people/` | Employee-photo pipeline: cut-out, face matching, outpaint padding, AI-watermark removal (`guidelines/13-employee-photos.md`). |
 | `templates/` | Working HTML/CSS for 14 template files (42 artboards) including a full interactive landing page. Rendered previews in `preview/templates/`. |
 | `assets/logos/` | **Primary: Zluri × Infotech lockup** (default everywhere), plus wordmark-only, monochrome and tagline versions for explicit requests, and the eye mark. |
 | `assets/motifs/` | SVG brand motifs exported from Figma (Z-overlay shape, cropped wordmark, arc lines, orbit ellipses, z-maze pattern, quote marks, chain link). |
@@ -46,6 +66,10 @@ After import, pick **Zluri** as the design system. For best results also attach 
 ## Stock imagery
 
 Zluri's designs often use stock photos (venues, cities, people at work). Agents using this system must **ask for approval before sourcing any image**, then use Magnific through its MCP connector or Pexels through a browser-control skill, shortlist options, and record provenance. The protocol is in `guidelines/10-photography-and-stock.md`. No stock photos are stored in this repository; templates carry labelled placeholders instead.
+
+## Employee photos
+
+People posts use photos Zluri supplies. `guidelines/13-employee-photos.md` covers clean cut-outs, matching face size and position across a series, and — when a photo is cropped — extending it with **Gemini or ChatGPT** (the agent asks which, or offers a no-AI layout fix) and removing any AI watermark. Scripts are in `tools/people/`.
 
 ## Fonts
 
