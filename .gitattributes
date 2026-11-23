@@ -1,0 +1,4 @@
+# Keep every text file LF in the repo and in checkouts, on every OS
+* text=auto eol=lf
+*.jpg binary
+*.png binary
