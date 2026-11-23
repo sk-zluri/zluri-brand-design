@@ -1,6 +1,7 @@
 ---
 name: zluri-design-system
-description: Zluri's brand design system — produce on-brand Zluri (Zluri × Infotech) work: LinkedIn/social posts, carousels, new-joiner and employee-spotlight posts, event thumbnails, ads, banners, email headers, decks, video storyboards and web pages. Use whenever the user asks for anything Zluri-branded or says "Zluri design system", "Zluri brand", "new joiners post", or invokes /zluri-design-system. Includes templates, tokens, 276 designer reference frames, logo lockups, and an employee-photo pipeline (cut-outs, face matching, Gemini/ChatGPT edge extension, AI-watermark removal).
+description: >-
+  Zluri's brand design system — produce on-brand Zluri (Zluri × Infotech) work: LinkedIn/social posts, carousels, new-joiner and employee-spotlight posts, event thumbnails, ads, banners, email headers, decks, video storyboards and web pages. Use whenever the user asks for anything Zluri-branded or says "Zluri design system", "Zluri brand", "new joiners post", or invokes /zluri-design-system. Includes templates, tokens, 276 designer reference frames, logo lockups, and an employee-photo pipeline (cut-outs, face matching, Gemini/ChatGPT edge extension, AI-watermark removal).
 ---
 
 # Zluri design system
